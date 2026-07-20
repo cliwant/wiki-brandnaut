@@ -2,17 +2,18 @@
 id: brandnut
 type: profile
 legal_name: "주식회사 브랜드넛"
-biz_no: null                  # 사업자번호 — 조달 미등록이면 null 유지
-size: { employees: null, class: "" }
+biz_no: "8898103506"
+size: { employees: 1, class: "" }
 licenses: []                  # 보유 업종코드 — "이름 (코드)" 형식
 supply_items: []              # 공급물품 (종합쇼핑몰 카탈로그) — 없으면 삭제 가능
 manufactured_items: []        # 제조물품 (직접생산) — 없으면 삭제 가능
 kpi: { win_rate: null, bid_rate: null, consortium_rate: null }
-last_verified: 2026-07-16
+last_verified: 2026-07-20
 sources:
   - sources/company/brandnut-b2g-company-profile-2026-07-16.pdf
   - sources/company/brandnut-startup-education-proposal-2026-07-16.pdf
   - sources/company/slack-brandnut-meeting-2026-06-26.md
+  - sources/mcp/company-detail-8898103506-2026-07-20.md
 status: "자료 1차 흡수 — 객관 자격·실적 검증 필요"
 ---
 
@@ -22,9 +23,13 @@ status: "자료 1차 흡수 — 객관 자격·실적 검증 필요"
 
 주식회사 브랜드넛은 기관·기업의 창업 지원 목표에 맞춰 사업 기획, 교육 프로그램 설계, 콘텐츠와 홍보물 제작, 현장 운영, 성과 관리까지 수행한다고 소개하는 창업 프로그램 기획·실행 기업이다. [출처: `sources/company/brandnut-b2g-company-profile-2026-07-16.pdf`, 수집 2026-07-16, confidence: medium — 회사 자기소개 자료]
 
+Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우, 직원 1명, 서울특별시 종로구 소재 업체로 식별됐다. [출처: `sources/mcp/company-detail-8898103506-2026-07-20.md`, 수집 2026-07-20, confidence: high]
+
 ## 2. 자격 (Eligibility)
 
-- 조달 등록 상태, 업종코드, 직접생산확인증명, 공급 품목은 아직 객관 자료로 확인되지 않았다. [수집 2026-07-16, confidence: low]
+- Cliwant 업체 DB에서 주식회사 브랜드넛을 사업자등록번호 889-81-03506으로 식별했다. 다만 검색 결과의 계약 건수는 0건이며 총 계약 금액은 확인되지 않았다. [출처: `sources/mcp/company-detail-8898103506-2026-07-20.md`, 수집 2026-07-20, confidence: high]
+- `company_detail` 응답에는 보유 업종코드, 제조물품, 공급물품이 반환되지 않았다. 이는 현재 MCP에서 자격 정보를 확인할 수 없다는 뜻이며, 자격이 실제로 없다는 뜻으로 단정하지 않는다. [출처: `sources/mcp/company-detail-8898103506-2026-07-20.md`, 수집 2026-07-20, confidence: high]
+- 직접생산확인증명 보유 여부는 Cliwant MCP 응답만으로 확인되지 않았다. 나라장터 경쟁입찰참가자격등록증과 직접생산확인증명서 원본 확인이 필요하다. [출처: `sources/mcp/company-detail-8898103506-2026-07-20.md`, 수집 2026-07-20, confidence: high]
 
 ## 3. 실적 (Track-record)
 
