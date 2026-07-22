@@ -1,10 +1,17 @@
 # 브랜드넛 위키 — index
 
-갱신: 2026-07-20
+갱신: 2026-07-22
 
 ## 프로필
 
-- [profile.md](profile.md) — 회사 자료·미팅 기록·Cliwant 업체 상세 흡수, 등록증 원본과 실적 증빙 확인 필요
+- [profile.md](profile.md) — 회사 자료·미팅 기록·Cliwant 업체 상세·과거 수의계약 레퍼런스 자료 3건 흡수, 등록증 원본과 법인별 실적 증빙 확인 필요
+
+## 최근 원자료
+
+- `sources/company/silla-university-startup-camp-task-order-2026-07-22.pdf` — 신라대학교 RISE사업단 창업캠프 과업지시서
+- `sources/company/daejeon-university-technology-startup-camp-task-order-2026-07-22.pdf` — 대전대학교 RISE 기술창업캠프 과업지시서
+- `sources/company/smallsteps-scout-boost-startup-program-proposal-2026-07-22.pdf` — 주식회사 스몰스텝스 명의 SCOUT 프로그램 제안서
+- `sources/company/brandnut-sole-source-reference-digest-2026-07-22.md` — 실적 귀속 주의를 포함한 원문 다이제스트
 
 ## 섹터
 
