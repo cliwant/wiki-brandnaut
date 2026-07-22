@@ -13,6 +13,10 @@
 - `sources/company/smallsteps-scout-boost-startup-program-proposal-2026-07-22.pdf` — 주식회사 스몰스텝스 명의 SCOUT 프로그램 제안서
 - `sources/company/brandnut-sole-source-reference-digest-2026-07-22.md` — 실적 귀속 주의를 포함한 원문 다이제스트
 
+## 발행 자료
+
+- `published/brandnut_public_bid_market_briefing_20260722.xlsx` — 2024~2026년 3개 후보 섹터 477건을 요약한 첫 GTM 킥오프 브리프. 성장지원 명칭 tail·원문 실패·하도급 검수 공백은 시트 출처 주석에 명시
+
 ## 섹터
 
 | 섹터 | 상태 |
