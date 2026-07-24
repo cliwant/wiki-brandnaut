@@ -1,0 +1,2410 @@
+{
+  "slides": [
+    {
+      "n": 1,
+      "intent_id": "cover",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "side-feature-image",
+          "bbox_emu": {
+            "x": -16042,
+            "y": 0,
+            "cx": 4844727,
+            "cy": 6858000
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "cover-title-block",
+          "bbox_emu": {
+            "x": 5250532,
+            "y": 1726411,
+            "cx": 6334486,
+            "cy": 2772646
+          },
+          "slot_values": {
+            "cover_subtitle": "2026 대림대학교 SCOUT 글로컬창업프론티어이니셔티브",
+            "cover_title": "청하!",
+            "cover_tagline": "대림대학생들이 글로컬 이니셔티브가 되는 3박 4일 창업 프론티어 연수 프로그램"
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "intent_id": "narrative_intro",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-bleed-background-image",
+          "bbox_emu": {
+            "x": -118705,
+            "y": -79343,
+            "cx": 12429409,
+            "cy": 6937343
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "chapter-divider-text-block",
+          "bbox_emu": {
+            "x": 457200,
+            "y": 914400,
+            "cx": 9596184,
+            "cy": 5586053
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "intent_id": "narrative_intro",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "side-feature-image",
+          "bbox_emu": {
+            "x": 7620000,
+            "y": 0,
+            "cx": 4572000,
+            "cy": 6858000
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "chapter-divider-text-block",
+          "bbox_emu": {
+            "x": 712585,
+            "y": 411480,
+            "cx": 7315200,
+            "cy": 5139890
+          }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "intent_id": "narrative_intro",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "chapter-divider-text-block",
+          "bbox_emu": {
+            "x": 726439,
+            "y": 228601,
+            "cx": 10744200,
+            "cy": 2391065
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "side-feature-image",
+          "bbox_emu": {
+            "x": 6381748,
+            "y": 3520441,
+            "cx": 5810251,
+            "cy": 3934203
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "side-feature-image",
+          "bbox_emu": {
+            "x": 0,
+            "y": 3520441,
+            "cx": 6381749,
+            "cy": 3369195
+          }
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "intent_id": "narrative_intro",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "chapter-divider-text-block",
+          "bbox_emu": {
+            "x": 634999,
+            "y": 0,
+            "cx": 7315200,
+            "cy": 5120639
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "side-feature-image",
+          "bbox_emu": {
+            "x": 5489866,
+            "y": 0,
+            "cx": 3859213,
+            "cy": 6858000
+          }
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "intent_id": "toc",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "numbered-contents-grid",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1691640,
+            "cx": 10652760,
+            "cy": 4590288
+          },
+          "slot_values": {
+            "toc_nav_1": "제안업체 일반현황 및 연혁",
+            "toc_nav_2": "경영상태 (신용평가등급)",
+            "toc_nav_3": "대학용역 수행 실적",
+            "toc_nav_4": "제안업체 인력 구성, 전문성, 조직현황",
+            "toc_nav_5": "용역수행 계획 및 방법",
+            "toc_nav_6": "기타 차별화 전략",
+            "toc_nav_7": "추가 제안",
+            "toc_nav_8": "부록"
+          }
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "intent_id": "section_divider",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-bleed-background-image",
+          "bbox_emu": {
+            "x": 3046,
+            "y": -1018419,
+            "cx": 12341354,
+            "cy": 9214878
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "chapter-divider-text-block",
+          "bbox_emu": {
+            "x": 495699,
+            "y": 1189376,
+            "cx": 9537529,
+            "cy": 5311077
+          }
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "intent_id": "company_overview",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "side-feature-image",
+          "bbox_emu": {
+            "x": 7757162,
+            "y": 0,
+            "cx": 4434838,
+            "cy": 6858000
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-value-row-table",
+          "bbox_emu": {
+            "x": 842552,
+            "y": 1828800,
+            "cx": 5959692,
+            "cy": 2816352
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-description-list",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 4707209,
+            "cx": 6025004,
+            "cy": 2080588
+          }
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "intent_id": "company_history",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "photo-caption-card-row",
+          "bbox_emu": {
+            "x": 676656,
+            "y": 1508760,
+            "cx": 10844784,
+            "cy": 1271016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "horizontal-milestone-timeline",
+          "bbox_emu": {
+            "x": 863053,
+            "y": 3026572,
+            "cx": 10142806,
+            "cy": 1401502
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-value-row-table",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 4730285,
+            "cx": 10607040,
+            "cy": 1448840
+          }
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "intent_id": "section_divider",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-bleed-background-image",
+          "bbox_emu": {
+            "x": 0,
+            "y": 0,
+            "cx": 12239628,
+            "cy": 6831419
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "chapter-divider-text-block",
+          "bbox_emu": {
+            "x": 495699,
+            "y": 1189376,
+            "cx": 11696301,
+            "cy": 5311077
+          }
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "intent_id": "financial_status",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "label-value-row-table",
+          "bbox_emu": {
+            "x": 795712,
+            "y": 1600201,
+            "cx": 10607040,
+            "cy": 1353312
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "callout-band",
+          "bbox_emu": {
+            "x": 795712,
+            "y": 3200400,
+            "cx": 10607040,
+            "cy": 868680
+          },
+          "slot_values": {
+            "body": "창업기업 배점 안내  본사는 2025년 4월 4일 설립된 창업기업으로, 입찰공고 및 제안요청서의 경영상태 평가 기준에 따라 관련 증빙을 별첨으로 제출합니다."
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 795712,
+            "y": 4297680,
+            "cx": 5486400,
+            "cy": 320040
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-value-row-table",
+          "bbox_emu": {
+            "x": 795712,
+            "y": 4663440,
+            "cx": 10607040,
+            "cy": 1645920
+          }
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "intent_id": "section_divider",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-bleed-background-image",
+          "bbox_emu": {
+            "x": -45720,
+            "y": -2058122,
+            "cx": 12341354,
+            "cy": 9256016
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "divider-title-band",
+          "bbox_emu": {
+            "x": 495699,
+            "y": 1189376,
+            "cx": 11854488,
+            "cy": 1463039
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "chapter-divider-text-block",
+          "bbox_emu": {
+            "x": 626844,
+            "y": 2569886,
+            "cx": 9486334,
+            "cy": 3930567
+          }
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "intent_id": "performance_record",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "column-header-data-table",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1416014,
+            "cx": 10607040,
+            "cy": 4784982
+          }
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "intent_id": "methodology",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1417320,
+            "cx": 10607040,
+            "cy": 320040
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "horizontal-step-flow",
+          "bbox_emu": {
+            "x": 685800,
+            "y": 1828800,
+            "cx": 10835640,
+            "cy": 1600200
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-value-row-table",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 4092448,
+            "cx": 10607040,
+            "cy": 1583140
+          }
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "intent_id": "section_divider",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-bleed-background-image",
+          "bbox_emu": {
+            "x": -2741,
+            "y": -2221291,
+            "cx": 13841139,
+            "cy": 9227426
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "divider-title-band",
+          "bbox_emu": {
+            "x": 495699,
+            "y": 1189376,
+            "cx": 11854488,
+            "cy": 1463039
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "chapter-divider-text-block",
+          "bbox_emu": {
+            "x": 626844,
+            "y": 2569886,
+            "cx": 9486334,
+            "cy": 3930567
+          }
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "intent_id": "org_structure",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "org-hierarchy-chart",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1508760,
+            "cx": 10607040,
+            "cy": 1665574
+          },
+          "slot_values": {
+            "root": "사업총괄 (PM)"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "callout-band",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 3366358,
+            "cx": 10607040,
+            "cy": 355250
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "column-header-data-table",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 3977640,
+            "cx": 10607040,
+            "cy": 2468880
+          }
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "intent_id": "section_divider",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-bleed-background-image",
+          "bbox_emu": {
+            "x": -162233,
+            "y": -40341,
+            "cx": 12398477,
+            "cy": 6913089
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "divider-title-band",
+          "bbox_emu": {
+            "x": 495699,
+            "y": 1189376,
+            "cx": 11854488,
+            "cy": 1463039
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "chapter-divider-text-block",
+          "bbox_emu": {
+            "x": 626844,
+            "y": 2569886,
+            "cx": 9486334,
+            "cy": 3930567
+          }
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "intent_id": "approach_concept",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "illustrative-map-infographic",
+          "bbox_emu": {
+            "x": 465438,
+            "y": 2129365,
+            "cx": 11496362,
+            "cy": 4622495
+          }
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "intent_id": "itinerary_overview",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "multi-column-day-board",
+          "bbox_emu": {
+            "x": 462250,
+            "y": 1691640,
+            "cx": 11385736,
+            "cy": 4837987
+          }
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "intent_id": "methodology",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "freeform-concept-diagram",
+          "bbox_emu": {
+            "x": 577088,
+            "y": 1880935,
+            "cx": 11331870,
+            "cy": 4796664
+          },
+          "slot_values": {
+            "hub_caption": "간단한 입력물 작성",
+            "output_caption": "30분 리포트 제작 / PPT",
+            "outcomes_heading": "다양한 한국 사례 개발 및 적용점 찾기"
+          }
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "intent_id": "program_flow",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "titled-panel-row",
+          "bbox_emu": {
+            "x": 792070,
+            "y": 2880360,
+            "cx": 10607298,
+            "cy": 2720340
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "callout-band",
+          "bbox_emu": {
+            "x": 3495727,
+            "y": 5806440,
+            "cx": 5318760,
+            "cy": 594360
+          }
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "intent_id": "differentiation",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "ticked-rule-column-header",
+          "bbox_emu": {
+            "x": 949798,
+            "y": 1604886,
+            "cx": 4325709,
+            "cy": 663695
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "ticked-rule-column-header",
+          "bbox_emu": {
+            "x": 6462090,
+            "y": 1604886,
+            "cx": 4336538,
+            "cy": 663695
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "photo-card-stack",
+          "bbox_emu": {
+            "x": 833415,
+            "y": 2308859,
+            "cx": 5004030,
+            "cy": 3979761
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "photo-card-stack",
+          "bbox_emu": {
+            "x": 6354557,
+            "y": 2308859,
+            "cx": 5004029,
+            "cy": 4039795
+          }
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "intent_id": "kpi_goals",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "titled-panel-row",
+          "bbox_emu": {
+            "x": 792328,
+            "y": 2259475,
+            "cx": 10607040,
+            "cy": 4337872
+          }
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "intent_id": "schedule_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "column-header-data-table",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1956816,
+            "cx": 10607040,
+            "cy": 4206240
+          }
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "intent_id": "methodology",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1552194,
+            "cx": 10680192,
+            "cy": 320178
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "titled-panel-row",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1917954,
+            "cx": 10652760,
+            "cy": 2339359
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 4464047,
+            "cx": 10680192,
+            "cy": 320178
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "horizontal-step-flow",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 4829807,
+            "cx": 10186416,
+            "cy": 502920
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 5612612,
+            "cx": 10680192,
+            "cy": 320178
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "titled-panel-row",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 5978372,
+            "cx": 10661904,
+            "cy": 557784
+          }
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "intent_id": "operations_plan",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "label-value-row-table",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1984785,
+            "cx": 10652760,
+            "cy": 4745736
+          },
+          "slot_values": {
+            "footnote": "개인정보 수집, 이용 동의서를 사전에 받아 보관하며, 수집한 정보는 연수 운영 목적 외에는 사용하지 않고 보존 기간 후 파기"
+          }
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "intent_id": "operations_plan",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 2057400,
+            "cx": 10680192,
+            "cy": 320178
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "text-paragraph-block",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 2377440,
+            "cx": 10652760,
+            "cy": 594360
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 3069336,
+            "cx": 10680192,
+            "cy": 320178
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-value-row-table",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 3407664,
+            "cx": 10746230,
+            "cy": 1956816
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 5586984,
+            "cx": 10680192,
+            "cy": 320178
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "text-with-supporting-media",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 5907024,
+            "cx": 10457290,
+            "cy": 809498
+          }
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "intent_id": "operations_plan",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "label-value-row-table",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 2057400,
+            "cx": 9501883,
+            "cy": 3714225
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "callout-band",
+          "bbox_emu": {
+            "x": 483939,
+            "y": 6090855,
+            "cx": 10195560,
+            "cy": 457200
+          }
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "intent_id": "safety_risk",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1670304,
+            "cx": 10680192,
+            "cy": 292608
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-value-row-table",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 2026920,
+            "cx": 10469880,
+            "cy": 1792224
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 4123944,
+            "cx": 10680192,
+            "cy": 292608
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-value-row-table",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 4480560,
+            "cx": 10469880,
+            "cy": 2048256
+          }
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "intent_id": "post_program_management",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "text-with-supporting-media",
+          "bbox_emu": {
+            "x": 822960,
+            "y": 1383792,
+            "cx": 9782556,
+            "cy": 1955292
+          },
+          "slot_values": {
+            "items": [
+              "사업계획서 완성 (9월 초)",
+              "일본 학생과 한 번 더 공동 기획 — 한국에 어떻게 적용할지 (온라인 웨비나 등)",
+              "사후 변화 추적: 참여 학생이 실제로 어떤 행동을 했는지 추적하여 관리"
+            ],
+            "caption": "일본 학생과의 온라인 공동 기획 웨비나"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1721104,
+            "cx": 5742432,
+            "cy": 292608
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 3320796,
+            "cx": 7571232,
+            "cy": 292608
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "before-after-diagnostic-flow",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 3757931,
+            "cx": 10920984,
+            "cy": 1751329
+          },
+          "slot_values": {
+            "steps": "사전 진단 / 사후 진단 / 역량 변화 그래프",
+            "connector_label": "3박 4일",
+            "footnote": "측정 문항 (예시, 5문항 내외) 문제 발견, 한국 적용 전환, 비즈니스 모델 이해, 실행 첫걸음 인지, \"나도 도전해볼 수 있다\"는 확신"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "text-with-supporting-media",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 5518286,
+            "cx": 10671048,
+            "cy": 1339714
+          },
+          "slot_values": {
+            "items": [
+              "사업계획서 완성 (9월 초)",
+              "일본 학생과 한 번 더 공동 기획 — 한국에 어떻게 적용할지 (온라인 웨비나 등)",
+              "사후 변화 추적: 참여 학생이 실제로 어떤 행동을 했는지 추적하여 관리"
+            ],
+            "caption": "일본 학생과의 온라인 공동 기획 웨비나"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 5719572,
+            "cx": 7114032,
+            "cy": 274320
+          }
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "intent_id": "case_study",
+      "layout_id": "layout-3",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 836676,
+            "y": 1368920,
+            "cx": 11036808,
+            "cy": 276999
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "text-paragraph-block",
+          "bbox_emu": {
+            "x": 836676,
+            "y": 1781401,
+            "cx": 11036807,
+            "cy": 430887
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "comparison-three-column",
+          "bbox_emu": {
+            "x": 835151,
+            "y": 2516353,
+            "cx": 10504113,
+            "cy": 2807460
+          },
+          "slot_values": {
+            "left_title": "전문대학생의 현실",
+            "center_quote": "아이템은 좋지만, 시작하기엔 무섭고 확신이 필요했어요.",
+            "right_title": "2 주간의 성과"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "callout-band",
+          "bbox_emu": {
+            "x": 1242972,
+            "y": 5983863,
+            "cx": 9675576,
+            "cy": 614418
+          }
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "intent_id": "schedule_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "column-header-data-table",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1291131,
+            "cx": 10652760,
+            "cy": 5469104
+          },
+          "slot_values": {
+            "header": "일자 / 시간 / 지역(장소) / 주요 일정 / 비고",
+            "footnote": "항공편 시간은 예시 기준이며 발주처와 협의하여 확정."
+          }
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "intent_id": "site_visit_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "photo-set",
+          "bbox_emu": {
+            "x": 0,
+            "y": -587505,
+            "cx": 12192000,
+            "cy": 7445505
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "daypart-eyebrow-tag",
+          "bbox_emu": {
+            "x": 455033,
+            "y": 991642,
+            "cx": 10607040,
+            "cy": 274320
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-title-block",
+          "bbox_emu": {
+            "x": 382604,
+            "y": 1265962,
+            "cx": 10607040,
+            "cy": 2058784
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-info-block",
+          "bbox_emu": {
+            "x": 7258617,
+            "y": 4630638,
+            "cx": 6097508,
+            "cy": 1815882
+          }
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "intent_id": "site_visit_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "photo-set",
+          "bbox_emu": {
+            "x": -1,
+            "y": 0,
+            "cx": 12192001,
+            "cy": 6858000
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "daypart-eyebrow-tag",
+          "bbox_emu": {
+            "x": 445979,
+            "y": 576456,
+            "cx": 1237966,
+            "cy": 274320
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-title-block",
+          "bbox_emu": {
+            "x": 382604,
+            "y": 860378,
+            "cx": 10607040,
+            "cy": 2701374
+          },
+          "slot_values": {
+            "venue_name": "삿포로 홋카이도대학교 HX – 대학 창업지원기관",
+            "venue_intro": "홋카이도대 산학·지역협동 기구와 연계해 대학 창업지원·스타트업 사례 설명 및 질의응답 진행"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-info-block",
+          "bbox_emu": {
+            "x": 5606812,
+            "y": 3969085,
+            "cx": 6097508,
+            "cy": 1815882
+          }
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "intent_id": "site_visit_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "photo-set",
+          "bbox_emu": {
+            "x": -14837,
+            "y": 0,
+            "cx": 12206837,
+            "cy": 6858000
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-info-block",
+          "bbox_emu": {
+            "x": 583400,
+            "y": 615337,
+            "cx": 7020177,
+            "cy": 1815882
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "daypart-eyebrow-tag",
+          "bbox_emu": {
+            "x": 5321651,
+            "y": 3563282,
+            "cx": 1540876,
+            "cy": 274320
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-title-block",
+          "bbox_emu": {
+            "x": 5236145,
+            "y": 3903083,
+            "cx": 6910938,
+            "cy": 2643559
+          }
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "intent_id": "site_visit_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "photo-set",
+          "bbox_emu": {
+            "x": 0,
+            "y": -469299,
+            "cx": 12192000,
+            "cy": 3244540
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "daypart-eyebrow-tag",
+          "bbox_emu": {
+            "x": 496154,
+            "y": 3094741,
+            "cx": 1540876,
+            "cy": 274320
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-title-block",
+          "bbox_emu": {
+            "x": 429216,
+            "y": 3356184,
+            "cx": 7691164,
+            "cy": 2643559
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-info-block",
+          "bbox_emu": {
+            "x": 5941151,
+            "y": 4786576,
+            "cx": 7020177,
+            "cy": 1815882
+          }
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "intent_id": "site_visit_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "photo-set",
+          "bbox_emu": {
+            "x": 0,
+            "y": -1,
+            "cx": 12191999,
+            "cy": 7613638
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "daypart-eyebrow-tag",
+          "bbox_emu": {
+            "x": 326081,
+            "y": 739669,
+            "cx": 1540876,
+            "cy": 274320
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-title-block",
+          "bbox_emu": {
+            "x": 289869,
+            "y": 1032095,
+            "cx": 7690586,
+            "cy": 2617051
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-info-block",
+          "bbox_emu": {
+            "x": 6439091,
+            "y": 4268075,
+            "cx": 7020177,
+            "cy": 2031325
+          }
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "intent_id": "site_visit_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "photo-set",
+          "bbox_emu": {
+            "x": 0,
+            "y": -71779,
+            "cx": 12509179,
+            "cy": 6984097
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "daypart-eyebrow-tag",
+          "bbox_emu": {
+            "x": 5694791,
+            "y": 239371,
+            "cx": 1540876,
+            "cy": 274320
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-title-block",
+          "bbox_emu": {
+            "x": 5616323,
+            "y": 531727,
+            "cx": 6311778,
+            "cy": 2651370
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-info-block",
+          "bbox_emu": {
+            "x": 241757,
+            "y": 3693464,
+            "cx": 6097508,
+            "cy": 2031325
+          }
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "intent_id": "site_visit_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "photo-set",
+          "bbox_emu": {
+            "x": 0,
+            "y": 0,
+            "cx": 6268211,
+            "cy": 7120890
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "daypart-eyebrow-tag",
+          "bbox_emu": {
+            "x": 6554327,
+            "y": 612942,
+            "cx": 1540876,
+            "cy": 274320
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-title-block",
+          "bbox_emu": {
+            "x": 6475859,
+            "y": 905298,
+            "cx": 6311778,
+            "cy": 2643559
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-info-block",
+          "bbox_emu": {
+            "x": 6554327,
+            "y": 3899481,
+            "cx": 4513123,
+            "cy": 2246769
+          }
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "intent_id": "site_visit_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "photo-set",
+          "bbox_emu": {
+            "x": 0,
+            "y": 0,
+            "cx": 12191999,
+            "cy": 6858000
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "daypart-eyebrow-tag",
+          "bbox_emu": {
+            "x": 5506039,
+            "y": 1077608,
+            "cx": 1540876,
+            "cy": 274320
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-title-block",
+          "bbox_emu": {
+            "x": 5452712,
+            "y": 1370216,
+            "cx": 7690586,
+            "cy": 2661847
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-info-block",
+          "bbox_emu": {
+            "x": 5506039,
+            "y": 4436683,
+            "cx": 6097508,
+            "cy": 1815882
+          }
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "intent_id": "site_visit_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "side-feature-image",
+          "bbox_emu": {
+            "x": 7048500,
+            "y": 0,
+            "cx": 5143500,
+            "cy": 6858000
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "venue-name-title",
+          "bbox_emu": {
+            "x": 512761,
+            "y": 778237,
+            "cx": 7690586,
+            "cy": 2333104
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-info-block",
+          "bbox_emu": {
+            "x": 512761,
+            "y": 3147591,
+            "cx": 6097508,
+            "cy": 2677119
+          },
+          "slot_values": {
+            "venue_intro": "기관 회신을 통해 대표자가 직접 대응하며, 트랙터버스·알파카목장·소프트크림 포함 시찰로 운영",
+            "venue_detail": "장소 소개 / 농업경관을 체험형 관광 공간으로 만든 사례, 꽃밭, 트랙터버스, 알파카 목장 // 학습 포인트 / 풍경·이동수단 ·동물 ·식품을 묶은 체험형 관광 모델 학습 // 계획 / 트랙터버스 탑승 → 농장 및 동물 구경 → 회장 직접 안내 청취 → 체험형 관광 구조 기록"
+          }
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "intent_id": "site_visit_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-bleed-background-image",
+          "bbox_emu": {
+            "x": 0,
+            "y": 0,
+            "cx": 12192000,
+            "cy": 6945726
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "venue-name-title",
+          "bbox_emu": {
+            "x": 512761,
+            "y": 1052557,
+            "cx": 7690586,
+            "cy": 2058784
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-info-block",
+          "bbox_emu": {
+            "x": 512761,
+            "y": 3147591,
+            "cx": 6097508,
+            "cy": 2677119
+          }
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "intent_id": "operations_plan",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "venue-name-title",
+          "bbox_emu": {
+            "x": 5449010,
+            "y": -78874,
+            "cx": 7690586,
+            "cy": 2058784
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "photo-set",
+          "bbox_emu": {
+            "x": -952865,
+            "y": -18622,
+            "cx": 14244861,
+            "cy": 6884037
+          },
+          "slot_values": {
+            "captions": [
+              "1일차 석식 / 삿포로 스스키노 라멘 · 삿포로 라멘요코초(라멘골목) · 삿포로 대표 음식이 도시 관광 콘텐츠와 지역 F&B 브랜드로 확장된 사례 체험",
+              "2일차 중식 / 오타루 앙카케 야키소바 · 뉴 산코 오타루 본점(홋카이도 오타루시 이나호 1-3-6 선몰 1번가) · 오타루 시민 음식이 관광 상권의 대표 로컬 메뉴로 상품화된 사례 체험",
+              "3일차 중식 / 홋카이도산 계절 야채와 소시지 카레 · 카프 르네, 하나비토 하우스 르네(팜 토미타 내) · 후라노 농산물이 식사·디저트·기념품으로 확장되는 지역 농산물 브랜딩 사례 체험"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "intent_id": "accommodation",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "banded-feature-blocks",
+          "bbox_emu": {
+            "x": 235767,
+            "y": -6668,
+            "cx": 11956233,
+            "cy": 6907551
+          },
+          "slot_values": {
+            "tagline": "탐험이 끝난 자리, 기획이 시작되는 시간.",
+            "features": "Sanctuary | 온전한 단절, 완벽한 회복 / 2. safety | 삿포로역의 북쪽 안전한 도심지 / 3. The War Room | 경험이 비즈니스가 되는 곳"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "venue-name-title",
+          "bbox_emu": {
+            "x": 263552,
+            "y": 0,
+            "cx": 9018234,
+            "cy": 2058784
+          }
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "intent_id": "vendor_proof",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "screenshot-evidence-grid",
+          "bbox_emu": {
+            "x": 457200,
+            "y": 1600200,
+            "cx": 11277600,
+            "cy": 4851138
+          }
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "intent_id": "vendor_proof",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "screenshot-evidence-grid",
+          "bbox_emu": {
+            "x": 457200,
+            "y": 1600200,
+            "cx": 11277600,
+            "cy": 4927600
+          },
+          "slot_values": {
+            "titles": [
+              "5. 르타오",
+              "6. 삿포로 중앙 도매 시장",
+              "7. 팜 토미타",
+              "8. 시키사이노오카"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "intent_id": "vendor_proof",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "screenshot-evidence-grid",
+          "bbox_emu": {
+            "x": 774700,
+            "y": 1600200,
+            "cx": 10922000,
+            "cy": 4800846
+          }
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "intent_id": "differentiation",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "banded-feature-blocks",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 899365,
+            "cx": 10617836,
+            "cy": 5593280
+          }
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "intent_id": "expected_outcome",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "label-description-list",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1488859,
+            "cx": 10652760,
+            "cy": 4774781
+          },
+          "slot_values": {
+            "title": "올해의 인연을 , 매년의 교류로",
+            "subtitle": "연수에서 만든 한일 학생의 관계를 일회성으로 끝내지 않습니다 .",
+            "footer": "한 번의 연수가 대림대의 지속적인 글로벌 교류 자산이 됩니다 ."
+          }
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "intent_id": "expected_outcome",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "label-description-list",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1488859,
+            "cx": 10652760,
+            "cy": 4774781
+          }
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "intent_id": "expected_outcome",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "text-paragraph-block",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1488859,
+            "cx": 10652760,
+            "cy": 1303020
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-description-list",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 3017520,
+            "cx": 10652760,
+            "cy": 3246120
+          }
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "intent_id": "safety_risk",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "titled-panel-row",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1316736,
+            "cx": 10652760,
+            "cy": 5129784
+          },
+          "slot_values": {
+            "intro": "소방, 병원, 경찰, 영사관, 한인회 다섯 기관과의 대응 체계를 사전에 구축하고, 24시간 비상연락망을 운영합니다."
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "square-bullet-label",
+          "bbox_emu": {
+            "x": 7631440,
+            "y": 1737360,
+            "cx": 4206192,
+            "cy": 256032
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "vertical-numbered-step-flow",
+          "bbox_emu": {
+            "x": 7631440,
+            "y": 2139696,
+            "cx": 4142232,
+            "cy": 3678976
+          }
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "intent_id": "safety_risk",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "category-card-matrix",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1376172,
+            "cx": 10652760,
+            "cy": 5097780
+          }
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "intent_id": "result_report",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "category-card-matrix",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1412927,
+            "cx": 10652760,
+            "cy": 5224666
+          },
+          "slot_values": {
+            "intro": "연수 전 과정을 체계적으로 기록, 아카이빙해, 종료 즉시 결과보고서로 정리합니다.",
+            "categories": "제출물 / 만족도, 성과 / 일정, 정산",
+            "outro": "전 과정 아카이빙  사진, 영상, 팀별 산출물을 현장에서 매일 누적, 정리해, 종료 즉시 빠짐없이 보고서로 옮깁니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "intent_id": "section_divider",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-bleed-background-image",
+          "bbox_emu": {
+            "x": -45720,
+            "y": -206530,
+            "cx": 21782402,
+            "cy": 12252601
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "chapter-divider-title",
+          "bbox_emu": {
+            "x": 495699,
+            "y": 1189376,
+            "cx": 11854488,
+            "cy": 4160457
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "chapter-divider-text-block",
+          "bbox_emu": {
+            "x": 777239,
+            "y": 3171167,
+            "cx": 9255989,
+            "cy": 3329286
+          }
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "intent_id": "differentiation",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "quadrant-card-grid",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 2148840,
+            "cx": 10652760,
+            "cy": 4206240
+          },
+          "slot_values": {
+            "note": "이 네 가지는 장소를 빌린다고 따라오지 않습니다. 사람과 관계, 그리고 노하우에서 나옵니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "intent_id": "differentiation",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "text-paragraph-block",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1257300,
+            "cx": 10652760,
+            "cy": 1879093
+          },
+          "slot_values": {
+            "headline": "3박 4일의 프로그램에서 더 많은 것을 얻을 수 있게 사전/사후 프로그램을 제공합니다.",
+            "subtext": "출국 전 4주, 귀국 후 한 달. 청하는 끊기지 않습니다."
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-description-list",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 3593592,
+            "cx": 10652760,
+            "cy": 2350008
+          }
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "intent_id": "differentiation",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "text-paragraph-block",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1092708,
+            "cx": 10637215,
+            "cy": 914400
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "photo-caption-card-row",
+          "bbox_emu": {
+            "x": 1325880,
+            "y": 2288544,
+            "cx": 10058400,
+            "cy": 4249416
+          }
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "intent_id": "differentiation",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "text-paragraph-block",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 868680,
+            "cx": 10652760,
+            "cy": 1737360
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-description-list",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 3017520,
+            "cx": 10652760,
+            "cy": 3246120
+          }
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "intent_id": "deliverables",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "text-paragraph-block",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 868680,
+            "cx": 10637215,
+            "cy": 914400
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "photo-caption-card-row",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 2111691,
+            "cx": 11193086,
+            "cy": 3959928
+          },
+          "slot_values": {
+            "footer": "다섯 가지 모두 브랜드넛이 직접 챙겨 학생의 손에 남깁니다 ."
+          }
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "intent_id": "section_divider",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-bleed-image-title",
+          "bbox_emu": {
+            "x": -2140959,
+            "y": -936251,
+            "cx": 14491146,
+            "cy": 8079910
+          },
+          "slot_values": {
+            "overlay_title": "青夏は、ここからさらに広がる。 청하는 여기서부터 더욱 넓어진다.",
+            "overlay_subtitle": "3박 4일이 끝나도 청춘의 여름은 계속됩니다. 그해 결실을 맺기 위한 추가 제안입니다."
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "chapter-divider-title",
+          "bbox_emu": {
+            "x": 495699,
+            "y": 1189376,
+            "cx": 11854488,
+            "cy": 4160457
+          }
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "intent_id": "local_startup_concept",
+      "layout_id": "layout-5",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "definition-photo-example",
+          "bbox_emu": {
+            "x": 1327256,
+            "y": 1370349,
+            "cx": 9401934,
+            "cy": 4819808
+          }
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "intent_id": "local_startup_concept",
+      "layout_id": "layout-5",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "venn-diagram",
+          "bbox_emu": {
+            "x": 944144,
+            "y": 1370349,
+            "cx": 10168169,
+            "cy": 4956641
+          },
+          "slot_values": {
+            "title": "앵커스토어, 로컬 콘텐츠, 로컬 인프라 (홋카이도 현장에서 우리가 발굴해야 할 3가지)",
+            "circle_labels": [
+              "앵커 스토어",
+              "로컬 콘텐츠",
+              "로컬 인프라"
+            ],
+            "center_label": "로컬 창업"
+          }
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "intent_id": "local_startup_concept",
+      "layout_id": "layout-5",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "definition-photo-example",
+          "bbox_emu": {
+            "x": 1598175,
+            "y": 1421500,
+            "cx": 8994615,
+            "cy": 4914622
+          }
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "intent_id": "local_startup_concept",
+      "layout_id": "layout-5",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "definition-photo-example",
+          "bbox_emu": {
+            "x": 1631557,
+            "y": 1491616,
+            "cx": 8957463,
+            "cy": 5099995
+          },
+          "slot_values": {
+            "lead": "자연, 전통문화, 지역에서 활성화된 제조 등 지역 고유의 자원을 재해석해 요즘 사람들이 좋아하게 살을 붙인 콘텐츠",
+            "statement": "= 지역의 특징적인 스토리 활용하기",
+            "conclusion": "→오직 홋카이도에서만 만날 수 있는 이 특별한 '콘텐츠'들은 어떻게 비즈니스가 될 수 있을까요?"
+          }
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "intent_id": "local_startup_concept",
+      "layout_id": "layout-5",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "definition-photo-example",
+          "bbox_emu": {
+            "x": 1639330,
+            "y": 1626181,
+            "cx": 8913340,
+            "cy": 4709941
+          }
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "intent_id": "local_startup_concept",
+      "layout_id": "layout-5",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "plus-joined-summary-cards",
+          "bbox_emu": {
+            "x": 2149255,
+            "y": 1813953,
+            "cx": 7796654,
+            "cy": 4063382
+          },
+          "slot_values": {
+            "summary": "➔ 창의적인 로컬 비즈니스 모델 완성 = 잘 될 확률 ↑"
+          }
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "intent_id": "mission_worksheet",
+      "layout_id": "layout-5",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "worksheet-input-form",
+          "bbox_emu": {
+            "x": 401759,
+            "y": 2150847,
+            "cx": 11177500,
+            "cy": 935730
+          },
+          "slot_values": {
+            "section_label": "장소 #1 :"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "worksheet-input-form",
+          "bbox_emu": {
+            "x": 1118133,
+            "y": 3771369,
+            "cx": 9981775,
+            "cy": 809378
+          },
+          "slot_values": {
+            "section_label": "장소 #1 :"
+          }
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "intent_id": "mission_worksheet",
+      "layout_id": "layout-2",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "horizontal-step-flow",
+          "bbox_emu": {
+            "x": 966679,
+            "y": 1688818,
+            "cx": 9857971,
+            "cy": 4700962
+          },
+          "slot_values": {
+            "footnote": "*팀원이 모두 나오는 인증 사진을 반드시 찍어주세요!"
+          }
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "intent_id": "mission_map",
+      "layout_id": "layout-2",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "centered-day-title",
+          "bbox_emu": {
+            "x": 5372781,
+            "y": 1303984,
+            "cx": 1334020,
+            "cy": 369332
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "annotated-route-map",
+          "bbox_emu": {
+            "x": 1071359,
+            "y": 1581912,
+            "cx": 3803831,
+            "cy": 4671104
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-card-list",
+          "bbox_emu": {
+            "x": 5432322,
+            "y": 1750935,
+            "cx": 6162466,
+            "cy": 4502081
+          }
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "intent_id": "mission_map",
+      "layout_id": "layout-2",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "centered-day-title",
+          "bbox_emu": {
+            "x": 5117630,
+            "y": 1303984,
+            "cx": 1370888,
+            "cy": 369332
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "annotated-route-map",
+          "bbox_emu": {
+            "x": 1188720,
+            "y": 1521337,
+            "cx": 3654579,
+            "cy": 4879463
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-card-list",
+          "bbox_emu": {
+            "x": 5128675,
+            "y": 1750935,
+            "cx": 6210963,
+            "cy": 4531377
+          },
+          "slot_values": {
+            "note_cards": [
+              "운하 주변 스토어 자유미션 진행",
+              "이동 : 오타루 > 사포로 (중앙 도매시장)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "intent_id": "mission_map",
+      "layout_id": "layout-2",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "annotated-route-map",
+          "bbox_emu": {
+            "x": 1205255,
+            "y": 1517903,
+            "cx": 3604981,
+            "cy": 4879463
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "venue-card-list",
+          "bbox_emu": {
+            "x": 5117630,
+            "y": 1853172,
+            "cx": 5869116,
+            "cy": 3862146
+          }
+        }
+      ]
+    },
+    {
+      "n": 73,
+      "intent_id": "section_divider",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-bleed-background-image",
+          "bbox_emu": {
+            "x": -1166212,
+            "y": -645459,
+            "cx": 13452895,
+            "cy": 7508591
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "chapter-divider-text-block",
+          "bbox_emu": {
+            "x": 495699,
+            "y": 1189376,
+            "cx": 11854488,
+            "cy": 5311077
+          },
+          "slot_values": {
+            "title": "부록",
+            "chapter_number": "8",
+            "quote": "あの夏を、ずっと忘れない。 그 여름을, 오래도록 잊지 않는다.",
+            "subtitle": "이번 여정이 끝이 아닌 학생들에게 새로운 시작이 되도록."
+          }
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "intent_id": "schedule_timeline",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "step-row-with-gantt-timeline",
+          "bbox_emu": {
+            "x": 749300,
+            "y": 1625600,
+            "cx": 10629900,
+            "cy": 4521200
+          }
+        }
+      ]
+    },
+    {
+      "n": 75,
+      "intent_id": "closing",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-bleed-image-title",
+          "bbox_emu": {
+            "x": 0,
+            "y": 0,
+            "cx": 12192000,
+            "cy": 6858000
+          }
+        }
+      ]
+    }
+  ]
+}
