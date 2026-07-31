@@ -8,14 +8,15 @@ licenses: []                  # 보유 업종코드 — "이름 (코드)" 형식
 supply_items: []              # 공급물품 (종합쇼핑몰 카탈로그) — 없으면 삭제 가능
 manufactured_items: []        # 제조물품 (직접생산) — 없으면 삭제 가능
 kpi: { win_rate: null, bid_rate: null, consortium_rate: null }
-last_verified: 2026-07-23
+last_verified: 2026-07-31
 sources:
   - sources/company/brandnut-b2g-company-profile-2026-07-16.pdf
   - sources/company/brandnut-startup-education-proposal-2026-07-16.pdf
   - sources/company/slack-brandnut-meeting-2026-06-26.md
   - sources/mcp/company-detail-8898103506-2026-07-20.md
   - sources/company/meeting-kickoff-2026-07-23.md
-status: "킥오프 완료 — 협업 범위 3섹터 확정, 실적 증빙·자격 검증 필요"
+  - sources/company/meeting-weekly-2026-07-31.md
+status: "주간 미팅 1회차 완료 — 업종·직생 미보유 확정, 즉시 취득 업종 일괄 신청 합의, 첫 Go 공고(R26BD00254383) 확정"
 ---
 
 # 브랜드넛 — profile
@@ -29,8 +30,10 @@ Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우,
 ## 2. 자격 (Eligibility)
 
 - Cliwant 업체 DB에서 주식회사 브랜드넛을 사업자등록번호 889-81-03506으로 식별했다. 다만 검색 결과의 계약 건수는 0건이며 총 계약 금액은 확인되지 않았다. [출처: `sources/mcp/company-detail-8898103506-2026-07-20.md`, 수집 2026-07-20, confidence: high]
-- `company_detail` 응답에는 보유 업종코드, 제조물품, 공급물품이 반환되지 않았다. 이는 현재 MCP에서 자격 정보를 확인할 수 없다는 뜻이며, 자격이 실제로 없다는 뜻으로 단정하지 않는다. [출처: `sources/mcp/company-detail-8898103506-2026-07-20.md`, 수집 2026-07-20, confidence: high]
-- 직접생산확인증명 보유 여부는 Cliwant MCP 응답만으로 확인되지 않았다. 나라장터 경쟁입찰참가자격등록증과 직접생산확인증명서 원본 확인이 필요하다. [출처: `sources/mcp/company-detail-8898103506-2026-07-20.md`, 수집 2026-07-20, confidence: high]
+- `company_detail` 응답에는 보유 업종코드, 제조물품, 공급물품이 반환되지 않았다. 이는 현재 MCP에서 자격 정보를 확인할 수 없다는 뜻이며, 자격이 실제로 없다는 뜻으로 단정하지 않는다 → 2026-07-31 주간 미팅에서 **미보유로 확정** (아래 항목 참조). [출처: `sources/mcp/company-detail-8898103506-2026-07-20.md`, 수집 2026-07-20, confidence: high / 갱신 2026-07-31]
+- 직접생산확인증명 보유 여부는 Cliwant MCP 응답만으로 확인되지 않았다. 나라장터 경쟁입찰참가자격등록증과 직접생산확인증명서 원본 확인이 필요하다 → 2026-07-31 주간 미팅에서 **미보유로 확정** (아래 항목 참조). [출처: `sources/mcp/company-detail-8898103506-2026-07-20.md`, 수집 2026-07-20, confidence: high / 갱신 2026-07-31]
+- 나라장터 등록 업종코드·직접생산확인이 하나도 없음이 확정됐다 — Cliwant 데이터 제시에 고객(정준수)이 미보유를 확인. 창업기획자(액셀러레이터 자격) 미보유는 기존 인지 사항. [출처: `sources/company/meeting-weekly-2026-07-31.md` §2, 수집 2026-07-31, confidence: high — 객관 데이터와 진술 일치]
+- 실사 없이 취득 가능한 업종(기타 자유업 등)은 신청 후 약 1주일 내 취득 가능하며, 미팅 직후 일괄 신청하기로 합의했다. 실사가 필요한 직접생산 품목은 약 1개월 소요. [출처: `sources/company/meeting-weekly-2026-07-31.md` §2, 수집 2026-07-31, confidence: medium — 신청·취득 완료 여부는 후속 확인 필요]
 
 ## 3. 실적 (Track-record)
 
@@ -40,6 +43,8 @@ Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우,
 - 문서에는 멘토링을 통한 시제품 제작, 사업자 등록, 매출 발생 사례가 다수 제시되어 있다. 다만 사용자 판단에 따라 멘토링은 공공입찰 섹터 방향성에서 제외하고, 회사 역량을 보조하는 참고 실적으로만 보존한다. [출처: `sources/company/brandnut-b2g-company-profile-2026-07-16.pdf`, `sources/company/brandnut-startup-education-proposal-2026-07-16.pdf`, 수집 2026-07-16, confidence: medium]
 - Slack 미팅 기록에는 수의계약 실적이 여러 건 있다는 평가가 있으나, 공고번호·계약기관·금액 등 객관 증빙은 아직 연결되지 않았다. [출처: `sources/company/slack-brandnut-meeting-2026-06-26.md`, 수집 2026-07-16, confidence: medium]
 - 킥오프에서 대표 박찬우는 현재 확보된 공공 입찰 실적이 약 3,500만 원 규모이며 계약 진행 중이라고 밝혔다. 실적 관련 자료를 정리해 전달하기로 했으며, 자료가 sources에 들어오면 confidence를 상향한다. [출처: `sources/company/meeting-kickoff-2026-07-23.md`, 수집 2026-07-23, confidence: medium — 고객 진술, 증빙 미수령]
+- 자체 정리한 수행 실적 시트를 보유하나 실적증명서는 전부 발급받지 못한 상태다. 필요 시 발급 요청 가능한 건들이며, 시트를 전달해 위키에 축적하기로 합의했다. [출처: `sources/company/meeting-weekly-2026-07-31.md` §7, 수집 2026-07-31, confidence: medium — 시트 수령 시 상향]
+- 브랜드넛 사업자 명의의 축제·행사 수행 실적은 없으나 수행 경험은 있다고 밝혔다 (유사 카테고리 확장 후보 근거). [출처: `sources/company/meeting-weekly-2026-07-31.md` §5, 수집 2026-07-31, confidence: medium]
 
 ## 4. 역량·자산 (Capability)
 
@@ -58,6 +63,9 @@ Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우,
 - 문서에 제시된 기관명이 일부 익명 처리되어 있고 계약금액·기간·발주기관·증빙번호가 연결되지 않아, 정량 실적 요건이 있는 입찰에서는 즉시 증빙하기 어렵다. [출처: `sources/company/brandnut-b2g-company-profile-2026-07-16.pdf`, `sources/company/brandnut-startup-education-proposal-2026-07-16.pdf`, 수집 2026-07-16, confidence: high]
 - 제안서마다 내용이 달라지는 점과 AI 생성물처럼 보이는 표현에 대한 거부감이 내부 관찰로 제기됐다. 제안서 자동화 시 원문 근거와 사람의 편집 흔적을 유지해야 한다. [출처: `sources/company/slack-brandnut-meeting-2026-06-26.md`, 수집 2026-07-16, confidence: medium]
 - 정부 인가 '창업기획자(액셀러레이터)' 자격이 필요한 공고는 회사가 해당 자격 미보유를 전제로 언급했다 — 자격 보유 여부 자체는 객관 확인이 필요하다. 트래킹에서 제외하지 않고 자격 요구 여부를 구분 표시해 본다 (2026-07-23 운영 결정 — 킥오프 요약의 '제외' 표현 정정). [출처: `sources/company/meeting-kickoff-2026-07-23.md`, 수집 2026-07-23, confidence: medium / 운영 결정: 운영자 지시 2026-07-23]
+- 인력 규모(직원 1명 + 운영진)상 수억 원대 대형 사업은 직접 수행 경쟁력이 낮다고 자체 판단 — 2026-07-31 미팅에서 2억·5억·1.6억 규모 건을 후순위로 분류했다. 3천~4천만 원대가 우선순위. [출처: `sources/company/meeting-weekly-2026-07-31.md` §5, 수집 2026-07-31, confidence: medium]
+- 매출 발생 등 정량 성과를 책임져야 하는 사업(해외진출 지원 등)은 내부 부담으로 후순위. 판로 개척·채널 접촉 수준의 과업이면 수행 가능하다고 밝혔다. [출처: `sources/company/meeting-weekly-2026-07-31.md` §5, 수집 2026-07-31, confidence: medium]
+- 최근 3년 유사 수행실적을 요구하는 행사·축제 공고는 사업자 명의 실적이 없어 현재로선 제한된다. [출처: `sources/company/meeting-weekly-2026-07-31.md` §5, 수집 2026-07-31, confidence: medium]
 - 제주도·전라도 지역 사업은 내부 인적 네트워크로 직접 수행 중이다. 트래킹에서 제외하지 않고 해당 지역 여부를 구분 표시해 본다 (2026-07-23 운영 결정). [출처: `sources/company/meeting-kickoff-2026-07-23.md`, 수집 2026-07-23, confidence: medium / 운영 결정: 운영자 지시 2026-07-23]
 
 ## 7. 의도 (Intent)
@@ -66,6 +74,10 @@ Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우,
 - Cliwant가 제공한 공고 목록에서 브랜드넛이 실적·정량 요건을 충족하는 공고 1건을 선택하고, 2026년 7월 중 무료 파일럿을 진행한 뒤 결과가 맞으면 계약 조건을 논의하기로 했다. [출처: `sources/company/slack-brandnut-meeting-2026-06-26.md`, 수집 2026-07-16, confidence: medium]
 - 2026-07-23 킥오프에서 협업의 핵심 영역을 창업 교육·창업 경진 대회·액셀러레이팅 3개로 확정했다. 팀이 이미 수행 중인 입찰 공고와 겹치지 않는 추가 기회를 발굴하는 보완적 용도로 서비스를 활용할 계획이다 — 기수행 공고도 트래킹에서 빼지 않고 구분 표시만 한다 (2026-07-23 운영 결정). [출처: `sources/company/meeting-kickoff-2026-07-23.md`, 수집 2026-07-23, confidence: medium / 운영 결정: 운영자 지시 2026-07-23]
 - 협업 운영 방식으로 Slack 채널을 통한 매일 공고 업데이트, Cliwant MCP와 contrl 플러그인 도입(자연어 데이터 접근·브랜드넛 데이터 축적)을 결정했다. 실적 증명을 요구하는 공고와 그렇지 않은 공고를 구분해 안내받기를 원한다. [출처: `sources/company/meeting-kickoff-2026-07-23.md`, 수집 2026-07-23, confidence: medium]
+- 예산 기준 우선순위: 1억 미만 우선 검토 → 노고가 많으면 1억 이상 재검토. 1억 이상도 수행 인력 구성·결과물 책임 범위가 맞으면 케이스별 진행 의사. [출처: `sources/company/meeting-weekly-2026-07-31.md` §5, 수집 2026-07-31, confidence: medium]
+- 행사·축제 분야를 유사 카테고리 확장 개념으로 시도할 의향 — 실적 요건 없는 소규모 건 위주. 9천만 원 규모 행사 건 1건은 자체 제안(응찰)을 이미 진행했다고 밝혔다 (공고 미특정). [출처: `sources/company/meeting-weekly-2026-07-31.md` §5, 수집 2026-07-31, confidence: medium]
+- 고 결정 방식을 '1건 신중 확정'에서 '복수 후보(A/B/C) 제시 후 공동 선정'으로 전환하기로 합의했다 (2026-07-31). 제안서 미작성 시 비용 미청구 계약 구조라 부담 없이 후보를 올리기로 함. 첫 Go 공고는 KNU 대구앵커 경진대회 → `bids/R26BD00254383.md`. [출처: `sources/company/meeting-weekly-2026-07-31.md` §1·§6, 수집 2026-07-31, confidence: medium]
+- Contrl 미사용 원인은 관심 부족이 아니라 공고 검토·자격 파악에 시간을 소진하는 구조였다. 2026-08-04(화) 13:00 미팅에서 R26BD00254383 건으로 Contrl 제안서 작성을 시연·실습하기로 했다 (김예솔·정준수 참석). [출처: `sources/company/meeting-weekly-2026-07-31.md` §6·§8, 수집 2026-07-31, confidence: medium]
 
 ## 8. 섹터 방향성
 
