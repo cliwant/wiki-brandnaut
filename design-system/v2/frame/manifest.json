@@ -1,0 +1,28 @@
+{
+ "note": "Original frame parts for Phase-2 inheritance rendering (slideMasters, slideLayouts, theme, presentation, referenced media + rels).",
+ "parts": [
+  "[Content_Types].xml",
+  "ppt/_rels/presentation.xml.rels",
+  "ppt/notesMasters/_rels/notesMaster1.xml.rels",
+  "ppt/notesMasters/notesMaster1.xml",
+  "ppt/presProps.xml",
+  "ppt/presentation.xml",
+  "ppt/revisionInfo.xml",
+  "ppt/slideLayouts/_rels/slideLayout1.xml.rels",
+  "ppt/slideLayouts/_rels/slideLayout2.xml.rels",
+  "ppt/slideLayouts/_rels/slideLayout3.xml.rels",
+  "ppt/slideLayouts/_rels/slideLayout4.xml.rels",
+  "ppt/slideLayouts/_rels/slideLayout5.xml.rels",
+  "ppt/slideLayouts/slideLayout1.xml",
+  "ppt/slideLayouts/slideLayout2.xml",
+  "ppt/slideLayouts/slideLayout3.xml",
+  "ppt/slideLayouts/slideLayout4.xml",
+  "ppt/slideLayouts/slideLayout5.xml",
+  "ppt/slideMasters/_rels/slideMaster1.xml.rels",
+  "ppt/slideMasters/slideMaster1.xml",
+  "ppt/tableStyles.xml",
+  "ppt/theme/theme1.xml",
+  "ppt/theme/theme2.xml",
+  "ppt/viewProps.xml"
+ ]
+}
