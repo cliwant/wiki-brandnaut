@@ -4,7 +4,18 @@
 
 ## 프로필
 
-- [profile.md](profile.md) — 회사 자료·미팅 기록·Cliwant 업체 상세·킥오프(2026-07-23)·주간 미팅 1회차(2026-07-31) 흡수. 업종·직생 미보유 확정, 즉시 취득 업종 일괄 신청 합의, 실적 시트 수령 대기
+- [profile.md](profile.md) — 회사 자료·미팅 기록·Cliwant 업체 상세·과거 수의계약 레퍼런스 자료 3건(2026-07-22)·킥오프(2026-07-23)·주간 미팅 1회차(2026-07-31) 흡수. 업종·직생 미보유 확정, 즉시 취득 업종 일괄 신청 합의, 실적 시트 수령 대기, 법인별 실적 증빙 확인 필요
+
+## 최근 원자료
+
+- `sources/company/silla-university-startup-camp-task-order-2026-07-22.pdf` — 신라대학교 RISE사업단 창업캠프 과업지시서
+- `sources/company/daejeon-university-technology-startup-camp-task-order-2026-07-22.pdf` — 대전대학교 RISE 기술창업캠프 과업지시서
+- `sources/company/smallsteps-scout-boost-startup-program-proposal-2026-07-22.pdf` — 주식회사 스몰스텝스 명의 SCOUT 프로그램 제안서
+- `sources/company/brandnut-sole-source-reference-digest-2026-07-22.md` — 실적 귀속 주의를 포함한 원문 다이제스트
+
+## 발행 자료
+
+- `published/brandnut_public_bid_market_briefing_20260722.xlsx` — 2024~2026년 3개 후보 섹터 477건을 요약한 첫 GTM 킥오프 브리프. 요약에서 섹터별 전형·확장형·현재 기회 대표 공고 9건과 핵심 과업을 먼저 확인한 뒤 섹터 우선순위를 논의. 분석 탭은 자격·직생·과업에 집중하고, 시장 플레이어는 사업자번호를 제외한 8열 회사 요약으로 구성. 성장지원 명칭 tail·원문 실패·하도급 검수 공백은 시트 출처 주석에 명시
 
 ## 섹터
 
