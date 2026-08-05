@@ -8,7 +8,7 @@ licenses: []                  # 보유 업종코드 — "이름 (코드)" 형식
 supply_items: []              # 공급물품 (종합쇼핑몰 카탈로그) — 없으면 삭제 가능
 manufactured_items: []        # 제조물품 (직접생산) — 없으면 삭제 가능
 kpi: { win_rate: null, bid_rate: null, consortium_rate: null }
-last_verified: 2026-07-31
+last_verified: 2026-08-04
 sources:
   - sources/company/brandnut-b2g-company-profile-2026-07-16.pdf
   - sources/company/brandnut-startup-education-proposal-2026-07-16.pdf
@@ -19,7 +19,8 @@ sources:
   - sources/mcp/company-detail-8898103506-2026-07-20.md
   - sources/company/meeting-kickoff-2026-07-23.md
   - sources/company/meeting-weekly-2026-07-31.md
-status: "주간 미팅 1회차 완료 — 업종·직생 미보유 확정, 즉시 취득 업종 일괄 신청 합의, 첫 Go 공고(R26BD00254383) 확정. 과거 수의계약 레퍼런스 자료 3건 흡수 — 법인 실적 귀속·계약 증빙 확인 필요"
+  - sources/interviews/interview-r26bd00254383-2026-08-04.json
+status: "주간 미팅 1회차 완료 — 업종·직생 미보유 확정, 즉시 취득 업종 일괄 신청 합의, 첫 Go 공고(R26BD00254383) 확정. 과거 수의계약 레퍼런스 자료 3건 흡수 — 법인 실적 귀속·계약 증빙 확인 필요. R26BD00254383 전략 인터뷰(2026-08-04) 흡수 — 팀 창업 이력·정량 실적 대응 전략 보강"
 ---
 
 # 브랜드넛 — profile
@@ -52,6 +53,7 @@ Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우,
 - 킥오프에서 대표 박찬우는 현재 확보된 공공 입찰 실적이 약 3,500만 원 규모이며 계약 진행 중이라고 밝혔다. 실적 관련 자료를 정리해 전달하기로 했으며, 자료가 sources에 들어오면 confidence를 상향한다. [출처: `sources/company/meeting-kickoff-2026-07-23.md`, 수집 2026-07-23, confidence: medium — 고객 진술, 증빙 미수령]
 - 자체 정리한 수행 실적 시트를 보유하나 실적증명서는 전부 발급받지 못한 상태다. 필요 시 발급 요청 가능한 건들이며, 시트를 전달해 위키에 축적하기로 합의했다. [출처: `sources/company/meeting-weekly-2026-07-31.md` §7, 수집 2026-07-31, confidence: medium — 시트 수령 시 상향]
 - 브랜드넛 사업자 명의의 축제·행사 수행 실적은 없으나 수행 경험은 있다고 밝혔다 (유사 카테고리 확장 후보 근거). [출처: `sources/company/meeting-weekly-2026-07-31.md` §5, 수집 2026-07-31, confidence: medium]
+- 신라대학교·대전대학교 창업캠프의 참가자 만족도 및 후속 창업·투자 전환율에 대한 정량 데이터를 보유 중이라고 밝혔다. 구체 수치는 자료 확인 후 추후 확정하기로 함 — 수치 미제시 상태의 실적 주장이라 자료 수령 전까지 낮은 확신도로 기록. [출처: `sources/interviews/interview-r26bd00254383-2026-08-04.json` 4~5턴, 수집 2026-08-04, confidence: low — 수치 미제시, 증빙 없는 실적 주장]
 
 ## 4. 역량·자산 (Capability)
 
@@ -60,6 +62,7 @@ Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우,
 - 참가자 모집 저조, 강사 불참, 현장 혼선, 결과물 미흡, 예산 제약 등에 대해 사전 모집 채널 다각화, 예비 강사진, 운영 매뉴얼, 전담 인력, 중간 점검, 예산 재배분 등 대응안을 보유한다고 제시한다. [출처: `sources/company/brandnut-b2g-company-profile-2026-07-16.pdf`, 수집 2026-07-16, confidence: medium]
 - 고객 제공 과업지시서에서 숙박형 캠프의 장소·숙소·식사·이동 동선, 참가자 명단·팀 편성, 비상 연락망, 야간 활동과 현장 탐방 안전, 여행자보험, 운영물품 제작, 사진·만족도·예산 집행을 포함한 전 과정 운영 범위가 확인된다. [출처: `sources/company/silla-university-startup-camp-task-order-2026-07-22.pdf`, `sources/company/daejeon-university-technology-startup-camp-task-order-2026-07-22.pdf`, 수집 2026-07-22, confidence: medium]
 - 교육 내용은 창업 입문·기술창업·로컬 창업·고객개발·가치제안 검증·MVP·피칭까지 확장 가능하며, 결과물로 사업계획서·피치덱·고객검증 자료·미션지·심사표·만족도·운영기록·최종 결과보고서를 설계할 수 있다. [출처: `sources/company/silla-university-startup-camp-task-order-2026-07-22.pdf`, `sources/company/daejeon-university-technology-startup-camp-task-order-2026-07-22.pdf`, `sources/company/smallsteps-scout-boost-startup-program-proposal-2026-07-22.pdf`, 수집 2026-07-22, confidence: medium]
+- 팀 대표·핵심인력 전원이 실제 창업·운영 이력(회사명·업종·기간 구체화 가능)을 보유하고, 투자유치·수상·정부과제 선정 등 외부 검증 이력도 함께 보유하고 있다고 밝혔다. [출처: `sources/interviews/interview-r26bd00254383-2026-08-04.json` 3~4턴, 수집 2026-08-04, confidence: medium]
 
 ## 5. 레퍼런스 (References)
 
@@ -91,6 +94,7 @@ Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우,
 - 행사·축제 분야를 유사 카테고리 확장 개념으로 시도할 의향 — 실적 요건 없는 소규모 건 위주. 9천만 원 규모 행사 건 1건은 자체 제안(응찰)을 이미 진행했다고 밝혔다 (공고 미특정). [출처: `sources/company/meeting-weekly-2026-07-31.md` §5, 수집 2026-07-31, confidence: medium]
 - 고 결정 방식을 '1건 신중 확정'에서 '복수 후보(A/B/C) 제시 후 공동 선정'으로 전환하기로 합의했다 (2026-07-31). 제안서 미작성 시 비용 미청구 계약 구조라 부담 없이 후보를 올리기로 함. 첫 Go 공고는 KNU 대구앵커 경진대회 → `bids/R26BD00254383.md`. [출처: `sources/company/meeting-weekly-2026-07-31.md` §1·§6, 수집 2026-07-31, confidence: medium]
 - Contrl 미사용 원인은 관심 부족이 아니라 공고 검토·자격 파악에 시간을 소진하는 구조였다. 2026-08-04(화) 13:00 미팅에서 R26BD00254383 건으로 Contrl 제안서 작성을 시연·실습하기로 했다 (김예솔·정준수 참석). [출처: `sources/company/meeting-weekly-2026-07-31.md` §6·§8, 수집 2026-07-31, confidence: medium]
+- 정량 실적 부족이라는 약점을 제안서에서 숨기지 않고, 구체적 운영 방법론(How)으로 정면 돌파하는 전략을 채택하겠다고 밝혔다 — 정량 실적 병목(§6)에 대한 반복 가능한 대응 방향으로 기록. [출처: `sources/interviews/interview-r26bd00254383-2026-08-04.json` 3턴, 수집 2026-08-04, confidence: medium]
 
 ## 8. 섹터 방향성
 
