@@ -1,0 +1,1991 @@
+{
+  "slides": [
+    {
+      "n": 1,
+      "intent_id": "cover",
+      "layout_id": "layout-bare",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "cover-title-block",
+          "bbox_emu": {
+            "x": 1124712,
+            "y": 1829614,
+            "cx": 8113161,
+            "cy": 3608720
+          },
+          "slot_values": {
+            "eyebrow": "지역성장 인재양성체계",
+            "cover_title": "2026년도 로컬크리에이터 양성 특화 과정 운영",
+            "cover_tagline": "Discover · Define · Design · Develop",
+            "cover_subtitle": "대전의 로컬 DNA를 발견하고, 지속가능한 로컬 비즈니스로 연결합니다."
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "hero-circular-photo",
+          "bbox_emu": {
+            "x": 5894962,
+            "y": 2787013,
+            "cx": 12393038,
+            "cy": 7499987
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "fullbleed-background-pattern",
+          "bbox_emu": {
+            "x": 0,
+            "y": 2807208,
+            "cx": 18288000,
+            "cy": 7479792
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "cover-submission-footer",
+          "bbox_emu": {
+            "x": 1262735,
+            "y": 7509552,
+            "cx": 4763110,
+            "cy": 2114379
+          },
+          "slot_values": {
+            "cover_recipient": "배재대학교",
+            "cover_bidder": "주식회사 브랜드넛",
+            "cover_date": "2026. 7."
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "intent_id": "toc",
+      "layout_id": "layout-bare",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "kicker-short-underline-tick",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 571500,
+            "cx": 7620610,
+            "cy": 409651
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "lead-statement-with-supporting-line",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1238098,
+            "cx": 16002000,
+            "cy": 1342848
+          },
+          "slot_values": {
+            "title": "사업 이해부터 수행·운영관리까지 평가기준에 맞춰 제안합니다.",
+            "supporting_line": "본 제안서는 4개 핵심 영역(제안개요 · 사업수행계획 · 수행조직 및 운영관리 · 기타)으로 구성되며, RFP 평가배점(30 · 30 · 30 · 10)에 대응하도록 설계하였습니다."
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "toc-section-summary-card-grid",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2952598,
+            "cx": 16021202,
+            "cy": 6782104
+          },
+          "slot_values": {
+            "toc_section_marker_1": "SECTION 01",
+            "toc_nav_1": "제안개요",
+            "toc_pages_1": "3 – 11 p",
+            "eval_category_1": "일반부문 · 30점",
+            "toc_section_marker_2": "SECTION 02",
+            "toc_nav_2": "사업수행계획",
+            "toc_pages_2": "12 – 26 p",
+            "eval_category_2": "사업수행능력 · 30점",
+            "toc_section_marker_3": "SECTION 03",
+            "toc_nav_3": "수행조직 및 운영관리",
+            "toc_pages_3": "27 – 34 p",
+            "eval_category_3": "사업관리 · 30점",
+            "toc_section_marker_4": "SECTION 04",
+            "toc_nav_4": "기타 및 제안 마무리",
+            "toc_pages_4": "35 – 39 p",
+            "eval_category_4": "지원내역 · 10점"
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "intent_id": "section_divider",
+      "layout_id": "layout-bare",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "solid-fill-chip-label",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1904695,
+            "cx": 4953305,
+            "cy": 695858
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "section-numeral-title-panel",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2952598,
+            "cx": 4953305,
+            "cy": 6783019
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-short-underline-tick",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 3047695,
+            "cx": 10478110,
+            "cy": 409651
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "multi-line-key-message-statement",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 3810305,
+            "cx": 10478110,
+            "cy": 2190903
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-agenda-list",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 7048195,
+            "cx": 9906609,
+            "cy": 1371600
+          }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "intent_id": "problem_context",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-statement-with-supporting-line",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 800100
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "lane-swimlane-flow",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3429000,
+            "cx": 16002000,
+            "cy": 6305702
+          }
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "intent_id": "concept_definition",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2762402,
+            "cx": 7620610,
+            "cy": 210312
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "definition-comparison-card-pair",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3143707,
+            "cx": 16002000,
+            "cy": 2781605
+          },
+          "slot_values": {
+            "cards": "지역가치 창업가 (중소벤처기업부 공식 정의) / 익숙한 자원을 새롭게 잇는 사람 (브랜드넛 관점)"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 6381598,
+            "cx": 7620610,
+            "cy": 210312
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-step-card-row",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 6667805,
+            "cx": 16002000,
+            "cy": 2971800
+          },
+          "slot_values": {
+            "header": "중앙정부와 지자체는 로컬크리에이터 양성을 하향식 지원에서 벗어나 지역 자생력을 키우는 핵심 정책으로 활용합니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "intent_id": "trend_and_direction",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1772107,
+            "cx": 16002000,
+            "cy": 800100
+          },
+          "slot_values": {
+            "statement": "로컬브랜딩은 지역을 소개하는 것을 넘어, 머물고 참여하고 소비할 이유를 만드는 방향으로 변화하고 있습니다."
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "before-after-comparison-table",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3238805,
+            "cx": 16021203,
+            "cy": 5067604
+          },
+          "slot_values": {
+            "before_label": "BEFORE · 기존",
+            "before_heading": "지역을 소개하는 방식",
+            "after_label": "AFTER · 변화",
+            "after_heading": "머물고 참여할 이유를 만드는 방식"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "accent-bar-note-panel",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 8762695,
+            "cx": 16002000,
+            "cy": 952805
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "solid-fill-chip-label",
+          "bbox_emu": {
+            "x": 1429207,
+            "y": 8973007,
+            "cx": 1905610,
+            "cy": 210312
+          }
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "intent_id": "case_studies",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-sentence-inline-highlight",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          },
+          "slot_values": {
+            "statement": "성공한 로컬브랜드는 유명한 자원이 아니라, 지역을 새롭게 해석하는 관점에서 시작합니다."
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "photo-case-card-with-info-table",
+          "bbox_emu": {
+            "x": 1432861,
+            "y": 2762402,
+            "cx": 15422278,
+            "cy": 6988943
+          }
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "intent_id": "program_concept_overview",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-sentence-inline-highlight",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "chevron-step-flow",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2952598,
+            "cx": 16002000,
+            "cy": 4276648
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "accent-bar-panel-two-col-footer",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 7619695,
+            "cx": 16021202,
+            "cy": 2115007
+          },
+          "slot_values": {
+            "label": "핵심 메시지",
+            "message": "캠프에서 발견 · 정의 · 구현하고, 특강과 멘토링을 통해 사업성을 강화합니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "intent_id": "goals_and_kpi",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "full-width-solid-color-band",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2857500,
+            "cx": 9525305,
+            "cy": 418795
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "full-width-solid-color-band",
+          "bbox_emu": {
+            "x": 11048695,
+            "y": 2857500,
+            "cx": 6096305,
+            "cy": 418795
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "accent-bar-vertical-goal-list",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3429000,
+            "cx": 9544507,
+            "cy": 6115507
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "stat-row-list-kpi",
+          "bbox_emu": {
+            "x": 11048695,
+            "y": 3429000,
+            "cx": 6115507,
+            "cy": 6115507
+          },
+          "slot_values": {
+            "heading": "프로그램 운영 성과 관리 지표"
+          }
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "intent_id": "company_profile",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "key-value-profile-card",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2857500,
+            "cx": 5715915,
+            "cy": 6667805
+          },
+          "slot_values": {
+            "eyebrow": "COMPANY PROFILE",
+            "title": "주식회사 브랜드넛",
+            "subtitle": "BRANDNAUT",
+            "watermark_initial": "B",
+            "tags_label": "주요 수행분야"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-short-underline-tick",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 2857500,
+            "cx": 5715000,
+            "cy": 352958
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-step-card-row",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 3429000,
+            "cx": 9924897,
+            "cy": 2686507
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-short-underline-tick",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 6476695,
+            "cx": 5715000,
+            "cy": 352958
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "person-profile-card-row",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 7048195,
+            "cx": 9924898,
+            "cy": 2772461
+          },
+          "slot_values": {
+            "footnote": "* 조직 구성원의 세부 이력 및 참여 인력은 최종 계약 시점의 실제 자료 기준으로 확정하여 제출합니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "intent_id": "track_record",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-sentence-inline-highlight",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-short-underline-tick",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2857500,
+            "cx": 5715000,
+            "cy": 352958
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-short-underline-tick",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 2857500,
+            "cx": 5715000,
+            "cy": 352958
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-step-card-row",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 3429000,
+            "cx": 9905695,
+            "cy": 1733702
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "stat-highlight-card-pair",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3429000,
+            "cx": 5544007,
+            "cy": 1733702
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-short-underline-tick",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 5524805,
+            "cx": 7620610,
+            "cy": 352043
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "column-header-data-table",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 6096305,
+            "cx": 16021202,
+            "cy": 3715207
+          }
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "intent_id": "section_divider",
+      "layout_id": "layout-bare",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "section-numeral-title-panel",
+          "bbox_emu": {
+            "x": 0,
+            "y": 0,
+            "cx": 6096305,
+            "cy": 10287000
+          },
+          "slot_values": {
+            "numeral": "Ⅱ",
+            "title": "사업수행계획",
+            "subtitle_en": "BUSINESS EXECUTION PLAN",
+            "footer_brand": "BRANDNAUT"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 1047902,
+            "cx": 10478110,
+            "cy": 228600
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-node-timeline-flow",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 1714500,
+            "cx": 10478110,
+            "cy": 4476903
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "solid-fill-chip-label",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1904695,
+            "cx": 4953305,
+            "cy": 228600
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 7429500,
+            "cx": 3810305,
+            "cy": 210312
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-agenda-list",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 7905902,
+            "cx": 9906609,
+            "cy": 1371600
+          }
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "intent_id": "program_structure_overview",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2809951,
+            "cx": 7620610,
+            "cy": 210312
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "chevron-step-flow",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3238804,
+            "cx": 16003581,
+            "cy": 6515100
+          },
+          "slot_values": {
+            "tags": "랜딩페이지 · 발표자료 / 사업화 지식 / 상품 · 판매 보완 · 매출구조 보완 / 보고서 · 만족도 결과"
+          }
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "intent_id": "schedule_roadmap",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "milestone-title-value-card-row",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2809951,
+            "cx": 16002000,
+            "cy": 1067105
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 4238244,
+            "cx": 7620610,
+            "cy": 210312
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "gantt-timeline-table",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 4619549,
+            "cx": 16021202,
+            "cy": 5067605
+          },
+          "slot_values": {
+            "corner_header_label": "프로그램 / 구분",
+            "timeline_year_start": "2026",
+            "timeline_year_end": "2027"
+          }
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "intent_id": "recruitment_and_selection",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-short-underline-tick",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2809951,
+            "cx": 5715000,
+            "cy": 352958
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-short-underline-tick",
+          "bbox_emu": {
+            "x": 9525305,
+            "y": 2809951,
+            "cx": 5715000,
+            "cy": 352958
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "icon-caption-card-simple",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3381451,
+            "cx": 8020203,
+            "cy": 5115154
+          },
+          "slot_values": {
+            "heading": "4대 채널을 통해 교내 접근성을 극대화합니다."
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "vertical-funnel-stat-flow",
+          "bbox_emu": {
+            "x": 9525305,
+            "y": 3381451,
+            "cx": 7638898,
+            "cy": 4429354
+          },
+          "slot_values": {
+            "title": "캠프에서 특강·멘토링으로 이어지는 2단계 참여구조",
+            "transition_label": "↓ 선발"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "icon-callout-note",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 8858707,
+            "cx": 16021202,
+            "cy": 743407
+          },
+          "slot_values": {
+            "title": "운영기준 안내",
+            "body": "상기 30명 · 6개 팀은 Brandnaut의 제안 운영기준이며, 최종 참여 규모는 대학과 협의 후 확정합니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "intent_id": "camp_program_overview",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "camp-overview-stat-band",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2879159,
+            "cx": 16002000,
+            "cy": 2937372
+          },
+          "slot_values": {
+            "duration_value": "1박 2일",
+            "duration_caption": "교외 숙박형 · 총 1회 운영",
+            "result_label": "캠프 결과물",
+            "result_headline": "AI 랜딩페이지 & 사업계획 발표자료",
+            "result_caption": "캠프 종료 시 팀별로 다음 결과물을 완성합니다."
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-underline-gradient-wash",
+          "bbox_emu": {
+            "x": 1689239,
+            "y": 5686564,
+            "cx": 5715000,
+            "cy": 352958
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "item-pill-fact-card-grid",
+          "bbox_emu": {
+            "x": 1718193,
+            "y": 6223876,
+            "cx": 14586056,
+            "cy": 3511099
+          }
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "intent_id": "camp_logistics",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "icon-caption-card-with-sublist",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2857500,
+            "cx": 16021202,
+            "cy": 6687007
+          }
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "intent_id": "camp_daily_schedule",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "column-header-data-table",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2857500,
+            "cx": 16021202,
+            "cy": 6877202
+          },
+          "slot_values": {
+            "schedule_rows": "시간|프로그램 / 10:30~11:00|집결·출석 확인 / 11:00~12:00|캠프장 이동 / 12:00~13:00|중식 / 13:00~13:30|오리엔테이션 / 13:30~14:30|로컬크리에이터와 AI / 14:30~15:20|사업 아이디어 정의 / 15:20~15:40|휴식 / 15:40~17:20|AI 랜딩페이지 제작 / 17:20~18:00|발표자료 구성 / 18:00~19:00|석식 / 19:00~20:20|사업계획 발표자료 제작 / 20:20~20:40|결과 공유"
+          }
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "intent_id": "camp_daily_schedule",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "column-header-data-table",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2857500,
+            "cx": 16021202,
+            "cy": 5201107
+          }
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "intent_id": "camp_outputs_and_linkage",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-statement-with-supporting-line",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 657453
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-node-timeline-flow",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2620161,
+            "cx": 16021203,
+            "cy": 7400749
+          },
+          "slot_values": {
+            "footer_note": "캠프 결과물(랜딩페이지 · 발표자료)이 특강 · 집체 멘토링의 학습 대상이자 보완 대상이 되어 후속 실행과제로 연결됩니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "intent_id": "ai_utilization_approach",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "belief-statement-card-with-tags",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2857500,
+            "cx": 4381805,
+            "cy": 6476695
+          },
+          "slot_values": {
+            "label": "PRINCIPLE",
+            "headline": "도구가 아닌 결과물에 집중",
+            "body": "AI 도구는 아이디어를 눈에 보이는 결과물로 빠르게 옮기는 수단으로 활용합니다. 학생은 도구 사용법 학습이 아닌, 자기 아이디어의 사업성 검토와 표현에 집중할 수 있습니다.",
+            "tags_label": "FOCUS"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 5905195,
+            "y": 2952598,
+            "cx": 3810305,
+            "cy": 210312
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "column-header-data-table",
+          "bbox_emu": {
+            "x": 5905195,
+            "y": 3238805,
+            "cx": 11239805,
+            "cy": 5685739
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 9810598,
+            "cx": 14287500,
+            "cy": 210312
+          }
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "intent_id": "lecture_program_overview",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "operations-summary-triptych",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2879159,
+            "cx": 16002000,
+            "cy": 2937372
+          },
+          "slot_values": {
+            "metric_label": "운영 규모",
+            "metric_value": "10회+",
+            "metric_description": "총 10회 이상의 창업특강 운영",
+            "metric_caption": "RFP 기준(집체형 10회) 충족 · 참여 학생 사업화 관점 강화",
+            "items_badge": "LINKED OUTPUTS",
+            "callout_badge": "KEY MESSAGE",
+            "callout_text": "캠프 결과물을 학습 · 검토의 대상으로 삼아, 학생이 자신의 아이디어를 사업 관점에서 다시 바라보게 합니다."
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-underline-gradient-wash",
+          "bbox_emu": {
+            "x": 1689239,
+            "y": 5578840,
+            "cx": 14615010,
+            "cy": 352958
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "item-pill-fact-card-grid",
+          "bbox_emu": {
+            "x": 2016749,
+            "y": 6361362,
+            "cx": 14287500,
+            "cy": 3459722
+          }
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "intent_id": "lecture_curriculum_detail",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2762402,
+            "cx": 3810305,
+            "cy": 210312
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "grouped-header-split-curriculum-table",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3066898,
+            "cx": 16002000,
+            "cy": 7001560
+          }
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "intent_id": "mentoring_program_overview",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "operations-summary-triptych",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2879159,
+            "cx": 16002000,
+            "cy": 2937372
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-underline-gradient-wash",
+          "bbox_emu": {
+            "x": 1689239,
+            "y": 5578840,
+            "cx": 5715000,
+            "cy": 352958
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 14111978,
+            "y": 5613565,
+            "cx": 2192271,
+            "cy": 305410
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "content-card-with-icon-grid",
+          "bbox_emu": {
+            "x": 12090972,
+            "y": 6116151,
+            "cx": 4213277,
+            "cy": 3439917
+          },
+          "slot_values": {
+            "eyebrow": "ITEM · CORE CONTENT",
+            "title": "내용 · 팀별 사업화 과제 보완"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "item-pill-fact-card-grid",
+          "bbox_emu": {
+            "x": 1718193,
+            "y": 6116153,
+            "cx": 14586056,
+            "cy": 3704931
+          },
+          "slot_values": {
+            "footnote": "* 팀 간 상호학습 효과를 살리면서, 팀별 순회 코칭으로 사업화 과제를 개별 적용합니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "intent_id": "mentoring_curriculum_detail",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2762402,
+            "cx": 3810305,
+            "cy": 210312
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "grouped-header-split-curriculum-table",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3047695,
+            "cx": 16021202,
+            "cy": 7020763
+          },
+          "slot_values": {
+            "column_header_round": "회차",
+            "column_header_topic": "주제",
+            "column_header_application": "팀별 적용",
+            "footer_note": "회차별 공통 학습과 팀별 적용을 반복하며, 마지막 회차에는 발표자료와 실행계획으로 성과를 정리합니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "intent_id": "program_progression_summary",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1809598,
+            "cx": 16002000,
+            "cy": 381305
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2762402,
+            "cx": 3810305,
+            "cy": 210312
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "lane-swimlane-flow",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3066898,
+            "cx": 16021202,
+            "cy": 7001560
+          },
+          "slot_values": {
+            "footnote": "캠프의 결과물이 특강에서 검토 대상이 되고, 집체 멘토링에서 팀별 사업화 과제로 구체화됩니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "intent_id": "section_divider",
+      "layout_id": "layout-bare",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "solid-fill-chip-label",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1904695,
+            "cx": 4953305,
+            "cy": 695858
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "section-numeral-title-panel",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2952598,
+            "cx": 4953305,
+            "cy": 6783019
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-short-underline-tick",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 3047695,
+            "cx": 10478110,
+            "cy": 409651
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "multi-line-key-message-statement",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 3810305,
+            "cx": 10478110,
+            "cy": 1476756
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-agenda-list",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 7048195,
+            "cx": 9906609,
+            "cy": 1371600
+          }
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "intent_id": "team_organization",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1857146,
+            "cx": 16002000,
+            "cy": 743407
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "ruled-top-line-header",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3334307,
+            "cx": 16002000,
+            "cy": 370842
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "role-matrix-table",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 4000500,
+            "cx": 16021202,
+            "cy": 5438852
+          },
+          "slot_values": {
+            "summary_caption": "◇ 의사결정은 총괄책임으로 일원화하고, ◇ 현장 운영은 실무책임 + 현장지원이 지속 점검하며, ◇ 교육·멘토링은 분야별 전문가가 탄력 투입되는 구조입니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "intent_id": "communication_plan",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1857146,
+            "cx": 16002000,
+            "cy": 743407
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3715207,
+            "cx": 16002000,
+            "cy": 181051
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-node-timeline-flow",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 4962449,
+            "cx": 16002000,
+            "cy": 2486253
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "accent-bar-note-panel",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 8096098,
+            "cx": 16059607,
+            "cy": 1143000
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "soft-tint-highlight-band",
+          "bbox_emu": {
+            "x": 1524305,
+            "y": 8382305,
+            "cx": 15240305,
+            "cy": 162763
+          }
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "intent_id": "instructor_selection_and_quality",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1857146,
+            "cx": 16002000,
+            "cy": 743407
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "ruled-top-line-header",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3239210,
+            "cx": 16002000,
+            "cy": 370841
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "large-number-fact-card-grid",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3905402,
+            "cx": 16021203,
+            "cy": 4114801
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "accent-bar-note-panel",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 8382305,
+            "cx": 16002000,
+            "cy": 1047902
+          }
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "intent_id": "onsite_operations_management",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1857146,
+            "cx": 16002000,
+            "cy": 743407
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3429000,
+            "cx": 10478110,
+            "cy": 181051
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 12191695,
+            "y": 3429000,
+            "cx": 4953305,
+            "cy": 152705
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "key-value-profile-card",
+          "bbox_emu": {
+            "x": 12382805,
+            "y": 3905402,
+            "cx": 4762195,
+            "cy": 5143500
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "two-column-badge-workflow-list",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3905402,
+            "cx": 10877702,
+            "cy": 5162702
+          },
+          "slot_values": {
+            "header_label": "OPERATIONS WORKFLOW · 참여자 여정 7단계"
+          }
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "intent_id": "safety_and_risk_management",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1857146,
+            "cx": 16002000,
+            "cy": 743407
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "label-with-pill-tag-row",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3143707,
+            "cx": 16002000,
+            "cy": 590702
+          },
+          "slot_values": {
+            "category_label": "SAFETY SCOPE",
+            "category_sublabel": "점검 영역 · 4"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "large-number-fact-card-grid",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 4048049,
+            "cx": 16021203,
+            "cy": 3448202
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "two-column-accent-panel-comparison",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 7905902,
+            "cx": 16002000,
+            "cy": 1524305
+          },
+          "slot_values": {
+            "header_label": "SAFETY FRAMEWORK · 사전 점검 → 상황별 대응"
+          }
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "intent_id": "quality_progress_management",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1857146,
+            "cx": 16002000,
+            "cy": 743407
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "column-header-data-table",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3239210,
+            "cx": 16021202,
+            "cy": 6171795
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3429000,
+            "cx": 16002000,
+            "cy": 181051
+          }
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "intent_id": "reporting_structure",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1857146,
+            "cx": 16002000,
+            "cy": 743407
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3429000,
+            "cx": 16002000,
+            "cy": 181051
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-node-timeline-flow",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3905402,
+            "cx": 16002914,
+            "cy": 3638398
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "accent-bar-note-panel",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 7905902,
+            "cx": 16077895,
+            "cy": 1429207
+          },
+          "slot_values": {
+            "note": "보고 단계 · 시점 · 내용은 RFP 보고체계를 충족하며, 각 보고 자료는 회차별 점검 결과(33p)와 함께 총괄책임 최종 검토 후 발주처에 제출됩니다."
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "soft-tint-highlight-band",
+          "bbox_emu": {
+            "x": 1524305,
+            "y": 8143646,
+            "cx": 15430500,
+            "cy": 162763
+          }
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "intent_id": "section_divider",
+      "layout_id": "layout-bare",
+      "occurrences": [
+        {
+          "kind": "adornment",
+          "id": "solid-fill-chip-label",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1904695,
+            "cx": 4953305,
+            "cy": 695858
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "section-numeral-title-panel",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 2952598,
+            "cx": 4953305,
+            "cy": 6783019
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "kicker-short-underline-tick",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 3047695,
+            "cx": 10478110,
+            "cy": 409651
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "key-message-with-numbered-list",
+          "bbox_emu": {
+            "x": 7239305,
+            "y": 3810305,
+            "cx": 10478110,
+            "cy": 4609490
+          },
+          "slot_values": {
+            "key_message": "과업 수행을 넘어, 대학이 지속적으로 활용할 수 있는 운영성과를 제공합니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "intent_id": "differentiation_and_requests",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1857146,
+            "cx": 16002000,
+            "cy": 743407
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3429000,
+            "cx": 16002000,
+            "cy": 181051
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "titled-bullet-list-panel",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3905402,
+            "cx": 8382305,
+            "cy": 5333695
+          },
+          "slot_values": {
+            "eyebrow": "PROPOSITION 01",
+            "title": "추가제안",
+            "subtitle": "표준화된 운영자료와 프로그램 간 연결성으로 활용도를 높이는 추가 가치",
+            "footnote": "◇ 표준화된 운영자료 양식으로 일관성 확보 · 사업성과의 활용도 + 활용 사례의 축적"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "titled-bullet-list-panel",
+          "bbox_emu": {
+            "x": 9905695,
+            "y": 3905402,
+            "cx": 7258507,
+            "cy": 5352898
+          },
+          "slot_values": {
+            "eyebrow": "PROPOSITION 01",
+            "title": "추가제안",
+            "subtitle": "표준화된 운영자료와 프로그램 간 연결성으로 활용도를 높이는 추가 가치",
+            "footnote": "◇ 표준화된 운영자료 양식으로 일관성 확보 · 사업성과의 활용도 + 활용 사례의 축적"
+          }
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "intent_id": "data_protection_plan",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1857146,
+            "cx": 16002000,
+            "cy": 352958
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "ruled-top-line-header",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3144112,
+            "cx": 16002000,
+            "cy": 370841
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "column-header-data-table",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3810305,
+            "cx": 16021202,
+            "cy": 5447995
+          }
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "intent_id": "expected_outcomes",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1857146,
+            "cx": 16002000,
+            "cy": 743407
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "before-after-comparison-table",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3238805,
+            "cx": 16002000,
+            "cy": 4895697
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "accent-bar-stat-card-row",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 8382305,
+            "cx": 16002000,
+            "cy": 1057046
+          }
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "intent_id": "closing_commitment",
+      "layout_id": "layout-body",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lead-paragraph-statement",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 1857146,
+            "cx": 16002000,
+            "cy": 743407
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "bare-label-no-rule",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3524098,
+            "cx": 16002000,
+            "cy": 181051
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "large-number-fact-card-grid",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 3952951,
+            "cx": 16021203,
+            "cy": 2447849
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "closing-statement-panel",
+          "bbox_emu": {
+            "x": 1143000,
+            "y": 6762902,
+            "cx": 16002000,
+            "cy": 2857500
+          },
+          "slot_values": {
+            "headline": "Discover Daejeon, Design Business",
+            "subheadline": "대전을 발견하고, 로컬의 미래를 설계합니다.",
+            "signoff_name": "Brandnaut · 사업책임 박찬우",
+            "contact_line": "사업수행 문의 brandnaut@brandnaut.xyz"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "full-width-solid-color-band",
+          "bbox_emu": {
+            "x": 1714500,
+            "y": 7048195,
+            "cx": 14097305,
+            "cy": 133502
+          }
+        }
+      ]
+    }
+  ]
+}
