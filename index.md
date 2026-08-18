@@ -1,6 +1,6 @@
 # 브랜드넛 위키 — index
 
-갱신: 2026-08-04
+갱신: 2026-08-18
 
 ## 프로필
 
@@ -8,6 +8,9 @@
 
 ## 최근 원자료
 
+- `sources/company/brandnut-general-proposal-v7-2026-08-18.pptx` — 브랜드넛 최신 범용 제안서 v7(완), 유저 직접 업로드
+- `sources/bids/r26bk01678617/notice-hoseo-asan-venture-forum-2026-08-18.pdf` — R26BK01678617 입찰공고문 원문(재공고)
+- `sources/bids/r26bk01678617/task-order-hoseo-asan-venture-forum-2026-08-18.pdf` — R26BK01678617 과업지시서(제안요청서) 원문
 - `sources/interviews/interview-r26bd00254383-2026-08-04.json` — R26BD00254383 S1 전략 인터뷰 원문(10턴)
 - `sources/bids/r26bd00254383/rfp-knu-daegu-anchor-startup-idea-2026-08-04.pdf` — 제안요청서 원문
 - `sources/company/silla-university-startup-camp-task-order-2026-07-22.pdf` — 신라대학교 RISE사업단 창업캠프 과업지시서
@@ -32,3 +35,4 @@
 | 공고 | 상태 | 판정 | 결과 |
 |---|---|---|---|
 | [R26BD00254383](bids/R26BD00254383.md) — KNU 대구앵커 청년연구자 창업아이디어 경진대회 (경북대, 7,500만) | active (사전규격 — 본공고 대기) | go | — |
+| [R26BK01678617](bids/R26BK01678617.md) — 앵커사업단 아산 스타트업 벤처포럼 프로그램 운영 (호서대, 6,000만, 재공고) | active | 미정 | — |
