@@ -21,7 +21,7 @@ sources:
   - sources/company/meeting-weekly-2026-07-31.md
   - sources/interviews/interview-r26bd00254383-2026-08-04.json
   - sources/company/brandnut-business-registration-certificate-2026-08-19.pdf
-status: "주간 미팅 1회차 완료 — 업종코드·직접생산확인 보유 미확인 상태 유지, 즉시 취득 업종 일괄 신청 합의, 첫 Go 공고(R26BD00254383) 확정. 과거 수의계약 레퍼런스 자료 3건 흡수 — 법인 실적 귀속·계약 증빙 확인 필요. R26BD00254383 전략 인터뷰(2026-08-04) 흡수 — 팀 창업 이력·정량 실적 대응 전략 보강. 사업자등록증 원본 흡수(2026-08-19) — 개업일 2025-04-04 등 법인 기본 정보 확정, 나라장터 입찰참가자격등록 완료로 정정, 직접생산확인은 용역 입찰 비대상임을 명확화"
+status: "주간 미팅 1회차 완료 — 업종코드·직접생산확인 보유 미확인 상태 유지, 즉시 취득 업종 일괄 신청 합의, 첫 Go 공고(R26BD00254383) 확정. 과거 수의계약 레퍼런스 자료 3건 흡수 — 법인 실적 귀속·계약 증빙 확인 필요. R26BD00254383 전략 인터뷰(2026-08-04) 흡수 — 팀 창업 이력·정량 실적 대응 전략 보강. 사업자등록증 원본 흡수(2026-08-19) — 개업일 2025-04-04 등 법인 기본 정보 확정, 나라장터 입찰참가자격등록 완료로 정정, 직접생산확인은 용역 입찰 비대상임을 명확화. R26BK01680964 전략 인터뷰(interview-end, 2026-08-19) 흡수 — 자체 BM 진단·피봇팅 방법론(CPF→PSF→SPF→PMF) 및 내부 직접수행 역량·기자 네트워크를 §4에, 실제 피봇팅 지원 정량 실적 2건(증빙 대기, confidence low)을 §3에 추가"
 ---
 
 # 브랜드넛 — profile
@@ -59,6 +59,8 @@ Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우,
 - 자체 정리한 수행 실적 시트를 보유하나 실적증명서는 전부 발급받지 못한 상태다. 필요 시 발급 요청 가능한 건들이며, 시트를 전달해 위키에 축적하기로 합의했다. [출처: `sources/company/meeting-weekly-2026-07-31.md` §7, 수집 2026-07-31, confidence: medium — 시트 수령 시 상향]
 - 브랜드넛 사업자 명의의 축제·행사 수행 실적은 없으나 수행 경험은 있다고 밝혔다 (유사 카테고리 확장 후보 근거). [출처: `sources/company/meeting-weekly-2026-07-31.md` §5, 수집 2026-07-31, confidence: medium]
 - 신라대학교·대전대학교 창업캠프의 참가자 만족도 및 후속 창업·투자 전환율에 대한 정량 데이터를 보유 중이라고 밝혔다. 구체 수치는 자료 확인 후 추후 확정하기로 함 — 수치 미제시 상태의 실적 주장이라 자료 수령 전까지 낮은 확신도로 기록. [출처: `sources/interviews/interview-r26bd00254383-2026-08-04.json` 4~5턴, 수집 2026-08-04, confidence: low — 수치 미제시, 증빙 없는 실적 주장]
+- AI 스타트업의 B2B SaaS→B2C AI 서비스 피봇을 브랜드넛 방법론으로 지원, 3주 만에 첫 사전신청 발생·매출 약 200만 원을 달성했다고 밝혔다(업체명 비공개, 수치는 공개 가능한 사례). 증빙 문서는 아직 없다. [출처: harness 전략 인터뷰 4~5턴 (project: sejong-nexus-scaleup-pivoting-2026, framework_3c.json company co31), 수집 2026-08-19, confidence: low — 원문 미흡수, 증빙 없는 실적·수치 주장]
+- 탈모 관련 제품을 오프라인 채널에서 와디즈 등 크라우드펀딩 채널로 전환시켜, 2회 도합 약 3,900만 원 펀딩을 달성했다고 밝혔다. 증빙 문서는 아직 없다. [출처: harness 전략 인터뷰 5턴 (project: sejong-nexus-scaleup-pivoting-2026, framework_3c.json company co33), 수집 2026-08-19, confidence: low — 원문 미흡수, 증빙 없는 실적·수치 주장]
 
 ## 4. 역량·자산 (Capability)
 
@@ -68,6 +70,8 @@ Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우,
 - 고객 제공 과업지시서에서 숙박형 캠프의 장소·숙소·식사·이동 동선, 참가자 명단·팀 편성, 비상 연락망, 야간 활동과 현장 탐방 안전, 여행자보험, 운영물품 제작, 사진·만족도·예산 집행을 포함한 전 과정 운영 범위가 확인된다. [출처: `sources/company/silla-university-startup-camp-task-order-2026-07-22.pdf`, `sources/company/daejeon-university-technology-startup-camp-task-order-2026-07-22.pdf`, 수집 2026-07-22, confidence: medium]
 - 교육 내용은 창업 입문·기술창업·로컬 창업·고객개발·가치제안 검증·MVP·피칭까지 확장 가능하며, 결과물로 사업계획서·피치덱·고객검증 자료·미션지·심사표·만족도·운영기록·최종 결과보고서를 설계할 수 있다. [출처: `sources/company/silla-university-startup-camp-task-order-2026-07-22.pdf`, `sources/company/daejeon-university-technology-startup-camp-task-order-2026-07-22.pdf`, `sources/company/smallsteps-scout-boost-startup-program-proposal-2026-07-22.pdf`, 수집 2026-07-22, confidence: medium]
 - 팀 대표·핵심인력 전원이 실제 창업·운영 이력(회사명·업종·기간 구체화 가능)을 보유하고, 투자유치·수상·정부과제 선정 등 외부 검증 이력도 함께 보유하고 있다고 밝혔다. [출처: `sources/interviews/interview-r26bd00254383-2026-08-04.json` 3~4턴, 수집 2026-08-04, confidence: medium]
+- 자체 진단·피봇팅 방법론을 보유한다고 밝혔다 — CUSTOMER-PROBLEM FIT(CPF)→PROBLEM-SOLUTION FIT(PSF)→SOLUTION-PROBLEM FIT(SPF)→PRODUCT-MARKET FIT(PMF) 4단계 프레임워크로 비즈니스모델캔버스(BMC)를 칸별로 채우며 버전을 업그레이드해 PMF에 도달시키는 방식이다. A/B 테스트 설계·실행·지표 해석 방법을 참여기업에 직접 교육하고 그 결과로 BMC를 고도화하며, 최종 산출물은 세콰이어캐피탈 사업계획서 양식에 맞춘 사업계획과 목표 매출 마일스톤이다. 단계별로 어려워하는 기업에는 필드 인터뷰에 직접 동행한다. [출처: harness 전략 인터뷰 3턴 (project: sejong-nexus-scaleup-pivoting-2026, framework_3c.json company co30/co34/co35/co36/co37), 수집 2026-08-19, confidence: medium — 원문 미흡수, 인터뷰 진술]
+- 집체교육·기업진단·1:1컨설팅·시제품 실험을 외부 위탁 없이 내부 인력으로 직접 수행 가능하며, 기자 네트워크를 보유해 보도자료 게재를 확보할 수 있다고 밝혔다. [출처: harness 전략 인터뷰 1턴 (project: sejong-nexus-scaleup-pivoting-2026, framework_3c.json company co27/co28), 수집 2026-08-19, confidence: medium — 원문 미흡수, 인터뷰 진술]
 
 ## 5. 레퍼런스 (References)
 
