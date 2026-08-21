@@ -1,6 +1,6 @@
 # 브랜드넛 위키 — index
 
-갱신: 2026-08-19
+갱신: 2026-08-21
 
 ## 프로필
 
@@ -12,6 +12,10 @@
 - `sources/bids/r26bk01678617/notice-hoseo-asan-venture-forum-2026-08-18.pdf` — R26BK01678617 입찰공고문 원문(재공고)
 - `sources/bids/r26bk01678617/task-order-hoseo-asan-venture-forum-2026-08-18.pdf` — R26BK01678617 과업지시서(제안요청서) 원문
 - `sources/interviews/interview-r26bk01678617-2026-08-18.json` — R26BK01678617 S1 전략 인터뷰 원문(6턴)
+
+- [profile.md](profile.md) — 회사 자료·미팅 기록·Cliwant 업체 상세·과거 수의계약 레퍼런스 자료 3건(2026-07-22)·킥오프(2026-07-23)·주간 미팅 1회차(2026-07-31)·R26BD00254383 전략 인터뷰(2026-08-04) 흡수. 업종·직생 미보유 확정, 즉시 취득 업종 일괄 신청 합의, 실적 시트 수령 대기, 법인별 실적 증빙 확인 필요. 팀 창업 이력·정량 실적 대응 전략 보강. §8 창업 경진 대회 섹터 가설에 나라장터 개찰 데이터 기반 유찰 사례(시장 구조 관찰) 추가(2026-08-21)
+
+- `sources/interviews/cliwant-rehearsal-r26bd00254383-2026-08-01.md` — 2026-08-01 클라이원트 사전 리허설 인터뷰 로그 (08-04 고객 확정 인터뷰의 선행 가설 기록, 이력 보관 — 경쟁사 실측 데이터의 조회 세션 출처)
 - `sources/interviews/interview-r26bd00254383-2026-08-04.json` — R26BD00254383 S1 전략 인터뷰 원문(10턴)
 - `sources/bids/r26bd00254383/rfp-knu-daegu-anchor-startup-idea-2026-08-04.pdf` — 제안요청서 원문
 - `sources/company/silla-university-startup-camp-task-order-2026-07-22.pdf` — 신라대학교 RISE사업단 창업캠프 과업지시서
