@@ -1,0 +1,5570 @@
+{
+  "meta": {
+    "source_template": "2026.7.31_배재대학교_로컬크리에이터 양성_제안서.pptx",
+    "slide_emu": {
+      "w": 18288000,
+      "h": 10287000
+    },
+    "schema_version": 6
+  },
+  "intents": [
+    {
+      "id": "cover",
+      "name": "표지",
+      "description": "제안서의 제목, 부제, 제출처·제안사·제출일 정보를 담은 표지 슬라이드.",
+      "allowed_variant_ids": [
+        "cover-submission-footer",
+        "cover-title-block",
+        "fullbleed-background-pattern",
+        "hero-circular-photo"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-bare",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "toc"
+      ]
+    },
+    {
+      "id": "toc",
+      "name": "목차",
+      "description": "제안서 전체 구성과 섹션별 평가배점을 안내하는 목차 슬라이드.",
+      "allowed_variant_ids": [
+        "lead-statement-with-supporting-line",
+        "toc-section-summary-card-grid"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-bare",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "cover",
+        "section_divider"
+      ]
+    },
+    {
+      "id": "section_divider",
+      "name": "섹션 간지",
+      "description": "새 섹션의 시작을 알리며 핵심 메시지와 하위 목차를 요약해 제시하는 간지 슬라이드.",
+      "allowed_variant_ids": [
+        "key-message-with-numbered-list",
+        "multi-line-key-message-statement",
+        "numbered-agenda-list",
+        "numbered-node-timeline-flow",
+        "section-numeral-title-panel"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-bare",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "differentiation_and_requests",
+        "problem_context",
+        "program_progression_summary",
+        "program_structure_overview",
+        "reporting_structure",
+        "team_organization",
+        "toc",
+        "track_record"
+      ]
+    },
+    {
+      "id": "problem_context",
+      "name": "사업 이해 및 추진 필요성",
+      "description": "사업 추진 배경과 현재 지역 문제, 필요한 변화, 대학의 역할을 진단·정의하는 슬라이드.",
+      "allowed_variant_ids": [
+        "lane-swimlane-flow",
+        "lead-statement-with-supporting-line"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "concept_definition",
+        "section_divider"
+      ]
+    },
+    {
+      "id": "concept_definition",
+      "name": "핵심 개념 정의",
+      "description": "로컬크리에이터라는 핵심 개념을 정의하고 그 정책적 의미를 설명하는 슬라이드.",
+      "allowed_variant_ids": [
+        "definition-comparison-card-pair",
+        "lead-paragraph-statement",
+        "numbered-step-card-row"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "problem_context",
+        "trend_and_direction"
+      ]
+    },
+    {
+      "id": "trend_and_direction",
+      "name": "트렌드 및 교육방향",
+      "description": "관련 트렌드의 변화 양상을 정리하고 이에 대응하는 교육 방향을 제시하는 슬라이드.",
+      "allowed_variant_ids": [
+        "accent-bar-note-panel",
+        "before-after-comparison-table",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "case_studies",
+        "concept_definition"
+      ]
+    },
+    {
+      "id": "case_studies",
+      "name": "국내외 사례 소개",
+      "description": "성공적인 로컬브랜딩 사례를 소개하고 대전 지역에 적용할 시사점을 도출하는 슬라이드.",
+      "allowed_variant_ids": [
+        "lead-sentence-inline-highlight",
+        "photo-case-card-with-info-table"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "program_concept_overview",
+        "trend_and_direction"
+      ]
+    },
+    {
+      "id": "program_concept_overview",
+      "name": "프로그램 핵심 콘셉트",
+      "description": "프로그램 전체를 관통하는 핵심 성장전략·콘셉트 프레임워크를 소개하는 슬라이드.",
+      "allowed_variant_ids": [
+        "accent-bar-panel-two-col-footer",
+        "chevron-step-flow",
+        "lead-sentence-inline-highlight"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "case_studies",
+        "goals_and_kpi"
+      ]
+    },
+    {
+      "id": "goals_and_kpi",
+      "name": "추진목표 및 KPI",
+      "description": "사업의 추진목표와 이를 측정할 제안 KPI(성과지표)를 제시하는 슬라이드.",
+      "allowed_variant_ids": [
+        "accent-bar-vertical-goal-list",
+        "lead-paragraph-statement",
+        "stat-row-list-kpi"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "company_profile",
+        "program_concept_overview"
+      ]
+    },
+    {
+      "id": "company_profile",
+      "name": "제안사 일반현황",
+      "description": "제안사의 사업영역, 대표자, 설립일 등 일반현황과 조직·인력 개요를 소개하는 슬라이드.",
+      "allowed_variant_ids": [
+        "key-value-profile-card",
+        "lead-paragraph-statement",
+        "numbered-step-card-row",
+        "person-profile-card-row"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "goals_and_kpi",
+        "track_record"
+      ]
+    },
+    {
+      "id": "track_record",
+      "name": "수행실적 및 전문성",
+      "description": "특정 지역·분야에서의 과거 수행실적과 관련 전문성을 증빙과 함께 제시하는 슬라이드.",
+      "allowed_variant_ids": [
+        "column-header-data-table",
+        "lead-sentence-inline-highlight",
+        "numbered-step-card-row",
+        "stat-highlight-card-pair"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "company_profile",
+        "section_divider"
+      ]
+    },
+    {
+      "id": "program_structure_overview",
+      "name": "전체 프로그램 운영체계",
+      "description": "여러 하위 프로그램이 하나의 아이디어를 어떻게 단계적으로 발전시키는지 전체 흐름을 보여주는 슬라이드.",
+      "allowed_variant_ids": [
+        "chevron-step-flow",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "schedule_roadmap",
+        "section_divider"
+      ]
+    },
+    {
+      "id": "schedule_roadmap",
+      "name": "추진일정 로드맵",
+      "description": "사업 전체 기간의 마일스톤과 월별 세부 추진일정을 제시하는 슬라이드.",
+      "allowed_variant_ids": [
+        "gantt-timeline-table",
+        "lead-paragraph-statement",
+        "milestone-title-value-card-row"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "program_structure_overview",
+        "recruitment_and_selection"
+      ]
+    },
+    {
+      "id": "recruitment_and_selection",
+      "name": "참여자 모집 및 선발",
+      "description": "참여자 모집 채널·홍보 방법과 단계별 선발 기준·인원을 설명하는 슬라이드.",
+      "allowed_variant_ids": [
+        "icon-callout-note",
+        "icon-caption-card-simple",
+        "lead-paragraph-statement",
+        "vertical-funnel-stat-flow"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "camp_program_overview",
+        "schedule_roadmap"
+      ]
+    },
+    {
+      "id": "camp_program_overview",
+      "name": "캠프 운영개요",
+      "description": "캠프 프로그램의 참여규모·기간·형태·결과물 등 운영개요를 요약하는 슬라이드.",
+      "allowed_variant_ids": [
+        "camp-overview-stat-band",
+        "item-pill-fact-card-grid",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "camp_logistics",
+        "recruitment_and_selection"
+      ]
+    },
+    {
+      "id": "camp_logistics",
+      "name": "캠프 공간·이동·숙박·식사",
+      "description": "캠프 운영에 필요한 공간·이동·숙박·식사 등 물리적 운영 지원사항을 상세히 설명하는 슬라이드.",
+      "allowed_variant_ids": [
+        "icon-caption-card-with-sublist",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "camp_daily_schedule",
+        "camp_program_overview"
+      ]
+    },
+    {
+      "id": "camp_daily_schedule",
+      "name": "캠프 일자별 세부일정",
+      "description": "캠프 각 일차의 시간대별 세부 프로그램 진행표를 제시하는 슬라이드.",
+      "allowed_variant_ids": [
+        "column-header-data-table",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "camp_logistics",
+        "camp_outputs_and_linkage"
+      ]
+    },
+    {
+      "id": "camp_outputs_and_linkage",
+      "name": "캠프 결과물 및 후속 연계",
+      "description": "캠프에서 도출된 결과물이 이후 프로그램(특강·멘토링)으로 어떻게 연결되는지 설명하는 슬라이드.",
+      "allowed_variant_ids": [
+        "lead-statement-with-supporting-line",
+        "numbered-node-timeline-flow"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "ai_utilization_approach",
+        "camp_daily_schedule"
+      ]
+    },
+    {
+      "id": "ai_utilization_approach",
+      "name": "AI 활용방안",
+      "description": "프로그램 내 AI 도구 활용 원칙과 단계별 활용 방식·산출물을 설명하는 슬라이드.",
+      "allowed_variant_ids": [
+        "belief-statement-card-with-tags",
+        "column-header-data-table",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "camp_outputs_and_linkage",
+        "lecture_program_overview"
+      ]
+    },
+    {
+      "id": "lecture_program_overview",
+      "name": "특강 운영개요",
+      "description": "창업특강 프로그램의 운영규모·기준·연계 결과물 등 개요를 제시하는 슬라이드.",
+      "allowed_variant_ids": [
+        "item-pill-fact-card-grid",
+        "lead-paragraph-statement",
+        "operations-summary-triptych"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "ai_utilization_approach",
+        "lecture_curriculum_detail"
+      ]
+    },
+    {
+      "id": "lecture_curriculum_detail",
+      "name": "특강 회차별 세부내용",
+      "description": "창업특강 각 회차의 주제와 학습흐름을 단계별로 상세히 나열하는 슬라이드.",
+      "allowed_variant_ids": [
+        "grouped-header-split-curriculum-table",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "lecture_program_overview",
+        "mentoring_program_overview"
+      ]
+    },
+    {
+      "id": "mentoring_program_overview",
+      "name": "멘토링 운영방향",
+      "description": "집체 멘토링 프로그램의 운영규모·진행흐름·운영기준 등 전반적 방향을 제시하는 슬라이드.",
+      "allowed_variant_ids": [
+        "content-card-with-icon-grid",
+        "item-pill-fact-card-grid",
+        "lead-paragraph-statement",
+        "operations-summary-triptych"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "lecture_curriculum_detail",
+        "mentoring_curriculum_detail"
+      ]
+    },
+    {
+      "id": "mentoring_curriculum_detail",
+      "name": "멘토링 회차별 세부내용",
+      "description": "집체 멘토링 각 회차의 주제와 팀별 적용 활동을 상세히 나열하는 슬라이드.",
+      "allowed_variant_ids": [
+        "grouped-header-split-curriculum-table",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "mentoring_program_overview",
+        "program_progression_summary"
+      ]
+    },
+    {
+      "id": "program_progression_summary",
+      "name": "프로그램별 발전과정 요약",
+      "description": "캠프·특강·멘토링 세 프로그램이 유기적으로 이어지는 발전 트랙을 종합 정리하는 슬라이드.",
+      "allowed_variant_ids": [
+        "lane-swimlane-flow",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "mentoring_curriculum_detail",
+        "section_divider"
+      ]
+    },
+    {
+      "id": "team_organization",
+      "name": "수행조직 및 역할분담",
+      "description": "사업 수행을 위한 인력 구성과 역할별 담당업무·의사결정 구조를 설명하는 슬라이드.",
+      "allowed_variant_ids": [
+        "lead-paragraph-statement",
+        "role-matrix-table"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "communication_plan",
+        "section_divider"
+      ]
+    },
+    {
+      "id": "communication_plan",
+      "name": "발주처 협의 및 의사소통",
+      "description": "발주처(대학)와의 단계별 협의·보고 커뮤니케이션 흐름과 원칙을 설명하는 슬라이드.",
+      "allowed_variant_ids": [
+        "accent-bar-note-panel",
+        "lead-paragraph-statement",
+        "numbered-node-timeline-flow"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "instructor_selection_and_quality",
+        "team_organization"
+      ]
+    },
+    {
+      "id": "instructor_selection_and_quality",
+      "name": "강사·멘토 선정 및 품질관리",
+      "description": "강사·멘토를 선정하는 심사 기준과 이를 통한 품질관리 체계를 설명하는 슬라이드.",
+      "allowed_variant_ids": [
+        "accent-bar-note-panel",
+        "large-number-fact-card-grid",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "communication_plan",
+        "onsite_operations_management"
+      ]
+    },
+    {
+      "id": "onsite_operations_management",
+      "name": "참여자 및 현장 운영관리",
+      "description": "참여자 신청부터 수료까지 전 과정의 현장 운영 영역과 담당 역할을 매트릭스로 제시하는 슬라이드.",
+      "allowed_variant_ids": [
+        "key-value-profile-card",
+        "lead-paragraph-statement",
+        "two-column-badge-workflow-list"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "instructor_selection_and_quality",
+        "safety_and_risk_management"
+      ]
+    },
+    {
+      "id": "safety_and_risk_management",
+      "name": "안전 및 비상대응",
+      "description": "이동·숙박·식사·교육 전반의 위험요소 사전점검과 상황별 비상대응 체계를 설명하는 슬라이드.",
+      "allowed_variant_ids": [
+        "label-with-pill-tag-row",
+        "large-number-fact-card-grid",
+        "lead-paragraph-statement",
+        "two-column-accent-panel-comparison"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "onsite_operations_management",
+        "quality_progress_management"
+      ]
+    },
+    {
+      "id": "quality_progress_management",
+      "name": "품질·진도·결과물 관리",
+      "description": "일정·진도·품질·결과물·증빙 등 영역별 관리방법과 확인자료를 매트릭스로 제시하는 슬라이드.",
+      "allowed_variant_ids": [
+        "column-header-data-table",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "reporting_structure",
+        "safety_and_risk_management"
+      ]
+    },
+    {
+      "id": "reporting_structure",
+      "name": "보고체계",
+      "description": "착수·진도·중간·최종 등 단계별 보고의 시점과 내용을 RFP 기준에 맞춰 정리하는 슬라이드.",
+      "allowed_variant_ids": [
+        "accent-bar-note-panel",
+        "lead-paragraph-statement",
+        "numbered-node-timeline-flow"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "quality_progress_management",
+        "section_divider"
+      ]
+    },
+    {
+      "id": "differentiation_and_requests",
+      "name": "차별화 제안 및 협조요청",
+      "description": "제안사의 추가 차별화 가치를 제시하고 원활한 운영을 위해 대학 측에 요청하는 협조사항을 정리하는 슬라이드.",
+      "allowed_variant_ids": [
+        "lead-paragraph-statement",
+        "titled-bullet-list-panel"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "data_protection_plan",
+        "section_divider"
+      ]
+    },
+    {
+      "id": "data_protection_plan",
+      "name": "정보보호 및 개인정보보호",
+      "description": "개인정보의 수집부터 파기까지 생애주기별 보호·관리 방안을 설명하는 슬라이드.",
+      "allowed_variant_ids": [
+        "column-header-data-table",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "differentiation_and_requests",
+        "expected_outcomes"
+      ]
+    },
+    {
+      "id": "expected_outcomes",
+      "name": "기대효과",
+      "description": "사업 참여 전후의 변화를 대비하여 보여주고 학생·대학·지역 각 주체별 기대효과를 정리하는 슬라이드.",
+      "allowed_variant_ids": [
+        "accent-bar-stat-card-row",
+        "before-after-comparison-table",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "closing_commitment",
+        "data_protection_plan"
+      ]
+    },
+    {
+      "id": "closing_commitment",
+      "name": "수행 약속 및 마무리",
+      "description": "사업 수행에 대한 핵심 약속사항을 제시하며 제안서를 마무리하는 클로징 슬라이드.",
+      "allowed_variant_ids": [
+        "closing-statement-panel",
+        "large-number-fact-card-grid",
+        "lead-paragraph-statement"
+      ],
+      "layout_affinity": [
+        {
+          "layout_id": "layout-body",
+          "frequency": 1.0
+        }
+      ],
+      "cooccurs_with": [
+        "expected_outcomes"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "lead-paragraph-statement",
+      "name": "Lead Paragraph Statement",
+      "description": "Single-shape intro/lead sentence text block (one or two lines when wrapped), no box, rule, or icon",
+      "size_emu": {
+        "w": 16002000,
+        "h": 800100
+      },
+      "artifacts": {
+        "shapes": "variants/lead-paragraph-statement/shapes.xml",
+        "preview": "variants/lead-paragraph-statement/preview.png"
+      },
+      "slots": [
+        {
+          "name": "statement",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "4"
+          },
+          "description": "Large lead-paragraph statement, typically two lines with a colored/emphasized clause"
+        }
+      ],
+      "used_by_intents": [
+        "ai_utilization_approach",
+        "camp_daily_schedule",
+        "camp_logistics",
+        "camp_program_overview",
+        "closing_commitment",
+        "communication_plan",
+        "company_profile",
+        "concept_definition",
+        "data_protection_plan",
+        "differentiation_and_requests",
+        "expected_outcomes",
+        "goals_and_kpi",
+        "instructor_selection_and_quality",
+        "lecture_curriculum_detail",
+        "lecture_program_overview",
+        "mentoring_curriculum_detail",
+        "mentoring_program_overview",
+        "onsite_operations_management",
+        "program_progression_summary",
+        "program_structure_overview",
+        "quality_progress_management",
+        "recruitment_and_selection",
+        "reporting_structure",
+        "safety_and_risk_management",
+        "schedule_roadmap",
+        "team_organization",
+        "trend_and_direction"
+      ]
+    },
+    {
+      "id": "lead-statement-with-supporting-line",
+      "name": "Lead Statement with Supporting Line",
+      "description": "Bold headline sentence paired with a smaller secondary gray line beneath, no box",
+      "size_emu": {
+        "w": 16002000,
+        "h": 1342848
+      },
+      "artifacts": {
+        "shapes": "variants/lead-statement-with-supporting-line/shapes.xml",
+        "preview": "variants/lead-statement-with-supporting-line/preview.png",
+        "rels": "variants/lead-statement-with-supporting-line/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "title",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "3"
+          },
+          "description": "Bold single-line lead statement at the top of the band."
+        },
+        {
+          "name": "supporting_line",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "4"
+          },
+          "description": "Smaller, muted-gray single-line sentence directly under the title that elaborates or substantiates it."
+        }
+      ],
+      "used_by_intents": [
+        "camp_outputs_and_linkage",
+        "problem_context",
+        "toc"
+      ]
+    },
+    {
+      "id": "accent-bar-note-panel",
+      "name": "Accent-Bar Note Panel",
+      "description": "Filled or tinted box with a left accent bar, kicker label, and a paragraph, no icon",
+      "size_emu": {
+        "w": 16077895,
+        "h": 1429207
+      },
+      "artifacts": {
+        "shapes": "variants/accent-bar-note-panel/shapes.xml",
+        "preview": "variants/accent-bar-note-panel/preview.png"
+      },
+      "slots": [
+        {
+          "name": "note",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "46"
+          },
+          "description": "Single-line note/callout text inside the accent panel; supports mixed emphasis (bold, colored highlight spans) within one run of prose.",
+          "convention": "Keep to one line; use color/bold highlight runs sparingly to emphasize key terms or references (e.g. a page pointer or a key phrase)."
+        }
+      ],
+      "used_by_intents": [
+        "communication_plan",
+        "instructor_selection_and_quality",
+        "reporting_structure",
+        "trend_and_direction"
+      ]
+    },
+    {
+      "id": "numbered-agenda-list",
+      "name": "Numbered Agenda List",
+      "description": "Plain numbered list (01/02/03) of short text items, no card boxes, badges, or dividers",
+      "size_emu": {
+        "w": 9906609,
+        "h": 1371600
+      },
+      "artifacts": {
+        "shapes": "variants/numbered-agenda-list/shapes.xml",
+        "preview": "variants/numbered-agenda-list/preview.png"
+      },
+      "slots": [
+        {
+          "name": "items",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "19",
+              "21",
+              "23"
+            ]
+          },
+          "description": "Vertically stacked agenda rows, each pairing a bold accent-colored two-digit number with an agenda line, left-aligned with generous vertical spacing.",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 6,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "number",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "18",
+                  "20",
+                  "22"
+                ]
+              },
+              "description": "Bold accent-colored two-digit index number to the left of each agenda line."
+            },
+            {
+              "name": "text",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "19",
+                  "21",
+                  "23"
+                ]
+              },
+              "description": "Agenda line label; may contain an inline bold sub-phrase or bracketed term within the run."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "section_divider"
+      ]
+    },
+    {
+      "id": "multi-line-key-message-statement",
+      "name": "Multi-line Key Message Statement",
+      "description": "Multi-shape stacked key-message sentence lines with no kicker or box, paired beside a section marker",
+      "size_emu": {
+        "w": 10478110,
+        "h": 2190903
+      },
+      "artifacts": {
+        "shapes": "variants/multi-line-key-message-statement/shapes.xml",
+        "preview": "variants/multi-line-key-message-statement/preview.png"
+      },
+      "slots": [
+        {
+          "name": "statement",
+          "kind": "composite",
+          "target": {
+            "shape_ids": [
+              "15",
+              "16",
+              "17"
+            ]
+          },
+          "description": "Large bold key-message statement broken across three stacked single-line text boxes; the final line is set in the accent color to land the message.",
+          "convention": "Keep exactly three short lines of roughly equal length. The first two lines are in the default dark ink color; the last line is the payoff/conclusion and is set in the accent color (blue, srgbClr 2563EB).",
+          "subslots": [
+            {
+              "name": "line_1",
+              "kind": "text",
+              "target": {
+                "shape_id": "15"
+              },
+              "description": "First line of the statement (default ink color)."
+            },
+            {
+              "name": "line_2",
+              "kind": "text",
+              "target": {
+                "shape_id": "16"
+              },
+              "description": "Second line of the statement (default ink color)."
+            },
+            {
+              "name": "line_3",
+              "kind": "text",
+              "target": {
+                "shape_id": "17"
+              },
+              "description": "Third, concluding line of the statement, set in the accent color."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "section_divider"
+      ]
+    },
+    {
+      "id": "section-numeral-title-panel",
+      "name": "Section Numeral Title Panel",
+      "description": "Dark divider panel with a large roman-numeral graphic, Korean title, English subtitle, and brand mark",
+      "size_emu": {
+        "w": 6096305,
+        "h": 10287000
+      },
+      "artifacts": {
+        "shapes": "variants/section-numeral-title-panel/shapes.xml",
+        "preview": "variants/section-numeral-title-panel/preview.png"
+      },
+      "slots": [
+        {
+          "name": "numeral",
+          "kind": "text",
+          "target": {
+            "shape_id": "16"
+          },
+          "description": "Large roman numeral marking this section's number."
+        },
+        {
+          "name": "title",
+          "kind": "text",
+          "target": {
+            "shape_id": "17"
+          },
+          "description": "Section title in Korean, shown large."
+        },
+        {
+          "name": "subtitle_en",
+          "kind": "text",
+          "target": {
+            "shape_id": "18"
+          },
+          "description": "English translation of the section title, shown small below it."
+        },
+        {
+          "name": "footer_brand",
+          "kind": "text",
+          "target": {
+            "shape_id": "19"
+          },
+          "description": "Small brand/company tag at the bottom of the panel."
+        }
+      ],
+      "used_by_intents": [
+        "section_divider"
+      ]
+    },
+    {
+      "id": "lane-swimlane-flow",
+      "name": "Lane Swimlane Flow",
+      "description": "Grid of parallel tracks/lanes each progressing across the same phase columns, connected row-wise by arrows",
+      "size_emu": {
+        "w": 16021202,
+        "h": 7001560
+      },
+      "artifacts": {
+        "shapes": "variants/lane-swimlane-flow/shapes.xml",
+        "preview": "variants/lane-swimlane-flow/preview.png",
+        "rels": "variants/lane-swimlane-flow/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "stages",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "66",
+              "68",
+              "70"
+            ]
+          },
+          "description": "Top header row of process stages/columns (program card + colored stage bar), connected left-to-right by arrow connectors",
+          "cardinality": {
+            "resizable": false,
+            "min": 3,
+            "max": 3,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "program_eyebrow",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "65",
+                  "67",
+                  "69"
+                ]
+              },
+              "description": "Small uppercase program label at the top of the stage's header card"
+            },
+            {
+              "name": "program_title",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "66",
+                  "68",
+                  "70"
+                ]
+              },
+              "description": "Program name plus short description, typically separated by an em dash with the description de-emphasized"
+            },
+            {
+              "name": "stage_eyebrow",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "71",
+                  "73",
+                  "75"
+                ]
+              },
+              "description": "Small uppercase stage label on the colored bar"
+            },
+            {
+              "name": "stage_title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "72",
+                  "74",
+                  "76"
+                ]
+              },
+              "description": "Stage description on the colored bar"
+            }
+          ]
+        },
+        {
+          "name": "tracks",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "77",
+              "84",
+              "91"
+            ]
+          },
+          "description": "Horizontal swimlane rows beneath the stage header; each track has a label and one cell per stage column",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 5,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "track_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "77",
+                  "84",
+                  "91"
+                ]
+              },
+              "description": "Row/track label to the left of the cell row"
+            },
+            {
+              "name": "col1",
+              "kind": "composite",
+              "target": {
+                "shape_ids": [
+                  "79",
+                  "86",
+                  "93"
+                ]
+              },
+              "description": "Cell content in the first (leftmost) stage column of this track",
+              "subslots": [
+                {
+                  "name": "number",
+                  "kind": "text",
+                  "target": {
+                    "shape_ids": [
+                      "78",
+                      "85",
+                      "92"
+                    ]
+                  },
+                  "description": "Small numbered badge on the cell",
+                  "convention": "Mirrors the track's row index (01, 02, 03, ...); regenerate to match track order"
+                },
+                {
+                  "name": "text",
+                  "kind": "text",
+                  "target": {
+                    "shape_ids": [
+                      "79",
+                      "86",
+                      "93"
+                    ]
+                  },
+                  "description": "Cell body text"
+                }
+              ]
+            },
+            {
+              "name": "col2",
+              "kind": "composite",
+              "target": {
+                "shape_ids": [
+                  "81",
+                  "88",
+                  "95"
+                ]
+              },
+              "description": "Cell content in the second stage column of this track",
+              "subslots": [
+                {
+                  "name": "number",
+                  "kind": "text",
+                  "target": {
+                    "shape_ids": [
+                      "80",
+                      "87",
+                      "94"
+                    ]
+                  },
+                  "description": "Small numbered badge on the cell",
+                  "convention": "Mirrors the track's row index (01, 02, 03, ...); regenerate to match track order"
+                },
+                {
+                  "name": "text",
+                  "kind": "text",
+                  "target": {
+                    "shape_ids": [
+                      "81",
+                      "88",
+                      "95"
+                    ]
+                  },
+                  "description": "Cell body text"
+                }
+              ]
+            },
+            {
+              "name": "col3",
+              "kind": "composite",
+              "target": {
+                "shape_ids": [
+                  "83",
+                  "90",
+                  "97"
+                ]
+              },
+              "description": "Cell content in the third (rightmost) stage column of this track",
+              "subslots": [
+                {
+                  "name": "number",
+                  "kind": "text",
+                  "target": {
+                    "shape_ids": [
+                      "82",
+                      "89",
+                      "96"
+                    ]
+                  },
+                  "description": "Small numbered badge on the cell",
+                  "convention": "Mirrors the track's row index (01, 02, 03, ...); regenerate to match track order"
+                },
+                {
+                  "name": "text",
+                  "kind": "text",
+                  "target": {
+                    "shape_ids": [
+                      "83",
+                      "90",
+                      "97"
+                    ]
+                  },
+                  "description": "Cell body text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "footnote",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "5"
+          },
+          "description": "Summary caption below the swimlane diagram, may include bold emphasis"
+        }
+      ],
+      "used_by_intents": [
+        "problem_context",
+        "program_progression_summary"
+      ]
+    },
+    {
+      "id": "chevron-step-flow",
+      "name": "Chevron Step Flow",
+      "description": "Single row of sequential step cards connected by chevron/arrow connectors, one track only",
+      "size_emu": {
+        "w": 16003581,
+        "h": 6515100
+      },
+      "artifacts": {
+        "shapes": "variants/chevron-step-flow/shapes.xml",
+        "preview": "variants/chevron-step-flow/preview.png",
+        "rels": "variants/chevron-step-flow/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "stages",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "37",
+              "46",
+              "55",
+              "62"
+            ]
+          },
+          "description": "Horizontal row of stage cards forming a process flow, each with a stage badge, header title/subtitle, icon, colored activity label, description box, and 1-2 tag pills.",
+          "cardinality": {
+            "resizable": false,
+            "min": 4,
+            "max": 4,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "badge",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "126",
+                  "127",
+                  "128",
+                  "129"
+                ]
+              },
+              "description": "Small pill badge above the header (e.g. STAGE 0N ordinal)."
+            },
+            {
+              "name": "title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "80",
+                  "83",
+                  "86",
+                  "89"
+                ]
+              },
+              "description": "Header title of the stage (short phase name)."
+            },
+            {
+              "name": "subtitle",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "81",
+                  "84",
+                  "87",
+                  "90"
+                ]
+              },
+              "description": "Header subtitle line elaborating the stage scope."
+            },
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "37",
+                  "46",
+                  "55",
+                  "62"
+                ]
+              },
+              "description": "Bold colored headline naming the stage's key activity, shown below the icon."
+            },
+            {
+              "name": "description",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "39",
+                  "48",
+                  "57",
+                  "63"
+                ]
+              },
+              "description": "Supporting description text inside the gray box beneath the label."
+            },
+            {
+              "name": "icon",
+              "kind": "image",
+              "target": {
+                "shape_ids": [
+                  "47",
+                  "49",
+                  "50",
+                  "51"
+                ]
+              },
+              "convention": "Line-art pictogram symbolizing the stage's activity."
+            }
+          ]
+        },
+        {
+          "name": "tags",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "64",
+              "66",
+              "68",
+              "70",
+              "72",
+              "74",
+              "115"
+            ]
+          },
+          "description": "Small pill labels beneath each stage's description box, calling out concrete deliverables/topics. Positions map to stages in order: entries 1-2 belong to stage 1, entry 3 to stage 2, entries 4-5 to stage 3, entries 6-7 to stage 4.",
+          "convention": "Each stage shows 1 or 2 short pills (2-6 Korean characters). Preserve the exact pill count per stage position as in this exemplar (2, 1, 2, 2) since it is not independently resizable.",
+          "cardinality": {
+            "resizable": false,
+            "min": 7,
+            "max": 7,
+            "base": 7
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              }
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "program_concept_overview",
+        "program_structure_overview"
+      ]
+    },
+    {
+      "id": "numbered-node-timeline-flow",
+      "name": "Numbered Node Timeline Flow",
+      "description": "Numbered circular nodes on a thin connecting rail, each node paired with a card below it",
+      "size_emu": {
+        "w": 16021203,
+        "h": 7400749
+      },
+      "artifacts": {
+        "shapes": "variants/numbered-node-timeline-flow/shapes.xml",
+        "preview": "variants/numbered-node-timeline-flow/preview.png",
+        "rels": "variants/numbered-node-timeline-flow/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "phase_bar",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "9",
+              "10",
+              "11"
+            ]
+          },
+          "description": "Row of unevenly-sized phase bands above the step track, each spanning the width of the steps it groups. Each band has a bold label on the left and a plain caption on the right.",
+          "cardinality": {
+            "resizable": false,
+            "min": 3,
+            "max": 3,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "42",
+                  "44",
+                  "46"
+                ]
+              },
+              "description": "Bold left-aligned phase label (e.g. 'PHASE 0N · <phase name>')."
+            },
+            {
+              "name": "value",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "43",
+                  "45",
+                  "47"
+                ]
+              },
+              "description": "Plain right-aligned caption summarizing the phase's outcome/focus."
+            }
+          ]
+        },
+        {
+          "name": "steps",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "12",
+              "13",
+              "14",
+              "15",
+              "16"
+            ]
+          },
+          "description": "Row of evenly-spaced step cards below a connected node track. Each card has a numbered circular node above it, a step label, a title, a fixed 'core activities' heading with a short bullet list, and an arrow-prefixed outcome pill at the bottom. The final card is styled with an inverse dark background and accent stroke/text to mark it as the terminal step.",
+          "cardinality": {
+            "resizable": true,
+            "min": 3,
+            "max": 6,
+            "base": 5
+          },
+          "subslots": [
+            {
+              "name": "node_number",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "48",
+                  "54",
+                  "60",
+                  "66",
+                  "72"
+                ]
+              },
+              "description": "Two-digit index shown inside the circular node marker above the card, matching the step's ordinal position."
+            },
+            {
+              "name": "step_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "49",
+                  "55",
+                  "61",
+                  "67",
+                  "73"
+                ]
+              },
+              "description": "Small bold uppercase 'STEP 0N' caption at the top of the card."
+            },
+            {
+              "name": "title",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "50",
+                  "56",
+                  "62",
+                  "68",
+                  "74"
+                ]
+              },
+              "description": "Bold step title, may wrap to two lines."
+            },
+            {
+              "name": "activities",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "52",
+                  "58",
+                  "64",
+                  "70",
+                  "76"
+                ]
+              },
+              "description": "Short bulleted list of the core activities for the step, under the fixed '핵심 활동' heading.",
+              "convention": "Each card holds a small bulleted list (observed 3 lines per card); keep line count roughly consistent across cards."
+            },
+            {
+              "name": "outcome",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "53",
+                  "59",
+                  "65",
+                  "71",
+                  "77"
+                ]
+              },
+              "description": "Arrow-prefixed outcome badge text at the bottom of the card, naming the deliverable produced by the step."
+            }
+          ]
+        },
+        {
+          "name": "footer_note",
+          "kind": "text",
+          "target": {
+            "shape_id": "6"
+          },
+          "description": "Single-line explanatory sentence below the whole diagram, connecting the flow's logic."
+        }
+      ],
+      "used_by_intents": [
+        "camp_outputs_and_linkage",
+        "communication_plan",
+        "reporting_structure",
+        "section_divider"
+      ]
+    },
+    {
+      "id": "numbered-step-card-row",
+      "name": "Numbered Step Card Row",
+      "description": "Row of cards with a top accent bar, plain number, title, underline rule, and description, no arrows",
+      "size_emu": {
+        "w": 16002000,
+        "h": 2971800
+      },
+      "artifacts": {
+        "shapes": "variants/numbered-step-card-row/shapes.xml",
+        "preview": "variants/numbered-step-card-row/preview.png",
+        "rels": "variants/numbered-step-card-row/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "header",
+          "kind": "text",
+          "target": {
+            "shape_id": "7"
+          },
+          "description": "Single-line lead sentence above the card row, framing what the cards below elaborate."
+        },
+        {
+          "name": "cards",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "12",
+              "13",
+              "14",
+              "15"
+            ]
+          },
+          "description": "Row of evenly-spaced cards, each with a top accent rule, a numbered index, a title, and a short body paragraph. The final card is styled with an inverse dark background to stand out from the rest.",
+          "cardinality": {
+            "resizable": true,
+            "min": 3,
+            "max": 5,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "number",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "37",
+                  "40",
+                  "43",
+                  "46"
+                ]
+              },
+              "description": "Bold accent-colored two-digit index at the top of each card."
+            },
+            {
+              "name": "title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "38",
+                  "41",
+                  "44",
+                  "47"
+                ]
+              },
+              "description": "Bold short title of the card."
+            },
+            {
+              "name": "body",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "39",
+                  "42",
+                  "45",
+                  "48"
+                ]
+              },
+              "description": "Short explanatory paragraph under the title."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "company_profile",
+        "concept_definition",
+        "track_record"
+      ]
+    },
+    {
+      "id": "item-pill-fact-card-grid",
+      "name": "Item Pill Fact Card Grid",
+      "description": "Grid of fact cards each tagged with a rounded ITEM-number pill badge, title, and description",
+      "size_emu": {
+        "w": 14586056,
+        "h": 3704931
+      },
+      "artifacts": {
+        "shapes": "variants/item-pill-fact-card-grid/shapes.xml",
+        "preview": "variants/item-pill-fact-card-grid/preview.png"
+      },
+      "slots": [
+        {
+          "name": "cards",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "144",
+              "147",
+              "162",
+              "155",
+              "158",
+              "169"
+            ]
+          },
+          "description": "Grid of fact cards, each an ordinal-badge + label + value block",
+          "cardinality": {
+            "resizable": false,
+            "min": 6,
+            "max": 6,
+            "base": 6
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "143",
+                  "146",
+                  "161",
+                  "151",
+                  "157",
+                  "165"
+                ]
+              },
+              "description": "Short category label for the card (e.g. subject/count/format)"
+            },
+            {
+              "name": "value",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "144",
+                  "147",
+                  "162",
+                  "155",
+                  "158",
+                  "169"
+                ]
+              },
+              "description": "Card detail text; may mix regular and bold emphasis runs"
+            }
+          ]
+        },
+        {
+          "name": "footnote",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "168"
+          },
+          "description": "Footnote/caveat line below the card grid, may include bold emphasis"
+        }
+      ],
+      "used_by_intents": [
+        "camp_program_overview",
+        "lecture_program_overview",
+        "mentoring_program_overview"
+      ]
+    },
+    {
+      "id": "large-number-fact-card-grid",
+      "name": "Large-Number Fact Card Grid",
+      "description": "Grid of cards with a large left-aligned number, kicker label, title, and description",
+      "size_emu": {
+        "w": 16021203,
+        "h": 4114801
+      },
+      "artifacts": {
+        "shapes": "variants/large-number-fact-card-grid/shapes.xml",
+        "preview": "variants/large-number-fact-card-grid/preview.png",
+        "rels": "variants/large-number-fact-card-grid/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "cards",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "27",
+              "32",
+              "37",
+              "42",
+              "47",
+              "52"
+            ]
+          },
+          "description": "Grid of fact cards, each with a large ordinal number, an eyebrow label, a title and a body line",
+          "cardinality": {
+            "resizable": true,
+            "min": 3,
+            "max": 8,
+            "base": 6
+          },
+          "subslots": [
+            {
+              "name": "number",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "24",
+                  "29",
+                  "34",
+                  "39",
+                  "44",
+                  "49"
+                ]
+              },
+              "description": "Large two-digit ordinal number on the left of the card",
+              "convention": "Sequential auto-numbering (01, 02, ...); regenerate to match card count"
+            },
+            {
+              "name": "total",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "25",
+                  "30",
+                  "35",
+                  "40",
+                  "45",
+                  "50"
+                ]
+              },
+              "description": "Small '/NN' denominator beneath the number",
+              "convention": "Mirrors the total card count, zero-padded (e.g. '/06'); regenerate to match cardinality"
+            },
+            {
+              "name": "eyebrow",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "26",
+                  "31",
+                  "36",
+                  "41",
+                  "46",
+                  "51"
+                ]
+              },
+              "description": "Small uppercase category label above the title",
+              "convention": "Includes the same ordinal as the number slot (e.g. 'CRITERION 01')"
+            },
+            {
+              "name": "title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "27",
+                  "32",
+                  "37",
+                  "42",
+                  "47",
+                  "52"
+                ]
+              },
+              "description": "Card title"
+            },
+            {
+              "name": "body",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "28",
+                  "33",
+                  "38",
+                  "43",
+                  "48",
+                  "53"
+                ]
+              },
+              "description": "Supporting detail line under the title"
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "closing_commitment",
+        "instructor_selection_and_quality",
+        "safety_and_risk_management"
+      ]
+    },
+    {
+      "id": "column-header-data-table",
+      "name": "Column-Header Data Table",
+      "description": "Single global header row defining columns, with plain or striped/accented data rows beneath",
+      "size_emu": {
+        "w": 16021202,
+        "h": 6877202
+      },
+      "artifacts": {
+        "shapes": "variants/column-header-data-table/shapes.xml",
+        "preview": "variants/column-header-data-table/preview.png"
+      },
+      "slots": [
+        {
+          "name": "schedule_rows",
+          "kind": "table",
+          "target": {
+            "shape_id": "19"
+          },
+          "description": "Two-column time/program schedule table. Row 0 holds the column headers (시간 / 프로그램); the remaining rows are the schedule entries.",
+          "convention": "Column 1: a short bold time range (e.g. '10:30 ~ 11:00'). Column 2: a short session/program title. In this exemplar, meal rows (중식/석식) are shaded amber, a rest row (휴식) is shaded light gray, and 1-2 standout working-session rows are shaded blue with bold colored text — this per-row cell shading is cosmetic styling baked into the table and does not need to be reproduced exactly when content changes.",
+          "cardinality": {
+            "resizable": true,
+            "min": 6,
+            "max": 20,
+            "base": 12
+          }
+        }
+      ],
+      "used_by_intents": [
+        "ai_utilization_approach",
+        "camp_daily_schedule",
+        "data_protection_plan",
+        "quality_progress_management",
+        "track_record"
+      ]
+    },
+    {
+      "id": "before-after-comparison-table",
+      "name": "Before/After Comparison Table",
+      "description": "Two separately-headed panels (BEFORE/AFTER) with paired rows connected by a transition arrow",
+      "size_emu": {
+        "w": 16021203,
+        "h": 5067604
+      },
+      "artifacts": {
+        "shapes": "variants/before-after-comparison-table/shapes.xml",
+        "preview": "variants/before-after-comparison-table/preview.png"
+      },
+      "slots": [
+        {
+          "name": "before_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "27"
+          },
+          "description": "Small bold kicker label in the left-column header identifying it as the 'before'/prior-state side.",
+          "convention": "Two-part label, e.g. 'BEFORE · 기존' — an English word plus a short Korean gloss."
+        },
+        {
+          "name": "before_heading",
+          "kind": "text",
+          "target": {
+            "shape_id": "28"
+          },
+          "description": "Header title of the left ('before') column stating the topic being compared."
+        },
+        {
+          "name": "after_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "29"
+          },
+          "description": "Small bold kicker label in the right-column (dark) header identifying it as the 'after'/changed-state side.",
+          "convention": "Two-part label, e.g. 'AFTER · 변화' — an English word plus a short Korean gloss."
+        },
+        {
+          "name": "after_heading",
+          "kind": "text",
+          "target": {
+            "shape_id": "30"
+          },
+          "description": "Header title of the right ('after') column stating the resulting/changed state for the same topic."
+        },
+        {
+          "name": "rows",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "32",
+              "34",
+              "36",
+              "38",
+              "40",
+              "42",
+              "44",
+              "46"
+            ]
+          },
+          "description": "Vertically stacked comparison rows; each row has a left ('before') card and a right ('after') card linked by an arrow connector, both numbered identically.",
+          "convention": "Keep each before/after pair addressing the same underlying dimension so the row reads as one transformation.",
+          "cardinality": {
+            "resizable": true,
+            "min": 3,
+            "max": 6,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "before_item",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "32",
+                  "36",
+                  "40",
+                  "44"
+                ]
+              },
+              "description": "Short phrase describing the prior/'before' state for this row."
+            },
+            {
+              "name": "after_item",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "34",
+                  "38",
+                  "42",
+                  "46"
+                ]
+              },
+              "description": "Short phrase describing the resulting/'after' state for this row, parallel in structure to before_item."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "expected_outcomes",
+        "trend_and_direction"
+      ]
+    },
+    {
+      "id": "grouped-header-split-curriculum-table",
+      "name": "Grouped-Header Split Curriculum Table",
+      "description": "Phase-grouped header bar over a two-column-group table, each group with its own header row and numbered rows",
+      "size_emu": {
+        "w": 16021202,
+        "h": 7020763
+      },
+      "artifacts": {
+        "shapes": "variants/grouped-header-split-curriculum-table/shapes.xml",
+        "preview": "variants/grouped-header-split-curriculum-table/preview.png",
+        "rels": "variants/grouped-header-split-curriculum-table/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "step_headers",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "35",
+              "36",
+              "37",
+              "38"
+            ]
+          },
+          "description": "Top grouped-header band split into colored segments, one per process step.",
+          "cardinality": {
+            "resizable": false,
+            "min": 4,
+            "max": 4,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "step_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "70",
+                  "72",
+                  "74",
+                  "76"
+                ]
+              },
+              "description": "Step identifier and duration, e.g. 'STEP 01 · 30분'."
+            },
+            {
+              "name": "step_sublabel",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "71",
+                  "73",
+                  "75",
+                  "77"
+                ]
+              },
+              "description": "Short name of the step shown under the step label."
+            }
+          ]
+        },
+        {
+          "name": "column_header_round",
+          "kind": "text",
+          "target": {
+            "shape_ids": [
+              "78",
+              "81"
+            ]
+          },
+          "description": "Column header label for the session-number column, repeated identically above both the left and right table halves."
+        },
+        {
+          "name": "column_header_topic",
+          "kind": "text",
+          "target": {
+            "shape_ids": [
+              "79",
+              "82"
+            ]
+          },
+          "description": "Column header label for the topic column, repeated identically above both the left and right table halves."
+        },
+        {
+          "name": "column_header_application",
+          "kind": "text",
+          "target": {
+            "shape_ids": [
+              "80",
+              "83"
+            ]
+          },
+          "description": "Column header label for the team-application column, repeated identically above both the left and right table halves."
+        },
+        {
+          "name": "curriculum_rows",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "13",
+              "15",
+              "17",
+              "19",
+              "21",
+              "23",
+              "25",
+              "27",
+              "29",
+              "31"
+            ]
+          },
+          "description": "Curriculum session rows, laid out as a left table (sessions 1-5) continued by a right table (sessions 6-10).",
+          "cardinality": {
+            "resizable": false,
+            "min": 10,
+            "max": 10,
+            "base": 10
+          },
+          "subslots": [
+            {
+              "name": "badge_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "84",
+                  "90",
+                  "96",
+                  "102",
+                  "108",
+                  "114",
+                  "120",
+                  "126",
+                  "132",
+                  "138"
+                ]
+              },
+              "description": "Small caption above the session number in the round badge (usually '회차', the last row may say '최종')."
+            },
+            {
+              "name": "badge_number",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "85",
+                  "91",
+                  "97",
+                  "103",
+                  "109",
+                  "115",
+                  "121",
+                  "127",
+                  "133",
+                  "139"
+                ]
+              },
+              "description": "Session number shown large inside the round badge."
+            },
+            {
+              "name": "topic_caption",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "86",
+                  "92",
+                  "98",
+                  "104",
+                  "110",
+                  "116",
+                  "122",
+                  "128",
+                  "134",
+                  "140"
+                ]
+              },
+              "description": "Short English topic tag shown above the Korean topic title."
+            },
+            {
+              "name": "topic_title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "87",
+                  "93",
+                  "99",
+                  "105",
+                  "111",
+                  "117",
+                  "123",
+                  "129",
+                  "135",
+                  "141"
+                ]
+              },
+              "description": "Korean session topic title."
+            },
+            {
+              "name": "application_caption",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "88",
+                  "94",
+                  "100",
+                  "106",
+                  "112",
+                  "118",
+                  "124",
+                  "130",
+                  "136",
+                  "142"
+                ]
+              },
+              "description": "Short English caption above the team-application detail (e.g. 'TEAM APPLICATION')."
+            },
+            {
+              "name": "application_detail",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "89",
+                  "95",
+                  "101",
+                  "107",
+                  "113",
+                  "119",
+                  "125",
+                  "131",
+                  "137",
+                  "143"
+                ]
+              },
+              "description": "Korean detail text describing what teams apply/produce for that session."
+            }
+          ]
+        },
+        {
+          "name": "footer_note",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "5"
+          },
+          "description": "Summary sentence below the table explaining the recurring session pattern, with key phrases emphasized in bold."
+        }
+      ],
+      "used_by_intents": [
+        "lecture_curriculum_detail",
+        "mentoring_curriculum_detail"
+      ]
+    },
+    {
+      "id": "key-value-profile-card",
+      "name": "Key-Value Profile Card",
+      "description": "Card containing a stacked list of label:value spec rows separated by divider lines",
+      "size_emu": {
+        "w": 5715915,
+        "h": 6667805
+      },
+      "artifacts": {
+        "shapes": "variants/key-value-profile-card/shapes.xml",
+        "preview": "variants/key-value-profile-card/preview.png",
+        "rels": "variants/key-value-profile-card/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "eyebrow",
+          "kind": "text",
+          "target": {
+            "shape_id": "41"
+          },
+          "description": "Small uppercase kicker label above the title"
+        },
+        {
+          "name": "title",
+          "kind": "text",
+          "target": {
+            "shape_id": "42"
+          },
+          "description": "Main profile name/title"
+        },
+        {
+          "name": "subtitle",
+          "kind": "text",
+          "target": {
+            "shape_id": "43"
+          },
+          "description": "Secondary name line under the title (e.g. English/brand name)"
+        },
+        {
+          "name": "watermark_initial",
+          "kind": "text",
+          "target": {
+            "shape_id": "16"
+          },
+          "description": "Large single-letter watermark shown behind the key-value rows",
+          "convention": "Typically the first letter/initial of the profile's title, oversized and low-contrast"
+        },
+        {
+          "name": "rows",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "45",
+              "47",
+              "49",
+              "51"
+            ]
+          },
+          "description": "Key-value fact rows (label left column, value right column) separated by divider rules",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 6,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "44",
+                  "46",
+                  "48",
+                  "50"
+                ]
+              },
+              "description": "Row label"
+            },
+            {
+              "name": "value",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "45",
+                  "47",
+                  "49",
+                  "51"
+                ]
+              },
+              "description": "Row value"
+            }
+          ]
+        },
+        {
+          "name": "tags_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "52"
+          },
+          "description": "Section label above the pill tag row"
+        },
+        {
+          "name": "tags",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "53",
+              "54",
+              "55"
+            ]
+          },
+          "description": "Row of pill-shaped tags below the tags label",
+          "cardinality": {
+            "resizable": true,
+            "min": 1,
+            "max": 5,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              },
+              "description": "Tag text"
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "company_profile",
+        "onsite_operations_management"
+      ]
+    },
+    {
+      "id": "operations-summary-triptych",
+      "name": "Operations Summary Triptych",
+      "description": "Three side-by-side panels in one band: a stat highlight, a process/detail box, and a key-message box",
+      "size_emu": {
+        "w": 16002000,
+        "h": 2937372
+      },
+      "artifacts": {
+        "shapes": "variants/operations-summary-triptych/shapes.xml",
+        "preview": "variants/operations-summary-triptych/preview.png",
+        "rels": "variants/operations-summary-triptych/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "metric_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "24"
+          },
+          "description": "Small label above the headline metric in the left panel."
+        },
+        {
+          "name": "metric_value",
+          "kind": "text",
+          "target": {
+            "shape_id": "19"
+          },
+          "description": "Large headline number/value with unit suffix in the left panel.",
+          "convention": "Two runs: numeric value + unit/suffix (e.g. '10' + '회+')."
+        },
+        {
+          "name": "metric_description",
+          "kind": "text",
+          "target": {
+            "shape_id": "14"
+          },
+          "description": "One-line description sentence under the headline metric."
+        },
+        {
+          "name": "metric_caption",
+          "kind": "text",
+          "target": {
+            "shape_id": "26"
+          },
+          "description": "Small caption line at the bottom of the left panel."
+        },
+        {
+          "name": "items_badge",
+          "kind": "text",
+          "target": {
+            "shape_id": "83"
+          },
+          "description": "Pill-badge label at the top of the middle (dark) panel."
+        },
+        {
+          "name": "items",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "36",
+              "37"
+            ]
+          },
+          "description": "Row of small icon+label cards inside the middle panel.",
+          "cardinality": {
+            "resizable": false,
+            "min": 2,
+            "max": 2,
+            "base": 2
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "36",
+                  "37"
+                ]
+              },
+              "description": "Item label text inside each card."
+            },
+            {
+              "name": "icon",
+              "kind": "image",
+              "target": {
+                "shape_ids": [
+                  "46",
+                  "47"
+                ]
+              },
+              "description": "Small line-icon illustrating the item.",
+              "convention": "Structural/decorative icon representing the deliverable type, not a photo."
+            }
+          ]
+        },
+        {
+          "name": "callout_badge",
+          "kind": "text",
+          "target": {
+            "shape_id": "48"
+          },
+          "description": "Pill-badge label at the top of the right (colored) panel."
+        },
+        {
+          "name": "callout_text",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "38"
+          },
+          "description": "Multi-line message body inside the right panel."
+        }
+      ],
+      "used_by_intents": [
+        "lecture_program_overview",
+        "mentoring_program_overview"
+      ]
+    },
+    {
+      "id": "titled-bullet-list-panel",
+      "name": "Titled Bullet List Panel",
+      "description": "Card with a title-plus-rule header over a vertical list of badge-marked bullet rows",
+      "size_emu": {
+        "w": 8382305,
+        "h": 5333695
+      },
+      "artifacts": {
+        "shapes": "variants/titled-bullet-list-panel/shapes.xml",
+        "preview": "variants/titled-bullet-list-panel/preview.png",
+        "rels": "variants/titled-bullet-list-panel/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "eyebrow",
+          "kind": "text",
+          "target": {
+            "shape_id": "23"
+          },
+          "description": "Small tracked-out label above the panel title (e.g. section/proposition tag)."
+        },
+        {
+          "name": "title",
+          "kind": "text",
+          "target": {
+            "shape_id": "24"
+          },
+          "description": "Panel main heading."
+        },
+        {
+          "name": "subtitle",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "25"
+          },
+          "description": "One-line supporting statement under the title, above the divider rule."
+        },
+        {
+          "name": "items",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "28",
+              "32",
+              "36"
+            ]
+          },
+          "description": "Numbered list of proposal/point rows, each with an index badge, a small category tag, a bold title, and a supporting description line.",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 4,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "index_number",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "26",
+                  "30",
+                  "34"
+                ]
+              },
+              "description": "Two-digit index number centered inside the row's badge circle."
+            },
+            {
+              "name": "category_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "27",
+                  "31",
+                  "35"
+                ]
+              },
+              "description": "Small tracked-out tag above the item title, typically 'label · EN-TAG' form."
+            },
+            {
+              "name": "item_title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "28",
+                  "32",
+                  "36"
+                ]
+              },
+              "description": "Bold single-line heading for the row/item."
+            },
+            {
+              "name": "item_description",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "29",
+                  "33",
+                  "37"
+                ]
+              },
+              "description": "Supporting one-line detail under the item title."
+            }
+          ]
+        },
+        {
+          "name": "footnote",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "38"
+          },
+          "description": "Closing callout line at the bottom of the panel, prefixed with a diamond glyph, summarizing the overall benefit of the list above."
+        }
+      ],
+      "used_by_intents": [
+        "differentiation_and_requests"
+      ]
+    },
+    {
+      "id": "cover-title-block",
+      "name": "Cover Title Block",
+      "description": "Cover eyebrow, main heading, tagline pill, and subtitle stacked as one block",
+      "size_emu": {
+        "w": 8113161,
+        "h": 3608720
+      },
+      "artifacts": {
+        "shapes": "variants/cover-title-block/shapes.xml",
+        "preview": "variants/cover-title-block/preview.png"
+      },
+      "slots": [
+        {
+          "name": "eyebrow",
+          "kind": "text",
+          "target": {
+            "shape_id": "13"
+          },
+          "description": "Small colored kicker line above the main cover title, naming the program category."
+        },
+        {
+          "name": "cover_title",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "14"
+          },
+          "description": "Large multi-line main title of the cover slide."
+        },
+        {
+          "name": "cover_tagline",
+          "kind": "text",
+          "target": {
+            "shape_id": "9"
+          },
+          "description": "Short slogan-style phrase inside a dark pill badge beneath the title.",
+          "convention": "A short sequence of 3-4 keywords/steps separated by middle dots."
+        },
+        {
+          "name": "cover_subtitle",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "17"
+          },
+          "description": "One-line descriptive sentence beneath the tagline badge, elaborating the proposal's value proposition; may include bold emphasis spans."
+        }
+      ],
+      "used_by_intents": [
+        "cover"
+      ]
+    },
+    {
+      "id": "hero-circular-photo",
+      "name": "Hero Circular Photo",
+      "description": "Circular-masked hero photograph",
+      "size_emu": {
+        "w": 12393038,
+        "h": 7499987
+      },
+      "artifacts": {
+        "shapes": "variants/hero-circular-photo/shapes.xml",
+        "preview": "variants/hero-circular-photo/preview.png",
+        "rels": "variants/hero-circular-photo/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "primary_image",
+          "kind": "image",
+          "target": {
+            "shape_id": "51"
+          },
+          "description": "Circle-cropped hero photo layered on top of the backdrop image.",
+          "convention": "A real photo relevant to the brief (e.g. a person/action shot); must work when cropped to a circle, so keep the subject centered."
+        }
+      ],
+      "used_by_intents": [
+        "cover"
+      ]
+    },
+    {
+      "id": "fullbleed-background-pattern",
+      "name": "Full-Bleed Background Pattern",
+      "description": "Full-bleed decorative background dot/network pattern graphic",
+      "size_emu": {
+        "w": 18288000,
+        "h": 7479792
+      },
+      "artifacts": {
+        "shapes": "variants/fullbleed-background-pattern/shapes.xml",
+        "preview": "variants/fullbleed-background-pattern/preview.png",
+        "rels": "variants/fullbleed-background-pattern/shapes.xml.rels"
+      },
+      "slots": [],
+      "used_by_intents": [
+        "cover"
+      ]
+    },
+    {
+      "id": "cover-submission-footer",
+      "name": "Cover Submission Footer",
+      "description": "Stacked label:value submission-info rows on the cover slide",
+      "size_emu": {
+        "w": 4763110,
+        "h": 2114379
+      },
+      "artifacts": {
+        "shapes": "variants/cover-submission-footer/shapes.xml",
+        "preview": "variants/cover-submission-footer/preview.png"
+      },
+      "slots": [
+        {
+          "name": "cover_recipient",
+          "kind": "text",
+          "target": {
+            "shape_id": "19"
+          },
+          "description": "Name of the receiving institution/agency the proposal is submitted to."
+        },
+        {
+          "name": "cover_bidder",
+          "kind": "text",
+          "target": {
+            "shape_id": "22"
+          },
+          "description": "Name of the proposing company (submitted by)."
+        },
+        {
+          "name": "cover_date",
+          "kind": "text",
+          "target": {
+            "shape_id": "25"
+          },
+          "description": "Submission date."
+        }
+      ],
+      "used_by_intents": [
+        "cover"
+      ]
+    },
+    {
+      "id": "toc-section-summary-card-grid",
+      "name": "TOC Section Summary Card Grid",
+      "description": "2x2 grid of section-summary cards, each with a numeral graphic, badge, title, bullet list, and footer meta",
+      "size_emu": {
+        "w": 16021202,
+        "h": 6782104
+      },
+      "artifacts": {
+        "shapes": "variants/toc-section-summary-card-grid/shapes.xml",
+        "preview": "variants/toc-section-summary-card-grid/preview.png",
+        "rels": "variants/toc-section-summary-card-grid/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "toc_section_marker_1",
+          "kind": "text",
+          "target": {
+            "shape_id": "24"
+          },
+          "description": "Pill-badge section index label on card 1 (fixed-geometry box 1 of 4)."
+        },
+        {
+          "name": "toc_nav_1",
+          "kind": "text",
+          "target": {
+            "shape_id": "25"
+          },
+          "description": "Section title on fixed-geometry card 1 of 4."
+        },
+        {
+          "name": "toc_entries_1",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "26",
+              "27",
+              "28"
+            ]
+          },
+          "description": "Bulleted list of the sub-topics covered under section 1's title on card 1.",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 4,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "entry_line",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              },
+              "description": "One sub-topic bullet line."
+            }
+          ]
+        },
+        {
+          "name": "toc_pages_1",
+          "kind": "text",
+          "target": {
+            "shape_id": "32"
+          },
+          "description": "Page range covered by section 1, on card 1."
+        },
+        {
+          "name": "eval_category_1",
+          "kind": "text",
+          "target": {
+            "shape_id": "33"
+          },
+          "description": "Evaluation category name and point weight tag for section 1 (e.g. '카테고리 · N점'), right-aligned on card 1."
+        },
+        {
+          "name": "toc_section_marker_2",
+          "kind": "text",
+          "target": {
+            "shape_id": "34"
+          },
+          "description": "Pill-badge section index label on card 2 (fixed-geometry box 2 of 4)."
+        },
+        {
+          "name": "toc_nav_2",
+          "kind": "text",
+          "target": {
+            "shape_id": "35"
+          },
+          "description": "Section title on fixed-geometry card 2 of 4."
+        },
+        {
+          "name": "toc_entries_2",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "36",
+              "37",
+              "38"
+            ]
+          },
+          "description": "Bulleted list of the sub-topics covered under section 2's title on card 2.",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 4,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "entry_line",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              },
+              "description": "One sub-topic bullet line."
+            }
+          ]
+        },
+        {
+          "name": "toc_pages_2",
+          "kind": "text",
+          "target": {
+            "shape_id": "42"
+          },
+          "description": "Page range covered by section 2, on card 2."
+        },
+        {
+          "name": "eval_category_2",
+          "kind": "text",
+          "target": {
+            "shape_id": "43"
+          },
+          "description": "Evaluation category name and point weight tag for section 2, right-aligned on card 2."
+        },
+        {
+          "name": "toc_section_marker_3",
+          "kind": "text",
+          "target": {
+            "shape_id": "44"
+          },
+          "description": "Pill-badge section index label on card 3 (fixed-geometry box 3 of 4)."
+        },
+        {
+          "name": "toc_nav_3",
+          "kind": "text",
+          "target": {
+            "shape_id": "45"
+          },
+          "description": "Section title on fixed-geometry card 3 of 4."
+        },
+        {
+          "name": "toc_entries_3",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "46",
+              "47",
+              "48"
+            ]
+          },
+          "description": "Bulleted list of the sub-topics covered under section 3's title on card 3.",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 4,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "entry_line",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              },
+              "description": "One sub-topic bullet line."
+            }
+          ]
+        },
+        {
+          "name": "toc_pages_3",
+          "kind": "text",
+          "target": {
+            "shape_id": "52"
+          },
+          "description": "Page range covered by section 3, on card 3."
+        },
+        {
+          "name": "eval_category_3",
+          "kind": "text",
+          "target": {
+            "shape_id": "53"
+          },
+          "description": "Evaluation category name and point weight tag for section 3, right-aligned on card 3."
+        },
+        {
+          "name": "toc_section_marker_4",
+          "kind": "text",
+          "target": {
+            "shape_id": "54"
+          },
+          "description": "Pill-badge section index label on card 4 (fixed-geometry box 4 of 4, dark/highlighted card style)."
+        },
+        {
+          "name": "toc_nav_4",
+          "kind": "text",
+          "target": {
+            "shape_id": "55"
+          },
+          "description": "Section title on fixed-geometry card 4 of 4."
+        },
+        {
+          "name": "toc_entries_4",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "56",
+              "57",
+              "58"
+            ]
+          },
+          "description": "Bulleted list of the sub-topics covered under section 4's title on card 4.",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 4,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "entry_line",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              },
+              "description": "One sub-topic bullet line."
+            }
+          ]
+        },
+        {
+          "name": "toc_pages_4",
+          "kind": "text",
+          "target": {
+            "shape_id": "62"
+          },
+          "description": "Page range covered by section 4, on card 4."
+        },
+        {
+          "name": "eval_category_4",
+          "kind": "text",
+          "target": {
+            "shape_id": "63"
+          },
+          "description": "Evaluation category name and point weight tag for section 4, right-aligned on card 4."
+        }
+      ],
+      "used_by_intents": [
+        "toc"
+      ]
+    },
+    {
+      "id": "definition-comparison-card-pair",
+      "name": "Definition Comparison Card Pair",
+      "description": "Two independent bordered cards side by side, each with its own badge, title, quote, and source line",
+      "size_emu": {
+        "w": 16002000,
+        "h": 2781605
+      },
+      "artifacts": {
+        "shapes": "variants/definition-comparison-card-pair/shapes.xml",
+        "preview": "variants/definition-comparison-card-pair/preview.png"
+      },
+      "slots": [
+        {
+          "name": "cards",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "30",
+              "34"
+            ]
+          },
+          "description": "Pair of side-by-side comparison cards: a light reference/official-definition card and a dark brand-perspective card, each with a pill badge, title, body quote, and footnote source.",
+          "cardinality": {
+            "resizable": false,
+            "min": 2,
+            "max": 2,
+            "base": 2
+          },
+          "subslots": [
+            {
+              "name": "badge",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "29",
+                  "33"
+                ]
+              },
+              "description": "Small pill badge above the title naming the definition's source/perspective."
+            },
+            {
+              "name": "title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "30",
+                  "34"
+                ]
+              },
+              "description": "Short bold headline term/phrase being defined."
+            },
+            {
+              "name": "body",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "31",
+                  "35"
+                ]
+              },
+              "description": "Supporting definition/explanation text, may include bold emphasis spans and (for the reference card) quotation marks."
+            },
+            {
+              "name": "footnote",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "32",
+                  "36"
+                ]
+              },
+              "description": "Small muted source/attribution line at the bottom of the card."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "concept_definition"
+      ]
+    },
+    {
+      "id": "photo-case-card-with-info-table",
+      "name": "Photo Case Card with Info Table",
+      "description": "Row combining a photo, badge/title/description, an icon, and an embedded key-value info table",
+      "size_emu": {
+        "w": 15422278,
+        "h": 6988943
+      },
+      "artifacts": {
+        "shapes": "variants/photo-case-card-with-info-table/shapes.xml",
+        "preview": "variants/photo-case-card-with-info-table/preview.png",
+        "rels": "variants/photo-case-card-with-info-table/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "cases",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "66",
+              "16",
+              "17"
+            ]
+          },
+          "description": "Stacked rows of reference case studies, each with a photo, title, description, topic icon, and a 3-row info table.",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 5,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "photo",
+              "kind": "image",
+              "target": {
+                "shape_ids": [
+                  "25",
+                  "27",
+                  "29"
+                ]
+              },
+              "description": "Photo of the case-study subject.",
+              "convention": "A real photograph of the referenced place/business."
+            },
+            {
+              "name": "badge",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "15",
+                  "97",
+                  "106"
+                ]
+              },
+              "description": "Small pill badge numbering the case."
+            },
+            {
+              "name": "title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "36",
+                  "98",
+                  "107"
+                ]
+              },
+              "description": "Case title (location · name)."
+            },
+            {
+              "name": "icon",
+              "kind": "image",
+              "target": {
+                "shape_ids": [
+                  "111",
+                  "112",
+                  "113"
+                ]
+              },
+              "description": "Small line-icon next to the title representing the case's theme.",
+              "convention": "Structural/decorative icon, not a photo."
+            },
+            {
+              "name": "description",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "37",
+                  "99",
+                  "108"
+                ]
+              },
+              "description": "One-to-two line summary sentence under the title."
+            },
+            {
+              "name": "row1_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "38",
+                  "48",
+                  "58"
+                ]
+              },
+              "description": "Label of the first info-table row."
+            },
+            {
+              "name": "row1_value",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "39",
+                  "49",
+                  "59"
+                ]
+              },
+              "description": "Value of the first info-table row."
+            },
+            {
+              "name": "row2_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "40",
+                  "50",
+                  "60"
+                ]
+              },
+              "description": "Label of the second info-table row."
+            },
+            {
+              "name": "row2_value",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "41",
+                  "51",
+                  "61"
+                ]
+              },
+              "description": "Value of the second info-table row."
+            },
+            {
+              "name": "row3_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "42",
+                  "52",
+                  "62"
+                ]
+              },
+              "description": "Label of the third info-table row."
+            },
+            {
+              "name": "row3_value",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "43",
+                  "53",
+                  "63"
+                ]
+              },
+              "description": "Value of the third info-table row."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "case_studies"
+      ]
+    },
+    {
+      "id": "accent-bar-panel-two-col-footer",
+      "name": "Accent-Bar Panel with Two-Column Footer",
+      "description": "Accent-bar panel with kicker and headline paragraph, plus a separate two-column footer caption row",
+      "size_emu": {
+        "w": 16021202,
+        "h": 2115007
+      },
+      "artifacts": {
+        "shapes": "variants/accent-bar-panel-two-col-footer/shapes.xml",
+        "preview": "variants/accent-bar-panel-two-col-footer/preview.png",
+        "rels": "variants/accent-bar-panel-two-col-footer/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "label",
+          "kind": "text",
+          "target": {
+            "shape_id": "70"
+          },
+          "description": "Small bold eyebrow/kicker label above the headline.",
+          "convention": "Short 2-4 word label naming the panel's topic."
+        },
+        {
+          "name": "message",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "71"
+          },
+          "description": "Primary one-line headline statement of the panel, with mixed color/bold emphasis spans.",
+          "convention": "Single sentence with 2-4 emphasized keyword spans in accent colors."
+        },
+        {
+          "name": "footer_columns",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "72",
+              "73"
+            ]
+          },
+          "description": "Two side-by-side supporting text columns beneath the headline, each explaining one part of the process.",
+          "convention": "Keep each column to a short sentence with 1-2 bold emphasis spans; the two columns should read as parallel/complementary statements.",
+          "cardinality": {
+            "resizable": false,
+            "min": 2,
+            "max": 2,
+            "base": 2
+          },
+          "subslots": [
+            {
+              "name": "body",
+              "kind": "richtext",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              }
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "program_concept_overview"
+      ]
+    },
+    {
+      "id": "accent-bar-vertical-goal-list",
+      "name": "Accent-Bar Vertical Goal List",
+      "description": "Vertical list of items, each with its own left color accent bar, kicker, title, and description, divider-separated",
+      "size_emu": {
+        "w": 9544507,
+        "h": 6115507
+      },
+      "artifacts": {
+        "shapes": "variants/accent-bar-vertical-goal-list/shapes.xml",
+        "preview": "variants/accent-bar-vertical-goal-list/preview.png",
+        "rels": "variants/accent-bar-vertical-goal-list/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "goals",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "29",
+              "30",
+              "31",
+              "32",
+              "33",
+              "34",
+              "35",
+              "36",
+              "37",
+              "38",
+              "39",
+              "40",
+              "41",
+              "42"
+            ]
+          },
+          "description": "Vertical list of numbered goal/item rows inside a bordered panel, each with a small colored index label, a bold title line, and a lighter description line, separated by thin divider rules.",
+          "convention": "Index label reads 'GOAL 0N' (or equivalent short index word + number) in a rotating accent color per row; title is a short bold statement; description is one supporting sentence. The last row in the list may omit its description line if space runs out.",
+          "cardinality": {
+            "resizable": true,
+            "min": 3,
+            "max": 8,
+            "base": 5
+          },
+          "subslots": [
+            {
+              "name": "index_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "29",
+                  "32",
+                  "35",
+                  "38",
+                  "41"
+                ]
+              },
+              "description": "Short bold index label (e.g. 'GOAL 01') in an accent color unique to the row."
+            },
+            {
+              "name": "title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "30",
+                  "33",
+                  "36",
+                  "39",
+                  "42"
+                ]
+              },
+              "description": "Bold headline of the row/item."
+            },
+            {
+              "name": "description",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "31",
+                  "34",
+                  "37",
+                  "40"
+                ]
+              },
+              "description": "Lighter supporting sentence beneath the title.",
+              "constraints": {
+                "note": "Only 4 of the 5 observed rows carry a description shape; the 5th (last) row has no description text in this exemplar and may be left empty."
+              }
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "goals_and_kpi"
+      ]
+    },
+    {
+      "id": "stat-row-list-kpi",
+      "name": "Stat Row List (KPI)",
+      "description": "Vertical stack of rows pairing a left label/title with a large stat value on the right of the same row",
+      "size_emu": {
+        "w": 6115507,
+        "h": 6115507
+      },
+      "artifacts": {
+        "shapes": "variants/stat-row-list-kpi/shapes.xml",
+        "preview": "variants/stat-row-list-kpi/preview.png"
+      },
+      "slots": [
+        {
+          "name": "heading",
+          "kind": "text",
+          "target": {
+            "shape_id": "45"
+          },
+          "description": "Small heading label above the KPI row list."
+        },
+        {
+          "name": "kpis",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "23",
+              "24",
+              "25",
+              "26"
+            ]
+          },
+          "description": "Stacked list of KPI rows, each with a badge, label, and headline value.",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 6,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "badge",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "46",
+                  "50",
+                  "54",
+                  "58"
+                ]
+              },
+              "description": "Small KPI-number badge (e.g. 'KPI 01')."
+            },
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "47",
+                  "51",
+                  "55",
+                  "59"
+                ]
+              },
+              "description": "KPI name/description."
+            },
+            {
+              "name": "value",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "48",
+                  "52",
+                  "56",
+                  "60"
+                ]
+              },
+              "description": "Large headline value with unit/direction suffix run (e.g. '65' + '%↑')."
+            },
+            {
+              "name": "qualifier",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "49",
+                  "53",
+                  "57",
+                  "61"
+                ]
+              },
+              "description": "Small qualifier word under the headline value (e.g. 'or more')."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "goals_and_kpi"
+      ]
+    },
+    {
+      "id": "person-profile-card-row",
+      "name": "Person Profile Card Row",
+      "description": "Row of person cards with a circular initial avatar, role kicker, name, rule, and description",
+      "size_emu": {
+        "w": 9924898,
+        "h": 2772461
+      },
+      "artifacts": {
+        "shapes": "variants/person-profile-card-row/shapes.xml",
+        "preview": "variants/person-profile-card-row/preview.png",
+        "rels": "variants/person-profile-card-row/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "members",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "25",
+              "26",
+              "27"
+            ]
+          },
+          "description": "Row of person profile cards.",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 5,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "initial",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "69",
+                  "73",
+                  "77"
+                ]
+              },
+              "description": "Single-character initial shown inside the avatar circle.",
+              "convention": "One Korean surname character used as an avatar placeholder."
+            },
+            {
+              "name": "role",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "70",
+                  "74",
+                  "78"
+                ]
+              },
+              "description": "Short role/title label above the person's name."
+            },
+            {
+              "name": "name",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "71",
+                  "75",
+                  "79"
+                ]
+              },
+              "description": "Person's name, shown large."
+            },
+            {
+              "name": "description",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "72",
+                  "76",
+                  "80"
+                ]
+              },
+              "description": "One-to-two line responsibility/duty description under the divider line."
+            }
+          ]
+        },
+        {
+          "name": "footnote",
+          "kind": "text",
+          "target": {
+            "shape_id": "5"
+          },
+          "description": "Small disclaimer/footnote line beneath the card row."
+        }
+      ],
+      "used_by_intents": [
+        "company_profile"
+      ]
+    },
+    {
+      "id": "stat-highlight-card-pair",
+      "name": "Stat Highlight Card Pair",
+      "description": "Card with top accent bar, kicker, large centered stat value, and caption stacked vertically",
+      "size_emu": {
+        "w": 5544007,
+        "h": 1733702
+      },
+      "artifacts": {
+        "shapes": "variants/stat-highlight-card-pair/shapes.xml",
+        "preview": "variants/stat-highlight-card-pair/preview.png",
+        "rels": "variants/stat-highlight-card-pair/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "stats",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "8",
+              "9"
+            ]
+          },
+          "description": "Side-by-side pair of highlighted stat cards.",
+          "cardinality": {
+            "resizable": false,
+            "min": 2,
+            "max": 2,
+            "base": 2
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "65",
+                  "68"
+                ]
+              },
+              "description": "Small label above the stat value."
+            },
+            {
+              "name": "value",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "66",
+                  "69"
+                ]
+              },
+              "description": "Large headline stat value, optionally with a unit/qualifier suffix run."
+            },
+            {
+              "name": "caption",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "67",
+                  "70"
+                ]
+              },
+              "description": "Small caption line under the stat value."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "track_record"
+      ]
+    },
+    {
+      "id": "milestone-title-value-card-row",
+      "name": "Milestone Title-Value Card Row",
+      "description": "Row of cards pairing a title and a right-aligned value on one line, with a description line below",
+      "size_emu": {
+        "w": 16002000,
+        "h": 1067105
+      },
+      "artifacts": {
+        "shapes": "variants/milestone-title-value-card-row/shapes.xml",
+        "preview": "variants/milestone-title-value-card-row/preview.png"
+      },
+      "slots": [
+        {
+          "name": "cards",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "7",
+              "8",
+              "9",
+              "10"
+            ]
+          },
+          "description": "Row of evenly-spaced milestone cards, each with a rounded rectangle background, an eyebrow label, a title, a right-aligned highlighted value, and a description line. Each card has its own accent color scheme (background tint + label/value color), including a distinct dark/inverse scheme for the last card.",
+          "cardinality": {
+            "resizable": true,
+            "min": 3,
+            "max": 5,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "38",
+                  "42",
+                  "46",
+                  "50"
+                ]
+              },
+              "description": "Small bold uppercase eyebrow/index caption at the top of each card."
+            },
+            {
+              "name": "title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "39",
+                  "43",
+                  "47",
+                  "51"
+                ]
+              },
+              "description": "Bold headline naming the milestone."
+            },
+            {
+              "name": "value",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "40",
+                  "44",
+                  "48",
+                  "52"
+                ]
+              },
+              "description": "Right-aligned, accent-colored highlighted value on the same line as the title (a date, month, or period)."
+            },
+            {
+              "name": "description",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "41",
+                  "45",
+                  "49",
+                  "53"
+                ]
+              },
+              "description": "Small muted detail line under the title listing sub-items or scope for the milestone."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "schedule_roadmap"
+      ]
+    },
+    {
+      "id": "gantt-timeline-table",
+      "name": "Gantt Timeline Table",
+      "description": "Row-labeled Gantt chart with month-column headers and date-range bars/diamond markers",
+      "size_emu": {
+        "w": 16021202,
+        "h": 5067605
+      },
+      "artifacts": {
+        "shapes": "variants/gantt-timeline-table/shapes.xml",
+        "preview": "variants/gantt-timeline-table/preview.png",
+        "rels": "variants/gantt-timeline-table/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "corner_header_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "55"
+          },
+          "description": "Corner cell label above the row-label column, left of the timeline header."
+        },
+        {
+          "name": "timeline_year_start",
+          "kind": "text",
+          "target": {
+            "shape_id": "56"
+          },
+          "description": "Year label above the first block of month columns."
+        },
+        {
+          "name": "timeline_year_end",
+          "kind": "text",
+          "target": {
+            "shape_id": "62"
+          },
+          "description": "Year label above the last block of month columns (shown when the timeline spans a year boundary)."
+        },
+        {
+          "name": "timeline_months",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "57",
+              "58",
+              "59",
+              "60",
+              "61",
+              "63"
+            ]
+          },
+          "description": "Header row of month labels, one per timeline column.",
+          "cardinality": {
+            "resizable": false,
+            "min": 6,
+            "max": 6,
+            "base": 6
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              }
+            }
+          ]
+        },
+        {
+          "name": "phase_labels",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "64",
+              "66",
+              "68",
+              "70",
+              "72",
+              "73"
+            ]
+          },
+          "description": "Left-column row labels naming each phase/task in the Gantt chart.",
+          "cardinality": {
+            "resizable": false,
+            "min": 6,
+            "max": 6,
+            "base": 6
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              }
+            }
+          ]
+        },
+        {
+          "name": "phase_bar_labels",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "65",
+              "67",
+              "69",
+              "71",
+              "74"
+            ]
+          },
+          "description": "Text captions inside the colored timeline bars, describing what happens during that bar's date span. Bar position/width/color are fixed geometry tied to the template's specific months and are not part of this slot; one phase row (the milestone row) has no bar/label.",
+          "cardinality": {
+            "resizable": false,
+            "min": 5,
+            "max": 5,
+            "base": 5
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              }
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "schedule_roadmap"
+      ]
+    },
+    {
+      "id": "icon-caption-card-simple",
+      "name": "Icon Caption Card, Simple",
+      "description": "Grid of cards with an icon box, kicker plus title, a rule, and a single description paragraph",
+      "size_emu": {
+        "w": 8020203,
+        "h": 5115154
+      },
+      "artifacts": {
+        "shapes": "variants/icon-caption-card-simple/shapes.xml",
+        "preview": "variants/icon-caption-card-simple/preview.png",
+        "rels": "variants/icon-caption-card-simple/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "heading",
+          "kind": "text",
+          "target": {
+            "shape_id": "50"
+          },
+          "description": "Slide headline sentence above the 2x2 card grid."
+        },
+        {
+          "name": "channels",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "7",
+              "8",
+              "9",
+              "10"
+            ]
+          },
+          "description": "2x2 grid of icon+caption cards, each with a colored top accent bar, an icon, an eyebrow caption, a title, and a body description.",
+          "cardinality": {
+            "resizable": false,
+            "min": 4,
+            "max": 4,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "caption",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "51",
+                  "54",
+                  "57",
+                  "60"
+                ]
+              },
+              "description": "Small uppercase caption above the title (e.g. 'CHANNEL 01')."
+            },
+            {
+              "name": "title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "52",
+                  "55",
+                  "58",
+                  "61"
+                ]
+              },
+              "description": "Card title naming the item."
+            },
+            {
+              "name": "description",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "53",
+                  "56",
+                  "59",
+                  "62"
+                ]
+              },
+              "description": "One-line body description below the divider line."
+            },
+            {
+              "name": "icon",
+              "kind": "image",
+              "target": {
+                "shape_ids": [
+                  "34",
+                  "35",
+                  "36",
+                  "38"
+                ]
+              },
+              "description": "Main body shape of the line-art icon inside the icon box.",
+              "convention": "Simple line-art pictogram illustrating the card's topic; other small line/detail shapes around it are fixed icon accents."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "recruitment_and_selection"
+      ]
+    },
+    {
+      "id": "vertical-funnel-stat-flow",
+      "name": "Vertical Funnel Stat Flow",
+      "description": "Two stacked horizontal bands (light then dark) each with a big stat number, linked by a small down-arrow label",
+      "size_emu": {
+        "w": 7638898,
+        "h": 4429354
+      },
+      "artifacts": {
+        "shapes": "variants/vertical-funnel-stat-flow/shapes.xml",
+        "preview": "variants/vertical-funnel-stat-flow/preview.png",
+        "rels": "variants/vertical-funnel-stat-flow/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "title",
+          "kind": "text",
+          "target": {
+            "shape_id": "64"
+          },
+          "description": "Heading above the funnel summarizing the overall multi-stage flow."
+        },
+        {
+          "name": "levels",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "66",
+              "72"
+            ]
+          },
+          "description": "Vertically stacked funnel stages, each a colored-accent panel with a level label, title, description, and a large right-aligned stat figure with unit and caption.",
+          "cardinality": {
+            "resizable": false,
+            "min": 2,
+            "max": 2,
+            "base": 2
+          },
+          "subslots": [
+            {
+              "name": "level_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "65",
+                  "71"
+                ]
+              },
+              "description": "Small tracked-out level tag above the stage title."
+            },
+            {
+              "name": "level_title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "66",
+                  "72"
+                ]
+              },
+              "description": "Bold stage title."
+            },
+            {
+              "name": "level_description",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "67",
+                  "73"
+                ]
+              },
+              "description": "Two-line supporting description of the stage."
+            },
+            {
+              "name": "stat_value",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "68",
+                  "74"
+                ],
+                "a_t_xpath": "(.//a:r[1]/a:t)"
+              },
+              "description": "Large headline figure for the stage (e.g. a count)."
+            },
+            {
+              "name": "stat_unit",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "68",
+                  "74"
+                ],
+                "a_t_xpath": "(.//a:r[2]/a:t)"
+              },
+              "description": "Unit/qualifier text set beside the large stat figure."
+            },
+            {
+              "name": "stat_caption",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "69",
+                  "75"
+                ]
+              },
+              "description": "Small caption under the stat figure explaining what it measures."
+            }
+          ]
+        },
+        {
+          "name": "transition_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "70"
+          },
+          "description": "Arrow-prefixed connector label in the gap between funnel stages, naming the step that moves participants from one level to the next."
+        }
+      ],
+      "used_by_intents": [
+        "recruitment_and_selection"
+      ]
+    },
+    {
+      "id": "icon-callout-note",
+      "name": "Icon Callout Note",
+      "description": "Accent-bar callout box with a circular icon, kicker label, and paragraph",
+      "size_emu": {
+        "w": 16021202,
+        "h": 743407
+      },
+      "artifacts": {
+        "shapes": "variants/icon-callout-note/shapes.xml",
+        "preview": "variants/icon-callout-note/preview.png",
+        "rels": "variants/icon-callout-note/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "title",
+          "kind": "text",
+          "target": {
+            "shape_id": "77"
+          },
+          "description": "Short label naming the type of note (shown next to the icon)."
+        },
+        {
+          "name": "body",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "78"
+          },
+          "description": "Note body sentence, with a key phrase emphasized (bold/color run)."
+        }
+      ],
+      "used_by_intents": [
+        "recruitment_and_selection"
+      ]
+    },
+    {
+      "id": "camp-overview-stat-band",
+      "name": "Camp Overview Stat Band",
+      "description": "Big label plus two dark stat boxes and one highlighted tag-pill box arranged in a single row",
+      "size_emu": {
+        "w": 16002000,
+        "h": 2937372
+      },
+      "artifacts": {
+        "shapes": "variants/camp-overview-stat-band/shapes.xml",
+        "preview": "variants/camp-overview-stat-band/preview.png",
+        "rels": "variants/camp-overview-stat-band/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "duration_value",
+          "kind": "text",
+          "target": {
+            "shape_id": "41"
+          },
+          "description": "Large hero-scale statement at the left of the band stating the program's duration/format."
+        },
+        {
+          "name": "duration_caption",
+          "kind": "text",
+          "target": {
+            "shape_id": "42"
+          },
+          "description": "Small caption beneath the duration statement giving format/frequency detail."
+        },
+        {
+          "name": "stat_cards",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "83",
+              "44",
+              "45",
+              "88",
+              "89",
+              "90"
+            ]
+          },
+          "description": "Row of dark stat cards, each with a small pill label, a large stat value (mixed big number + smaller unit text), a caption line, and a decorative icon.",
+          "convention": "Value mixes a large number/figure with a smaller trailing unit phrase in the same line, e.g. '30' + '명 내외'.",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 3,
+            "base": 2
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "83",
+                  "88"
+                ]
+              },
+              "description": "Small pill-badge label naming the stat category."
+            },
+            {
+              "name": "value",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "44",
+                  "89"
+                ]
+              },
+              "description": "Large stat figure with a smaller trailing unit/qualifier run."
+            },
+            {
+              "name": "caption",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "45",
+                  "90"
+                ]
+              },
+              "description": "Small supporting detail line beneath the stat value."
+            }
+          ]
+        },
+        {
+          "name": "result_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "49"
+          },
+          "description": "Small bold label at the top of the blue result-callout card."
+        },
+        {
+          "name": "result_headline",
+          "kind": "text",
+          "target": {
+            "shape_id": "50"
+          },
+          "description": "Bold headline on the blue card naming the concrete deliverables/results."
+        },
+        {
+          "name": "result_caption",
+          "kind": "text",
+          "target": {
+            "shape_id": "78"
+          },
+          "description": "Supporting sentence beneath the result headline."
+        },
+        {
+          "name": "result_tags",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "22",
+              "23"
+            ]
+          },
+          "description": "Row of solid pill tags at the bottom of the blue card, each naming one deliverable.",
+          "convention": "Keep each tag to a short 2-4 word deliverable name, parallel to result_headline's items.",
+          "cardinality": {
+            "resizable": true,
+            "min": 1,
+            "max": 3,
+            "base": 2
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              }
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "camp_program_overview"
+      ]
+    },
+    {
+      "id": "icon-caption-card-with-sublist",
+      "name": "Icon Caption Card with Sublist",
+      "description": "Grid of icon-header cards, each containing a bulleted two-item label/value/description sublist",
+      "size_emu": {
+        "w": 16021202,
+        "h": 6687007
+      },
+      "artifacts": {
+        "shapes": "variants/icon-caption-card-with-sublist/shapes.xml",
+        "preview": "variants/icon-caption-card-with-sublist/preview.png",
+        "rels": "variants/icon-caption-card-with-sublist/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "categories",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "7",
+              "8",
+              "9",
+              "10"
+            ]
+          },
+          "description": "2x2 grid of category cards, each with a colored top accent bar, an icon, a caption, a title, and a 2-item sub-list.",
+          "cardinality": {
+            "resizable": false,
+            "min": 4,
+            "max": 4,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "caption",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "51",
+                  "59",
+                  "67",
+                  "75"
+                ]
+              },
+              "description": "Small uppercase caption above the title (e.g. 'CATEGORY 01')."
+            },
+            {
+              "name": "title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "52",
+                  "60",
+                  "68",
+                  "76"
+                ]
+              },
+              "description": "Card title naming the category."
+            },
+            {
+              "name": "icon",
+              "kind": "image",
+              "target": {
+                "shape_ids": [
+                  "30",
+                  "36",
+                  "39",
+                  "43"
+                ]
+              },
+              "description": "Main body shape of the line-art icon inside the icon box.",
+              "convention": "Simple line-art pictogram illustrating the category's topic; other small shapes around it are fixed icon accents."
+            }
+          ]
+        },
+        {
+          "name": "category_items",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "53",
+              "56",
+              "61",
+              "64",
+              "69",
+              "72",
+              "77",
+              "80"
+            ]
+          },
+          "description": "Two bulleted sub-items per category card, in card order: items 1-2 belong to category 1, items 3-4 to category 2, items 5-6 to category 3, items 7-8 to category 4.",
+          "cardinality": {
+            "resizable": false,
+            "min": 8,
+            "max": 8,
+            "base": 8
+          },
+          "subslots": [
+            {
+              "name": "eyebrow",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "53",
+                  "56",
+                  "61",
+                  "64",
+                  "69",
+                  "72",
+                  "77",
+                  "80"
+                ]
+              },
+              "description": "Small colored label above the sub-item's bold subtitle."
+            },
+            {
+              "name": "subtitle",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "54",
+                  "57",
+                  "62",
+                  "65",
+                  "70",
+                  "73",
+                  "78",
+                  "81"
+                ]
+              },
+              "description": "Bold headline of the sub-item."
+            },
+            {
+              "name": "description",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "55",
+                  "58",
+                  "63",
+                  "66",
+                  "71",
+                  "74",
+                  "79",
+                  "82"
+                ]
+              },
+              "description": "Gray supporting description line under the sub-item subtitle."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "camp_logistics"
+      ]
+    },
+    {
+      "id": "belief-statement-card-with-tags",
+      "name": "Belief Statement Card with Tags",
+      "description": "Tall accent-bar card with kicker, belief-statement headline, paragraph, and a row of tag pills",
+      "size_emu": {
+        "w": 4381805,
+        "h": 6476695
+      },
+      "artifacts": {
+        "shapes": "variants/belief-statement-card-with-tags/shapes.xml",
+        "preview": "variants/belief-statement-card-with-tags/preview.png"
+      },
+      "slots": [
+        {
+          "name": "label",
+          "kind": "text",
+          "target": {
+            "shape_id": "35"
+          },
+          "description": "Small bold accent-colored eyebrow label above the headline."
+        },
+        {
+          "name": "headline",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "36"
+          },
+          "description": "Large two-line belief/principle statement on the dark card, with one keyword phrase in an accent color.",
+          "convention": "Short punchy 2-line statement; highlight the single most important word/phrase in the accent color."
+        },
+        {
+          "name": "body",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "37"
+          },
+          "description": "Multi-paragraph supporting explanation beneath the headline, with selected phrases bolded/whitened for emphasis against the muted base text color.",
+          "convention": "Two short paragraphs (separated by a blank line), each with 1-2 bold emphasis spans on key phrases."
+        },
+        {
+          "name": "tags_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "38"
+          },
+          "description": "Small bold accent-colored eyebrow label above the tag pills, naming the tag group."
+        },
+        {
+          "name": "tags",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "39",
+              "40",
+              "41"
+            ]
+          },
+          "description": "Wrapping row/stack of pill-shaped outline tags beneath the tags_label, each holding one short phrase.",
+          "convention": "Keep each tag to a short 2-5 word phrase naming a focus area.",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 5,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              }
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "ai_utilization_approach"
+      ]
+    },
+    {
+      "id": "content-card-with-icon-grid",
+      "name": "Content Card with Icon Grid",
+      "description": "Card with a pill header and title over an inner icon-plus-label grid",
+      "size_emu": {
+        "w": 4213277,
+        "h": 3439917
+      },
+      "artifacts": {
+        "shapes": "variants/content-card-with-icon-grid/shapes.xml",
+        "preview": "variants/content-card-with-icon-grid/preview.png",
+        "rels": "variants/content-card-with-icon-grid/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "eyebrow",
+          "kind": "text",
+          "target": {
+            "shape_id": "132"
+          },
+          "description": "Small dark pill badge above the title (uppercase eyebrow label)."
+        },
+        {
+          "name": "title",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "133"
+          },
+          "description": "Card title beneath the eyebrow badge."
+        },
+        {
+          "name": "items",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "121",
+              "122",
+              "101",
+              "102"
+            ]
+          },
+          "description": "2x2 grid of icon items, each a labeled gray rounded card with a line-art icon.",
+          "cardinality": {
+            "resizable": false,
+            "min": 4,
+            "max": 4,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "121",
+                  "122",
+                  "101",
+                  "102"
+                ]
+              },
+              "description": "Short 2-word label inside the item card (wraps to two lines)."
+            },
+            {
+              "name": "icon",
+              "kind": "image",
+              "target": {
+                "shape_ids": [
+                  "94",
+                  "96",
+                  "97",
+                  "98"
+                ]
+              },
+              "convention": "Simple line-art pictogram illustrating the item's topic."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "mentoring_program_overview"
+      ]
+    },
+    {
+      "id": "role-matrix-table",
+      "name": "Role Matrix Table",
+      "description": "Row-block matrix of role cards, each with inline field labels (e.g. 담당/주요업무), no single global header row",
+      "size_emu": {
+        "w": 16021202,
+        "h": 5438852
+      },
+      "artifacts": {
+        "shapes": "variants/role-matrix-table/shapes.xml",
+        "preview": "variants/role-matrix-table/preview.png",
+        "rels": "variants/role-matrix-table/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "roles",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "4",
+              "5",
+              "6",
+              "7"
+            ]
+          },
+          "description": "Stacked/tiled rows, one per organizational role, each with a badge, role name, assignee, and task list.",
+          "cardinality": {
+            "resizable": true,
+            "min": 3,
+            "max": 6,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "badge",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "24",
+                  "32",
+                  "40",
+                  "48"
+                ]
+              },
+              "description": "Small role-number badge (e.g. 'ROLE 01')."
+            },
+            {
+              "name": "role_name",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "25",
+                  "33",
+                  "41",
+                  "49"
+                ]
+              },
+              "description": "Role name in Korean, shown large."
+            },
+            {
+              "name": "role_name_en",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "26",
+                  "34",
+                  "42",
+                  "50"
+                ]
+              },
+              "description": "English translation of the role name, shown small below it."
+            },
+            {
+              "name": "assignee_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "27",
+                  "35",
+                  "43",
+                  "51"
+                ]
+              },
+              "description": "Small column label above the assignee's name."
+            },
+            {
+              "name": "assignee_name",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "28",
+                  "36",
+                  "44",
+                  "52"
+                ]
+              },
+              "description": "Name(s) of the person(s) assigned to this role."
+            },
+            {
+              "name": "assignee_title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "29",
+                  "37",
+                  "45",
+                  "53"
+                ]
+              },
+              "description": "Small title/affiliation line under the assignee's name."
+            },
+            {
+              "name": "tasks_label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "30",
+                  "38",
+                  "46",
+                  "54"
+                ]
+              },
+              "description": "Small column label above the task bullet list."
+            },
+            {
+              "name": "tasks",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "31",
+                  "39",
+                  "47",
+                  "55"
+                ]
+              },
+              "description": "Bulleted list of this role's key responsibilities."
+            }
+          ]
+        },
+        {
+          "name": "summary_caption",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "56"
+          },
+          "description": "Single summary sentence beneath the role matrix, tying the roles together."
+        }
+      ],
+      "used_by_intents": [
+        "team_organization"
+      ]
+    },
+    {
+      "id": "two-column-badge-workflow-list",
+      "name": "Two-Column Badge Workflow List",
+      "description": "Titled panel with a vertical list of square-badge numbered rows, each split into a label column and a description column",
+      "size_emu": {
+        "w": 10877702,
+        "h": 5162702
+      },
+      "artifacts": {
+        "shapes": "variants/two-column-badge-workflow-list/shapes.xml",
+        "preview": "variants/two-column-badge-workflow-list/preview.png",
+        "rels": "variants/two-column-badge-workflow-list/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "header_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "31"
+          },
+          "description": "Tracked-out eyebrow label above the horizontal divider, framing the workflow list (e.g. 'topic · N steps')."
+        },
+        {
+          "name": "steps",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "33",
+              "37",
+              "41",
+              "45",
+              "49",
+              "53",
+              "57"
+            ]
+          },
+          "description": "Vertical list of numbered workflow steps, each with a colored index badge, a KR title, an EN sub-tag, and a right-column description separated by a short vertical tick divider.",
+          "cardinality": {
+            "resizable": true,
+            "min": 4,
+            "max": 9,
+            "base": 7
+          },
+          "subslots": [
+            {
+              "name": "step_number",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "32",
+                  "36",
+                  "40",
+                  "44",
+                  "48",
+                  "52",
+                  "56"
+                ]
+              },
+              "description": "Two-digit index number inside the step's colored badge rectangle."
+            },
+            {
+              "name": "step_title",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "33",
+                  "37",
+                  "41",
+                  "45",
+                  "49",
+                  "53",
+                  "57"
+                ]
+              },
+              "description": "Bold Korean step title."
+            },
+            {
+              "name": "step_subtitle",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "34",
+                  "38",
+                  "42",
+                  "46",
+                  "50",
+                  "54",
+                  "58"
+                ]
+              },
+              "description": "Small tracked-out English tag under the step title."
+            },
+            {
+              "name": "step_description",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "35",
+                  "39",
+                  "43",
+                  "47",
+                  "51",
+                  "55",
+                  "59"
+                ]
+              },
+              "description": "Right-column detail text describing what happens during the step, separated from the left label block by a short vertical tick divider."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "onsite_operations_management"
+      ]
+    },
+    {
+      "id": "two-column-accent-panel-comparison",
+      "name": "Two-Column Accent Panel Comparison",
+      "description": "Dark accent-bar panel split by a vertical divider into two labeled columns of list content",
+      "size_emu": {
+        "w": 16002000,
+        "h": 1524305
+      },
+      "artifacts": {
+        "shapes": "variants/two-column-accent-panel-comparison/shapes.xml",
+        "preview": "variants/two-column-accent-panel-comparison/preview.png",
+        "rels": "variants/two-column-accent-panel-comparison/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "header_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "64"
+          },
+          "description": "Small tracked-out eyebrow label spanning the top of the band, framing the two-column comparison below (e.g. 'topic · A → B')."
+        },
+        {
+          "name": "columns",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "65",
+              "68"
+            ]
+          },
+          "description": "Two side-by-side comparison columns separated by a vertical divider line, each with a heading, an inline item list, and a supporting footnote.",
+          "cardinality": {
+            "resizable": false,
+            "min": 2,
+            "max": 2,
+            "base": 2
+          },
+          "subslots": [
+            {
+              "name": "column_heading",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "65",
+                  "68"
+                ]
+              },
+              "description": "Bold column title, typically 'label (EN-TAG)' form."
+            },
+            {
+              "name": "column_items",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "66",
+                  "69"
+                ]
+              },
+              "description": "Inline-run list of numbered items for the column, items separated by a middle-dot/bullet-glyph run."
+            },
+            {
+              "name": "column_footnote",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "67",
+                  "70"
+                ]
+              },
+              "description": "Small muted supporting line under the column's item list, may include an arrow glyph."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "safety_and_risk_management"
+      ]
+    },
+    {
+      "id": "key-message-with-numbered-list",
+      "name": "Key Message with Numbered List",
+      "description": "Key-message statement combined with a plain numbered subsection list in a single unit",
+      "size_emu": {
+        "w": 10478110,
+        "h": 4609490
+      },
+      "artifacts": {
+        "shapes": "variants/key-message-with-numbered-list/shapes.xml",
+        "preview": "variants/key-message-with-numbered-list/preview.png",
+        "rels": "variants/key-message-with-numbered-list/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "key_message",
+          "kind": "richtext",
+          "target": {
+            "shape_ids": [
+              "15",
+              "16",
+              "17"
+            ]
+          },
+          "description": "Multi-line lead statement broken across three stacked text boxes, with colored/bold emphasis spans"
+        },
+        {
+          "name": "items",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "19",
+              "21",
+              "23"
+            ]
+          },
+          "description": "Numbered list of key points below the divider rule",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 5,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "number",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "18",
+                  "20",
+                  "22"
+                ]
+              },
+              "description": "Two-digit ordinal index",
+              "convention": "Sequential auto-numbering (01, 02, 03, ...); regenerate to match item count"
+            },
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "19",
+                  "21",
+                  "23"
+                ]
+              },
+              "description": "Short point text for the list item"
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "section_divider"
+      ]
+    },
+    {
+      "id": "accent-bar-stat-card-row",
+      "name": "Accent-Bar Stat Card Row",
+      "description": "Row of cards each with a left accent bar, kicker, and a one-line arrow-joined stat sentence",
+      "size_emu": {
+        "w": 16002000,
+        "h": 1057046
+      },
+      "artifacts": {
+        "shapes": "variants/accent-bar-stat-card-row/shapes.xml",
+        "preview": "variants/accent-bar-stat-card-row/preview.png",
+        "rels": "variants/accent-bar-stat-card-row/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "cards",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "67",
+              "68",
+              "69",
+              "70",
+              "71",
+              "72"
+            ]
+          },
+          "description": "Row of equal-width stakeholder/audience cards, each a small green-tinted panel with an accent bar, an uppercase label, and a body line.",
+          "convention": "Keep the audience/stakeholder framing parallel across cards (e.g. 'X → benefit summary'); body line uses an arrow separator with the arrow in the accent color.",
+          "cardinality": {
+            "resizable": false,
+            "min": 3,
+            "max": 3,
+            "base": 3
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "shape_ids": [
+                  "67",
+                  "69",
+                  "71"
+                ]
+              },
+              "description": "Small bold uppercase eyebrow label identifying the card's audience/category."
+            },
+            {
+              "name": "body",
+              "kind": "richtext",
+              "target": {
+                "shape_ids": [
+                  "68",
+                  "70",
+                  "72"
+                ]
+              },
+              "description": "Single-line statement with an accent-colored arrow/separator run.",
+              "convention": "'<subject> → <benefit/outcome summary>' with the arrow rendered in the accent color."
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "expected_outcomes"
+      ]
+    },
+    {
+      "id": "closing-statement-panel",
+      "name": "Closing Statement Panel",
+      "description": "Accent-bar panel with kicker, large headline, subtitle, rule, and contact info",
+      "size_emu": {
+        "w": 16002000,
+        "h": 2857500
+      },
+      "artifacts": {
+        "shapes": "variants/closing-statement-panel/shapes.xml",
+        "preview": "variants/closing-statement-panel/preview.png",
+        "rels": "variants/closing-statement-panel/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "headline",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "50"
+          },
+          "description": "Large bold closing headline; may mix plain and accent-colored emphasis spans.",
+          "convention": "Short punchy statement, 1-2 emphasized keyword spans in accent color."
+        },
+        {
+          "name": "subheadline",
+          "kind": "text",
+          "target": {
+            "shape_id": "51"
+          },
+          "description": "Supporting Korean tagline sentence beneath the headline."
+        },
+        {
+          "name": "signoff_name",
+          "kind": "text",
+          "target": {
+            "shape_id": "52"
+          },
+          "description": "Bold sign-off line naming the performing organization and responsible person/role, separated by a middle dot."
+        },
+        {
+          "name": "contact_line",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "53"
+          },
+          "description": "Small contact line: a label followed by a contact email/value."
+        }
+      ],
+      "used_by_intents": [
+        "closing_commitment"
+      ]
+    },
+    {
+      "id": "lead-sentence-inline-highlight",
+      "name": "Lead Sentence with Inline Highlight",
+      "description": "Full sentence/paragraph text with one inline color-highlighted phrase, no band or rule",
+      "size_emu": {
+        "w": 16002000,
+        "h": 381305
+      },
+      "artifacts": {
+        "shapes": "variants/lead-sentence-inline-highlight/shapes.xml",
+        "preview": "variants/lead-sentence-inline-highlight/preview.png"
+      },
+      "slots": [
+        {
+          "name": "statement",
+          "kind": "richtext",
+          "target": {
+            "shape_id": "4"
+          },
+          "description": "Single-line lead sentence with one inline-highlighted phrase mid-sentence.",
+          "convention": "Bold single-line statement. One contiguous phrase near the middle is set in the accent color (blue, srgbClr 2563EB) while the rest stays in the default dark ink color (0F172A) to draw attention to the key idea; preserve this three-run split (lead-in / highlighted phrase / trailing) when replacing content."
+        }
+      ],
+      "used_by_intents": [
+        "case_studies",
+        "program_concept_overview",
+        "track_record"
+      ]
+    },
+    {
+      "id": "label-with-pill-tag-row",
+      "name": "Label with Pill Tag Row",
+      "description": "Short label paired with an adjacent row of rounded segmented tag pills",
+      "size_emu": {
+        "w": 16002000,
+        "h": 590702
+      },
+      "artifacts": {
+        "shapes": "variants/label-with-pill-tag-row/shapes.xml",
+        "preview": "variants/label-with-pill-tag-row/preview.png",
+        "rels": "variants/label-with-pill-tag-row/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "category_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "28"
+          },
+          "description": "Small uppercase category eyebrow on the left of the row"
+        },
+        {
+          "name": "category_sublabel",
+          "kind": "text",
+          "target": {
+            "shape_id": "29"
+          },
+          "description": "Secondary label under the category eyebrow",
+          "convention": "Often states the item type plus the tag count (e.g. '점검 영역 · 4'); keep the count in sync with the number of tags"
+        },
+        {
+          "name": "tags",
+          "kind": "repeated",
+          "target": {
+            "shape_ids": [
+              "30",
+              "31",
+              "32",
+              "33"
+            ]
+          },
+          "description": "Row of pill-shaped tags to the right of the category label",
+          "cardinality": {
+            "resizable": true,
+            "min": 2,
+            "max": 6,
+            "base": 4
+          },
+          "subslots": [
+            {
+              "name": "label",
+              "kind": "text",
+              "target": {
+                "a_t_xpath": ".//a:t"
+              },
+              "description": "Tag text"
+            }
+          ]
+        }
+      ],
+      "used_by_intents": [
+        "safety_and_risk_management"
+      ]
+    }
+  ],
+  "adornments": [
+    {
+      "id": "solid-fill-chip-label",
+      "name": "Solid-Fill Chip Label",
+      "note": "Opaque solid-color rectangular chip wrapping short bold label text, with or without an accent tick beneath",
+      "size_emu": {
+        "w": 4953305,
+        "h": 695858
+      },
+      "artifacts": {
+        "shapes": "adornments/solid-fill-chip-label/shapes.xml",
+        "preview": "adornments/solid-fill-chip-label/preview.png",
+        "rels": "adornments/solid-fill-chip-label/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "title",
+          "kind": "text",
+          "target": {
+            "shape_id": "9"
+          },
+          "description": "Chip/eyebrow label text on a solid-fill dark background, with an underline tick beneath.",
+          "convention": "Short label such as a section index, e.g. 'SECTION 01'; form-only."
+        }
+      ]
+    },
+    {
+      "id": "full-width-solid-color-band",
+      "name": "Full-Width Solid Color Band",
+      "note": "Solid-color bar spanning the full width holding label text, single line or kicker+title pair",
+      "size_emu": {
+        "w": 9525305,
+        "h": 418795
+      },
+      "artifacts": {
+        "shapes": "adornments/full-width-solid-color-band/shapes.xml",
+        "preview": "adornments/full-width-solid-color-band/preview.png"
+      },
+      "slots": [
+        {
+          "name": "band_label",
+          "kind": "text",
+          "target": {
+            "shape_id": "27"
+          },
+          "description": "Left-aligned tracked-out index/category tag on the band, typically 'NN · EN-TAG' form."
+        },
+        {
+          "name": "band_title",
+          "kind": "text",
+          "target": {
+            "shape_id": "28"
+          },
+          "description": "Right-aligned section title on the band."
+        }
+      ]
+    },
+    {
+      "id": "kicker-short-underline-tick",
+      "name": "Kicker with Short Underline Tick",
+      "note": "Small kicker/label text with a short left-aligned underline rule beneath it, plain background",
+      "size_emu": {
+        "w": 10478110,
+        "h": 409651
+      },
+      "artifacts": {
+        "shapes": "adornments/kicker-short-underline-tick/shapes.xml",
+        "preview": "adornments/kicker-short-underline-tick/preview.png",
+        "rels": "adornments/kicker-short-underline-tick/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "title",
+          "kind": "text",
+          "target": {
+            "shape_id": "14"
+          },
+          "description": "Short kicker/label phrase above the underline tick.",
+          "convention": "Brief section-level label (2-4 words), form-only."
+        }
+      ]
+    },
+    {
+      "id": "kicker-underline-gradient-wash",
+      "name": "Kicker on Gradient Wash",
+      "note": "Kicker label with underline tick sitting on a soft fading gradient background band",
+      "size_emu": {
+        "w": 14615010,
+        "h": 352958
+      },
+      "artifacts": {
+        "shapes": "adornments/kicker-underline-gradient-wash/shapes.xml",
+        "preview": "adornments/kicker-underline-gradient-wash/preview.png",
+        "rels": "adornments/kicker-underline-gradient-wash/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "kicker",
+          "kind": "text",
+          "target": {
+            "shape_id": "13"
+          },
+          "description": "Small uppercase kicker label with underline tick, left-aligned above/beside the title.",
+          "convention": "Short eyebrow label, e.g. 'CATEGORY · Korean gloss'; form-only."
+        },
+        {
+          "name": "title",
+          "kind": "text",
+          "target": {
+            "shape_id": "52"
+          },
+          "description": "Larger, right-aligned header title paired with the kicker.",
+          "convention": "Short header phrase (2-4 words)."
+        }
+      ]
+    },
+    {
+      "id": "bare-label-no-rule",
+      "name": "Bare Label, No Rule",
+      "note": "Plain bold or caps label text with no line, band, or fill decoration",
+      "size_emu": {
+        "w": 16002000,
+        "h": 181051
+      },
+      "artifacts": {
+        "shapes": "adornments/bare-label-no-rule/shapes.xml",
+        "preview": "adornments/bare-label-no-rule/preview.png"
+      },
+      "slots": [
+        {
+          "name": "title",
+          "kind": "text",
+          "target": {
+            "shape_id": "16"
+          },
+          "description": "Bare, tracked-out label text with no accompanying rule/line — used as a small section/band title."
+        }
+      ]
+    },
+    {
+      "id": "ruled-top-line-header",
+      "name": "Ruled Top-Line Header",
+      "note": "Thin full-width rule above a title, with an optional right-aligned eyebrow caption",
+      "size_emu": {
+        "w": 16002000,
+        "h": 370842
+      },
+      "artifacts": {
+        "shapes": "adornments/ruled-top-line-header/shapes.xml",
+        "preview": "adornments/ruled-top-line-header/preview.png",
+        "rels": "adornments/ruled-top-line-header/shapes.xml.rels"
+      },
+      "slots": [
+        {
+          "name": "title",
+          "kind": "text",
+          "target": {
+            "shape_id": "23"
+          },
+          "description": "Header text sitting just below a thin ruled top line.",
+          "convention": "Section header phrase, may combine a short label and longer descriptor separated by a dash/dot."
+        }
+      ]
+    },
+    {
+      "id": "soft-tint-highlight-band",
+      "name": "Soft Tint Highlight Band",
+      "note": "Uniform pale-color background wash band containing label text",
+      "size_emu": {
+        "w": 15240305,
+        "h": 162763
+      },
+      "artifacts": {
+        "shapes": "adornments/soft-tint-highlight-band/shapes.xml",
+        "preview": "adornments/soft-tint-highlight-band/preview.png"
+      },
+      "slots": [
+        {
+          "name": "title",
+          "kind": "text",
+          "target": {
+            "shape_id": "32"
+          },
+          "description": "Label text sitting on a soft tinted highlight band background (band fill inherited from layout).",
+          "convention": "Short label, e.g. 'Korean phrase · ENGLISH GLOSS'; form-only."
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "id": "layout-body",
+      "name": "layout-body",
+      "master_id": "master-1",
+      "note": "",
+      "content_box": {
+        "x": 0,
+        "y": 1552651,
+        "w": 18288000,
+        "h": 8734349
+      },
+      "furniture": [
+        {
+          "role": "top_bar",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 18288000,
+            "h": 38405
+          }
+        },
+        {
+          "role": "section_breadcrumb",
+          "rect": {
+            "x": 1143000,
+            "y": 533095,
+            "w": 9525305,
+            "h": 191110
+          }
+        },
+        {
+          "role": "page_title",
+          "rect": {
+            "x": 1143000,
+            "y": 857707,
+            "w": 16002000,
+            "h": 495605
+          }
+        },
+        {
+          "role": "title_underline",
+          "rect": {
+            "x": 1143000,
+            "y": 1524305,
+            "w": 571500,
+            "h": 28346
+          }
+        }
+      ],
+      "placeholders": [
+        {
+          "name": "section_breadcrumb",
+          "kind": "text",
+          "target": {
+            "ph_type": "body",
+            "ph_idx": "20"
+          },
+          "description": "헤더 상단의 섹션 경로(브레드크럼) 텍스트.",
+          "convention": "한 줄, 'Ⅰ. 장 제목 · 페이지 제목' 형식 — 슬라이드의 목차 위치를 반영."
+        },
+        {
+          "name": "page_title",
+          "kind": "text",
+          "target": {
+            "ph_type": "body",
+            "ph_idx": "21"
+          },
+          "description": "헤더의 페이지 제목(브레드크럼 아래, 큰 글씨).",
+          "convention": "한 줄, 해당 슬라이드의 핵심 주제를 명사구로."
+        }
+      ],
+      "artifacts": {
+        "frame_bundle": "frame/"
+      }
+    },
+    {
+      "id": "layout-bare",
+      "name": "layout-bare",
+      "master_id": "master-1",
+      "note": "",
+      "content_box": {
+        "x": 0,
+        "y": 0,
+        "w": 18288000,
+        "h": 10287000
+      },
+      "furniture": [],
+      "placeholders": [],
+      "artifacts": {
+        "frame_bundle": "frame/"
+      }
+    }
+  ],
+  "masters": [
+    {
+      "id": "master-1",
+      "name": "master-1",
+      "note": "",
+      "placeholders": [],
+      "decorations": [],
+      "artifacts": {
+        "frame_bundle": "frame/"
+      }
+    }
+  ]
+}
