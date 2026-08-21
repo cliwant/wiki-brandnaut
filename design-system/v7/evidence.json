@@ -1,0 +1,1427 @@
+{
+  "slides": [
+    {
+      "n": 1,
+      "intent_id": "cover",
+      "layout_id": "layout-4",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "cover-headline-lead-block",
+          "bbox_emu": {
+            "x": 256032,
+            "y": 1938528,
+            "cx": 7955280,
+            "cy": 2638848
+          },
+          "slot_values": {
+            "cover_title": "창업까지 가는 길은,\n학생 수만큼 다릅니다",
+            "cover_subtitle": "AI로 학생 개개인을 진단하고, 필요한 만큼만 골라 쓰는 맞춤형 창업 프로그램",
+            "cover_tagline": "전부 하면 완성, 하나만 해도 성과 — 담당자님이 직접 설계합니다"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "spaced-caps-accent-label",
+          "bbox_emu": {
+            "x": 8641080,
+            "y": 1938528,
+            "cx": 3246120,
+            "cy": 274320
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "compact-index-teaser-list",
+          "bbox_emu": {
+            "x": 8641080,
+            "y": 2286000,
+            "cx": 3246120,
+            "cy": 1993392
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "ascending-bar-ladder-with-note",
+          "bbox_emu": {
+            "x": 182880,
+            "y": 4462272,
+            "cx": 11704320,
+            "cy": 1618488
+          },
+          "slot_values": {
+            "note": "교내 관심UP, 창업자수UP, 매출UP, 경험UP / 단계마다 성과가 남는 모듈형 프로그램"
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "intent_id": "agenda_toc",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "numbered-index-row-list",
+          "bbox_emu": {
+            "x": 639595,
+            "y": 1627632,
+            "cx": 10920084,
+            "cy": 4407408
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "intent_id": "problem_diagnosis",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "mini-diagram-diagnosis-card-row",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1572768,
+            "cx": 11185855,
+            "cy": 3611880
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "full-width-tinted-conclusion-band",
+          "bbox_emu": {
+            "x": 0,
+            "y": 5413248,
+            "cx": 12192000,
+            "cy": 658368
+          },
+          "slot_values": {
+            "statement": "→  \"학생마다 상황은 다른데 프로그램이 매년 같다면, 결과도 작년과 같거나 그보다 못할 수밖에 없습니다.\""
+          }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "intent_id": "solution_approach",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "problem-solution-mapping-row",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1572768,
+            "cx": 11000232,
+            "cy": 2724912
+          },
+          "slot_values": {
+            "left_column_label": "문제",
+            "right_column_label": "브랜드넛의 해결 방식"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4572000,
+            "cx": 5486400,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4882896,
+            "cx": 11210544,
+            "cy": 914400
+          },
+          "slot_values": {
+            "note": "리포트가 다음해에 기초계획이 됩니다. — 학기 단위로 누적"
+          }
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "intent_id": "offering_overview",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "full-width-dark-notice-band",
+          "bbox_emu": {
+            "x": 0,
+            "y": 1572768,
+            "cx": 12192000,
+            "cy": 512064
+          },
+          "slot_values": {
+            "label": "기본 제공",
+            "statement": "어떤 조합이든 '사업준비 카드'(1:1 인터뷰 진단 + 서면 리포트)는 항상 포함됩니다"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "goal-to-badge-card-grid",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 2286000,
+            "cx": 8193024,
+            "cy": 2980944
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "donut-chart-panel",
+          "bbox_emu": {
+            "x": 8988552,
+            "y": 2286000,
+            "cx": 2700223,
+            "cy": 3840480
+          },
+          "slot_values": {
+            "title": "모듈 구성 13개",
+            "note": "플래그십일수록 KPI에 직결됩니다"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "full-width-tinted-conclusion-band",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 5486400,
+            "cx": 8193024,
+            "cy": 621792
+          }
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "intent_id": "offering_overview",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "level-ladder-card-row",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 11192256,
+            "cy": 3346704
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 5102352,
+            "cx": 5486400,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "cumulative-stacked-bar",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 5376672,
+            "cx": 11185855,
+            "cy": 621792
+          },
+          "slot_values": {
+            "range_start_label": "저변 확대",
+            "range_end_label": "매출 · 투자"
+          }
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "intent_id": "section_divider",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "lettered-category-list-card-row",
+          "bbox_emu": {
+            "x": 631857,
+            "y": 1609344,
+            "cx": 10928286,
+            "cy": 4170062
+          }
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1609344,
+            "cx": 4785055,
+            "cy": 2395728
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          },
+          "slot_values": {
+            "title": "끝나면 남는 것",
+            "note": "산출물은 담당자 보고용으로 정리해 전달합니다"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1591056,
+            "cx": 4785055,
+            "cy": 2423160
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1609344,
+            "cx": 4785055,
+            "cy": 2395728
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1608112,
+            "cx": 4785055,
+            "cy": 2497544
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6897874,
+            "y": 1609344,
+            "cx": 4790901,
+            "cy": 2421428
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1609344,
+            "cx": 4785055,
+            "cy": 2395729
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1609344,
+            "cx": 4785055,
+            "cy": 2430010
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1609342,
+            "cx": 4785055,
+            "cy": 2395730
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1608848,
+            "cx": 4785055,
+            "cy": 2396224
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "stacked-labeled-image-pair",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1609344,
+            "cx": 4785055,
+            "cy": 2395728
+          },
+          "slot_values": {
+            "image_caption": "펀딩 페이지 / 성과 캡처",
+            "image_spec_note": "가로형 이미지 (권장 1280×640px)"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-timeline-track",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6181344,
+            "cy": 694944
+          }
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1603879,
+            "cx": 4785055,
+            "cy": 2401193
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6895342,
+            "y": 1609344,
+            "cx": 4793433,
+            "cy": 2395728
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1609344,
+            "cx": 5011629,
+            "cy": 2496312
+          },
+          "slot_values": {
+            "image_caption": "IR 발표 / 네트워킹",
+            "image_spec_note": "가로형 이미지 (권장 1280×640px)"
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "intent_id": "offering_module_detail",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "captioned-hero-image",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 1609344,
+            "cx": 4785055,
+            "cy": 2395728
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "numbered-badge-card-stack",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1901952,
+            "cx": 6126480,
+            "cy": 2414016
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "check-list-outcome-panel",
+          "bbox_emu": {
+            "x": 6903720,
+            "y": 4169664,
+            "cx": 4785055,
+            "cy": 2103120
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4681728,
+            "cx": 3657600,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4992624,
+            "cx": 6126480,
+            "cy": 841248
+          }
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "intent_id": "proof_of_results",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "star-quote-testimonial-list",
+          "bbox_emu": {
+            "x": 274320,
+            "y": 1627632,
+            "cx": 8048796,
+            "cy": 3438144
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "divided-metric-stat-panel",
+          "bbox_emu": {
+            "x": 8366760,
+            "y": 1627632,
+            "cx": 3547872,
+            "cy": 3310128
+          },
+          "slot_values": {
+            "title": "누적 성과"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "dark-band-with-offer-card-row",
+          "bbox_emu": {
+            "x": 0,
+            "y": 5063978,
+            "cx": 12188952,
+            "cy": 1298448
+          },
+          "slot_values": {
+            "lead": "원하는 프로그램이 없다면,\n만들어드립니다"
+          }
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "intent_id": "differentiation_comparison",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "row-label-comparison-matrix",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 1609344,
+            "cx": 11094416,
+            "cy": 4023360
+          },
+          "slot_values": {
+            "axis_label": "비교 항목"
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "arrow-lead-conclusion-line",
+          "bbox_emu": {
+            "x": 554182,
+            "y": 5961888,
+            "cx": 11083636,
+            "cy": 292608
+          },
+          "slot_values": {
+            "statement": "→  지금 필요한 건 '해봤다'가 아니라 '남는' 프로그램입니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "intent_id": "company_introduction",
+      "layout_id": "layout-3",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "fullbleed-background-image",
+          "bbox_emu": {
+            "x": 0,
+            "y": -1,
+            "cx": 12192000,
+            "cy": 6858001
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "overlay-headline-chip",
+          "bbox_emu": {
+            "x": 490812,
+            "y": 571500,
+            "cx": 4475584,
+            "cy": 660181
+          },
+          "slot_values": {
+            "title": "brandnaut을 소개합니다."
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "translucent-overlay-capability-panel",
+          "bbox_emu": {
+            "x": 609598,
+            "y": 2242950,
+            "cx": 11055844,
+            "cy": 2984142
+          },
+          "slot_values": {
+            "title": "이론가가 아닌 진짜 창업 '선수(Player)'들",
+            "lead": "구성원 전원 실전 창업 및 프로젝트 운영 경험을 바탕으로 가장 빠른 창업의 길로 이끕니다."
+          }
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "intent_id": "team_credentials",
+      "layout_id": "layout-2",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "accent-bar-profile-card-row",
+          "bbox_emu": {
+            "x": 274320,
+            "y": 1517904,
+            "cx": 11635740,
+            "cy": 3822192
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "divided-capability-strip",
+          "bbox_emu": {
+            "x": 0,
+            "y": 5687568,
+            "cx": 12192000,
+            "cy": 1170432
+          }
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "intent_id": "partners_and_track_record",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "logo-grid-wall",
+          "bbox_emu": {
+            "x": -1798023,
+            "y": 1706757,
+            "cx": 16032482,
+            "cy": 4524834
+          }
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "intent_id": "contact_and_next_steps",
+      "layout_id": "layout-1",
+      "occurrences": [
+        {
+          "kind": "variant",
+          "id": "icon-contact-info-card",
+          "bbox_emu": {
+            "x": 4323259,
+            "y": 1984248,
+            "cx": 3545178,
+            "cy": 1964305
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "centered-icon-emphasis-line",
+          "bbox_emu": {
+            "x": 0,
+            "y": 4108302,
+            "cx": 12192000,
+            "cy": 406265
+          },
+          "slot_values": {
+            "statement": "연락 주시면 2시간 내에 연락드리겠습니다."
+          }
+        },
+        {
+          "kind": "adornment",
+          "id": "plain-bold-block-label",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 4727448,
+            "cx": 5486400,
+            "cy": 237744
+          }
+        },
+        {
+          "kind": "variant",
+          "id": "linear-arrow-step-flow",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 5020056,
+            "cx": 11155680,
+            "cy": 621792
+          }
+        }
+      ]
+    }
+  ]
+}
