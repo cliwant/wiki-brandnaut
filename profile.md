@@ -11,7 +11,7 @@ manufactured_items:           # 직접생산확인 보유 품목 — "세부품�
   - "기타행사기획및대행서비스 (8014199001)"   # 유효 2026-08-26 ~ 2028-08-25
   - "축제기획및대행서비스 (9015189001)"       # 유효 2026-08-26 ~ 2028-08-25
 kpi: { win_rate: null, bid_rate: null, consortium_rate: null }
-last_verified: 2026-09-12
+last_verified: 2026-11-03
 sources:
   - sources/company/brandnut-b2g-company-profile-2026-07-16.pdf
   - sources/company/brandnut-startup-education-proposal-2026-07-16.pdf
@@ -28,6 +28,7 @@ sources:
   - sources/interviews/interview-r26bk01678617-2026-08-18.json
   - sources/interviews/cliwant-rehearsal-r26bd00254383-2026-08-01.md
   - sources/interviews/interview-r26bk01691428-2026-08-25.json
+  - sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json
   - sources/bids/r26bd00265300/rfp-yonsei-wave-startup-festa-2026-08-25.hwpx
   - sources/interviews/interview-r26bd00265300-2026-08-25.json
   - sources/company/brandnut-direct-production-certificate-exhibition-2026-08-26.pdf
@@ -154,6 +155,9 @@ Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우,
 - **[표준 절차] 상주 교통비·숙박비의 직접경비 편성.** 현장 상주(1주 단위 교대)에 드는 교통비·숙박비는 인건비가 아니라 사업 수행 직접경비로 편성한다 — 공고가 권장하는 [인건비+이윤] 비율 기준(총 사업비의 20% 이내 등)을 지키면서 실제 상주 운영을 집행하기 위한 예산 편성 방법. 상주 비용을 요구하는 다른 공고에도 재사용 가능. [출처: `artifacts/rfp/requirement_responses.json` R19(round2), 수집 2026-08-25, confidence: medium — user_statement]
 - **[표준 절차] 주차별 누적기록형 인수인계 설계.** 인수인계를 용역 종료 시점의 별도 문서 작업이 아니라, 주차별 담당자 교대 시점마다 예약 고객 현황·시설·집기 상태·운영매뉴얼 변경분·플랫폼 계정 정보·프로그램 일정을 누적 기록하는 방식으로 설계한다 — 이 주간 누적 기록이 그대로 최종 인수인계서가 되도록 해 종료 시점 인수인계 작업 부담을 없앤다. 운영 공백기 인수인계를 요구하는 공고 전반에 재사용 가능한 방법론. [출처: `artifacts/rfp/requirement_responses.json` R18(round2), 수집 2026-08-25, confidence: medium — user_statement]
 - **[방법론] 사업비 규정성격 요구사항의 준수서약형 응답 분류.** 요구사항 중 사업비 규정 성격 항목(인건비 계상기준·정산기준·보고서 작성 및 성과품 납품 가이드·품질 및 하자보증·추가 제안 비용부담·선금 지급 및 정산 등)은 회사 실적·역량으로 채우지 않고, 공고 원문 조항을 근거로 한 준수 서약(공고가 요구하는 절차·기준을 그대로 따르겠다는 응답)으로 작성한다는 분류 기준. 향후 다른 공고의 요구사항 조견표 작성 시에도 재사용 가능. [출처: `artifacts/rfp/requirement_responses.json` R19·R20·R21·R24·R29·R31·R32(모두 round2), 수집 2026-08-25, confidence: medium — user_statement]
+- **[설계 자산, 2026-11-03] STEPUP 캠프 3종 제안 자산 — 수행 실적이 아니라 제안 자산이다.** 탈락자 대상 RE:START 캠프(교육 2회→회고→집중 멘토링→발표, 1박2일), 2차 합격자 MVP 캠프(솔루션→MVP 제작→초기고객 검증→가상 모객 설계), 3차 합격자 IR 캠프 모듈로 구성되며 팀별 전문가 4인 순환 멘토링 운영 구조를 포함한다. 자산 파일명은 모두의창업_STEPUP_261027.pptx(워크스페이스 보관, 위키 sources 미편입). [출처: `sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json` 3턴, 수집 2026-11-03, confidence: medium]
+- **[견적 기준, 2026-11-03]** STEPUP 캠프 견적은 30명 1박2일 기준 2,300~2,900만원이다. [출처: `sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json` 3턴, 수집 2026-11-03, confidence: medium — 진술, 견적서 원본은 위키 미편입]
+- **[방법론, 2026-11-03] PSST 기반 피봇팅 접근.** PSST 사업 교육으로 '그냥 아이디어'와 '사업이 될 수 있는 아이디어'를 구분하게 하고 문제·해결방안 재탐색과 피봇팅을 지원한다. 참가자별 MVP 제작·시장검증 과제를 부여하고 후속 이메일 멘토링(참가팀 전체 대상, 별도 선발 없음)으로 준비 상태를 점검하며, 고객 검증(직접 팔아보기·광고 A/B)→MVP 제작→실행 기록이 담긴 사업계획서 순으로 구성한다. [출처: `sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json` 6·9·10턴, 수집 2026-11-03, confidence: medium]
 
 ## 5. 레퍼런스 (References)
 
