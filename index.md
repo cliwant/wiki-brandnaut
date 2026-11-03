@@ -28,6 +28,7 @@
 
 - `sources/bids/hanyang-retry-camp-2026/` — 한양대 재도전캠프 전화미팅 메모(2026-10-16)·브랜드넛 전략 메모(2026-11-03). 공식 RFP 없는 선제안 건의 가상 RFP
 - `sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json` — 한양대 재도전캠프 전략 인터뷰 원문
+- `sources/company/mod-startup-application-items-2026-11-03.md`, `sources/company/hanyang-retry-camp-ceo-problem-solution-mapping-2026-11-03.md` — 모두의 창업 지원서 7항목, 대표 정리 문제·해결 1:1 매핑(Win Theme 확정 직후)
 - `sources/company/mod-startup-selection-criteria-2026-11-03.md`, `sources/company/mod-startup-round2-retry-applicants-2026-10-16.md` — 모두의 창업 공식 선발 기준, 2차 재도전자 40.4% 근거(중기부 보도자료)
 
 - `sources/company/slack-brandnut-wiki-update-request-2026-09-12.md` — 브랜드넛 정준수 매니저의 위키 반영 요청 Slack 메시지 다이제스트(직접생산 · 기업규모 4대보험 가입자 1명→4명)
@@ -98,7 +99,7 @@
 | [R26BD00264817](bids/R26BD00264817.md) — 권역별 AI‧ICT 해외진출 전략 설명회 행사 운영 (NIPA, 8,400만) | active | 미정 (Win Theme index 1 "정보를 행동으로 잇는 기획력" 선택 완료), sector: null — 기존 3개 섹터와 불일치, '행사 기획·운영' 섹터 후보(사람 결정 대기) | — |
 | [R26BK01691428](bids/R26BK01691428.md) — 통영 강구안상권 복합체류공간 '오리지널스 통영' 프로그램 운영 (사단법인 강구안타운) | active | 미정 (wintheme-selected, Win Theme ① "당일치기를 평일 장기체류로 전환" 선택 완료) | — |
 | [R26BD00265300](bids/R26BD00265300.md) — WAVE STARTUP FESTA 운영 용역 (연세대 미래캠퍼스, 9,000만, 사전규격) | active | 미정 (wintheme-selected, Win Theme index 1 "WAVE 성장경로 성과 서사화" 선택 완료) | — |
-| [hanyang-retry-camp-2026](bids/hanyang-retry-camp-2026.md) — 한양대학교 재도전캠프 (모두의 창업 탈락자 대상, 선제안·공고번호 없음, 예산 2,200만 안쪽) | active | 미정 (interview-end), sector: null — 창업교육 섹터 신설 시 연결 후보 | — |
+| [hanyang-retry-camp-2026](bids/hanyang-retry-camp-2026.md) — 한양대학교 재도전캠프 (모두의 창업 탈락자 대상, 선제안·공고번호 없음, 예산 2,200만 안쪽) | active | 미정 (wintheme-selected, Win Theme "추운 겨울. 다시, 움직이기 위한 RE:ACT 캠프" 선택 완료), sector: null — 창업교육 섹터 신설 시 연결 후보 | — |
 
 섹터 신설 제안(사람 결정 대기): R26BD00265300은 기존 3개 섹터(창업교육/창업경진대회/액셀러레이팅) 중 정확히 매칭되지 않는 전시·행사(페스타) 성격 — profile.md §6의 "축제·행사 수행 경험은 있으나 사업자 명의 실적 없음" 서술과 연결되는 영역이라 sector: null로 두고 여기 기록만 한다.
 

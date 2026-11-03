@@ -16,6 +16,8 @@ sources:
   - sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json
   - sources/company/mod-startup-selection-criteria-2026-11-03.md
   - sources/company/mod-startup-round2-retry-applicants-2026-10-16.md
+  - sources/company/mod-startup-application-items-2026-11-03.md
+  - sources/company/hanyang-retry-camp-ceo-problem-solution-mapping-2026-11-03.md
 ---
 
 # 한양대학교 재도전캠프 (모두의 창업 탈락자 대상 프로그램) 기획안
@@ -36,6 +38,8 @@ sources:
 - 2차 모두의 창업 1라운드 진출자 1만 명 중 재도전자 비율은 40.4%다(일반·기술 8천/로컬 2천, 경쟁률 9.3대 1, 39세 이하 65.3%, 비수도권 74.0%). 분모는 문맥상 1라운드 진출자이나 원문에 명시가 없고, 한양대 자체 수치가 아닌 전국 수치다. [출처: `sources/company/mod-startup-round2-retry-applicants-2026-10-16.md`(중소벤처기업부 보도자료 2026-10-16, 한국경제 2026-10-15), 수집 2026-11-03, confidence: medium — 제공 근거 문서의 기사·보도자료 인용]
 - 2차 미선정자 약 8.3만 명 대상 오프라인 재도전 멘토링이 2026-10-26~12-14 전국 운영된다('모두의 창업 플랫폼' 신청). 한양대 12월 중순 캠프와 시기가 겹쳐 연계·중복 여부 확인이 필요하다. [출처: `sources/company/mod-startup-round2-retry-applicants-2026-10-16.md`, 수집 2026-11-03, confidence: medium]
 
+- 모두의 창업 지원서 7항목: ① 아이디어 소개 한 줄(제목) ② 아이디어를 떠올린 배경 이야기 ③ 기존 제품·서비스 대비 차별점과 해결할 문제 ④ 수익 창출 방법 ⑤ 사업화 방법 ⑥ 책임멘토에게 원하는 도움 ⑦ 사업화할 수 있는 본인의 역량. 구조는 PSST(문제·해결·시장·실행)에 가깝고, 2·3번은 문제 정의·차별점, 4·5·7번은 사업화·실행 근거, 6번은 멘토링 수요다. [출처: `sources/company/mod-startup-application-items-2026-11-03.md`, 수집 2026-11-03, confidence: medium — 대표 제공 자료, 공식 원문 URL 미확보라 인용 전 공식 지원 화면 확인 필요]
+
 ## 판정
 
 (Go/No-Go 판정 미정 — 인터뷰 종료 시점까지는 판정 보류. frontmatter go_decision과 일치시킬 것.)
@@ -49,6 +53,12 @@ sources:
 - 설계 방향(이번 건 확정): 선발 과정을 700명 참여 이벤트로 설계한다(온라인 회고·자가진단·사전 과제 후 30~40명 선발). 선발된 30~40명 소규모 1박2일 캠프를 RE:START 구성 기반으로 심화 운영한다. 참여 인원은 신청자 기준으로 집계해 예산 증액 조건과 연결한다. [출처: `sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json` 8·10턴, 수집 2026-11-03, confidence: medium]
 - 탈락자(참가자) 3대 문제 진단: ① 문제가 진짜 고객 문제인지 확인한 적 없음 ② 해결방안이 기존과 어떻게 다른지 보여줄 근거 없음 ③ 실행해 본 기록(사업계획서 완성본·MVP·시장검증) 없음. 사업계획서 작성 방법을 모르고 회고·재도전 기회와 '진짜 될 사업'으로의 피봇이 필요한 상태로 본다. 캠프 목적은 실제 모두의 창업을 작게 운영해 보는 것이다. [출처: `sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json` 5·6·9턴, 수집 2026-11-03, confidence: medium]
 - 예산 제약: 브랜드넛 STEPUP 캠프 견적 기준은 30명 1박2일 2,300~2,900만원으로, 한양대 예산 2,200만원 안쪽을 넘어 설계 축소가 필요하다(전략 메모는 예산을 2,000만원으로 적음). [출처: `sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json` 3턴, `sources/bids/hanyang-retry-camp-2026/strategy-memo-hanyang-retry-camp-2026-11-03.md`, 수집 2026-11-03, confidence: medium]
+
+- 목적 확정(대표 서술, 이전 '캠프 목적' 서술을 구체화): 실제 모두의 창업 과정을 작게 운영해, 탈락자가 아이디어를 사업으로 구체화하고 실행·검증·개선을 경험하며 다음 도전을 준비하도록 한다. 산출물 기준은 참가자가 지원서 7항목을 고객 검증 근거로 채울 수 있는 상태다. [출처: `sources/company/hanyang-retry-camp-ceo-problem-solution-mapping-2026-11-03.md`, `sources/company/mod-startup-application-items-2026-11-03.md`, 수집 2026-11-03, confidence: medium]
+- 문제·해결 1:1 매핑(대표 정리): ① 준비되지 않은 창업가 → 지원서 7문항 기준 기초 학습·회고·1대1 멘토링·피봇을 거쳐 실행 가능한 사업계획서로 구체화 ② 검증 부족 → AI로 시장검증용 MVP와 랜딩페이지 제작, 고객 신청 정보 수집 DB 연결, 모집 채널·메시지·확인 사항을 담은 마케팅·고객검증 계획 실행, 후속 이메일 멘토링 ③ 한양대 차별화·안정 운영과 다음 참가자 확보 → 사업기획·AI·MVP 제작·마케팅·고객검증 분야 멘토의 팀별 1대1 배치, 공통 완성 기준과 단계별 진행 점검으로 지원 누락·민원 최소화, 한양대 후속 지원·다음 도전 경로 안내로 재지원 동기 연결. 대표 인식은 '짧은 시간에도 안정적으로 준비할 수 있고 캠프·멘토링 경험이 많다'이다. [출처: `sources/company/hanyang-retry-camp-ceo-problem-solution-mapping-2026-11-03.md`, 수집 2026-11-03, confidence: medium]
+- 한 줄 약속(대표 확정): 아이디어가 사업이 되고 고객을 만나는 과정을 1박2일 내에 안정적으로 수행하겠다. [출처: `sources/company/hanyang-retry-camp-ceo-problem-solution-mapping-2026-11-03.md`, 수집 2026-11-03, confidence: medium]
+- 선택된 Win Theme(wintheme-selected, 대표 선택 index 1 — 재생성 2회 후 최종): "추운 겨울. 다시, 움직이기 위한 RE:ACT 캠프". 전략 문장은 '아이디어가 비즈니스가 되고, 비즈니스가 고객(세상)을 만나는 과정을 1박2일 내에 안정적으로 수행'이다. 세 번의 전환을 한 컨셉에 담는다: 아이디어에서 비즈니스로(PSST 기초·회고·피봇), 비즈니스에서 고객으로(AI 랜딩페이지·DB 연결), 1박2일 안정 수행(700명 온라인 참여 이벤트에서 30~40명 선발, 좋은 환경·1대1 멘토·AI 멘토, 전원 후속 이메일 피드백). 차별점은 제작에서 멈추는 기존 방식 대비 실제 고객 반응까지 가서 탈락 원인 재발을 막는 것이다. 대표 피드백: 참여 규모·안정 운영은 기본값이지 컨셉이 아니며, 전환·참여·안정 세 각도는 선택지가 아니라 한 컨셉 안에 전부 담긴다. 이전에 생성된 두 테마(지원서 7항목 검증 근거 등)는 폐기됐다. [generated — 자체 생성물, confidence 등급 없음, 출처: `artifacts/strategy/win_themes.json` themes[0], 수집 2026-11-03]
+- 브랜드넛 MVP·검증 접근(자사 역량 진술): AI로 빠르게 MVP를 만들고, AI 랜딩페이지로 실제 고객을 모집해 DB에 연결하며, 마케팅·고객검증 플랜까지 수립하게 한다. 멘토링 접근은 좋은 환경에서 멘토 1대1·AI 멘토로 최적화하고, 한양대 지원 홍보 자리와 동기부여를 함께 제공해 다음 도전을 한양대에서 하도록 유도한다. [출처: `sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json` 보완 턴 11, `sources/company/hanyang-retry-camp-ceo-problem-solution-mapping-2026-11-03.md`, 수집 2026-11-03, confidence: medium]
 
 ## 결과
 
