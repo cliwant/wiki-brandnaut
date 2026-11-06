@@ -11,7 +11,7 @@ manufactured_items:           # 직접생산확인 보유 품목 — "세부품�
   - "기타행사기획및대행서비스 (8014199001)"   # 유효 2026-08-26 ~ 2028-08-25
   - "축제기획및대행서비스 (9015189001)"       # 유효 2026-08-26 ~ 2028-08-25
 kpi: { win_rate: null, bid_rate: null, consortium_rate: null }
-last_verified: 2026-11-03
+last_verified: 2026-11-06
 sources:
   - sources/company/brandnut-b2g-company-profile-2026-07-16.pdf
   - sources/company/brandnut-startup-education-proposal-2026-07-16.pdf
@@ -29,6 +29,7 @@ sources:
   - sources/interviews/cliwant-rehearsal-r26bd00254383-2026-08-01.md
   - sources/interviews/interview-r26bk01691428-2026-08-25.json
   - sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json
+  - sources/interviews/interview-r26bk01770228-2026-11-06.json
   - sources/bids/r26bd00265300/rfp-yonsei-wave-startup-festa-2026-08-25.hwpx
   - sources/interviews/interview-r26bd00265300-2026-08-25.json
   - sources/company/brandnut-direct-production-certificate-exhibition-2026-08-26.pdf
@@ -181,6 +182,7 @@ Cliwant 업체 DB에서 사업자등록번호 889-81-03506, 대표자 박찬우,
 - 최근 3년 유사 수행실적을 요구하는 행사·축제 공고는 사업자 명의 실적이 없어 현재로선 제한된다. [출처: `sources/company/meeting-weekly-2026-07-31.md` §5, 수집 2026-07-31, confidence: medium]
 - 제주도·전라도 지역 사업은 내부 인적 네트워크로 직접 수행 중이다. 트래킹에서 제외하지 않고 해당 지역 여부를 구분 표시해 본다 (2026-07-23 운영 결정). [출처: `sources/company/meeting-kickoff-2026-07-23.md`, 수집 2026-07-23, confidence: medium / 운영 결정: 운영자 지시 2026-07-23]
 - 공모 운영·모집·심사 영역(공모전·경진대회의 참가자 모집·심사 과정 자체를 용역으로 수행하는 유형)에서는 자사의 공식 사업 실적·증빙이 약하다는 자기평가가 있다 — 이 영역은 설계·집행 역량으로 실적 약점을 보완하는 전략을 취한다. [출처: 인터뷰 턴5 (project: tongyeong-ganguan-originals-2026, framework_3c.json company co34), 수집 2026-08-25, confidence: medium]
+- 먹거리 등 F&B 특화상품의 레시피·시제품·표준화(메뉴개발 실무)는 자사 직접 역량이 아니다 — 외부 외식 전문가를 섭외해 맡기고 자사는 콘셉트·패키지 설계, 운영, 브랜딩, 판매 연결을 담당한다고 밝혔다(묵동도깨비시장 건 기준, 섭외 대상·확약 미확정). F&B 메뉴개발 컨설팅사와 경쟁하는 공고에서는 이 약점을 제안 구조로 보완해야 한다. [출처: `sources/interviews/interview-r26bk01770228-2026-11-06.json` 5턴, 수집 2026-11-06, confidence: medium]
 
 ## 7. 의도 (Intent)
 
