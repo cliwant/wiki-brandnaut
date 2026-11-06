@@ -1,8 +1,10 @@
 # 브랜드넛 위키 — index
 
-갱신: 2026-11-03
+갱신: 2026-11-06
 
 ## 프로필
+
+- [profile.md](profile.md) — 묵동도깨비시장 핵점포육성(R26BK01770228) 전략 인터뷰(2026-11-06) 흡수. §6에 외식 메뉴개발(레시피·시제품·표준화)은 자사 직접 역량이 아니라 외부 전문가 섭외로 대응한다는 제약 추가(medium)
 
 - [profile.md](profile.md) — 한양대 재도전캠프(hanyang-retry-camp-2026) 전략 인터뷰(2026-11-03) 흡수. §4에 STEPUP 캠프 3종(RE:START·MVP·IR) 제안 자산(수행 실적 아님)·30명 1박2일 견적 기준 2,300~2,900만원·PSST 기반 피봇팅 접근 추가
 
@@ -26,6 +28,10 @@
 
 ## 최근 원자료
 
+- `sources/bids/r26bk01770228/` — 묵동도깨비시장 핵점포육성 입찰공고서·과업지시서·제안요청서(hwpx) 원문
+- `sources/interviews/interview-r26bk01770228-2026-11-06.json` — R26BK01770228 전략 인터뷰 원문(6턴)
+- `sources/company/mukdong-dokkaebi-ceo-proposal-draft-memo-2026-11-06.md` — 대표 제안서 원안 메모(블랙고블린마켓 브랜드 체계·방법론·예산 배분 초안)
+- `sources/company/mukdong-dokkaebi-ceo-outline-memo-2026-11-06.md` — 대표 제안서 목차 메모(자체 17개 장 구성, 브랜드 선행 구조)
 - `sources/bids/hanyang-retry-camp-2026/` — 한양대 재도전캠프 전화미팅 메모(2026-10-16)·브랜드넛 전략 메모(2026-11-03). 공식 RFP 없는 선제안 건의 가상 RFP
 - `sources/interviews/interview-hanyang-retry-camp-2026-2026-11-03.json` — 한양대 재도전캠프 전략 인터뷰 원문
 - `sources/company/mod-startup-application-items-2026-11-03.md`, `sources/company/hanyang-retry-camp-ceo-problem-solution-mapping-2026-11-03.md` — 모두의 창업 지원서 7항목, 대표 정리 문제·해결 1:1 매핑(Win Theme 확정 직후)
@@ -97,9 +103,10 @@
 | [R26BK01680964](bids/R26BK01680964.md) — 세종창조경제혁신센터 NEXUS 스케일업 피봇팅 프로그램 위탁 운영 (중부권, 6,000만) | active | 미정 (render-done, Win Theme index 1 "정량 성과 입증" 선택 완료) | — |
 | [R26BK01678617](bids/R26BK01678617.md) — 앵커사업단 아산 스타트업 벤처포럼 프로그램 운영 (호서대, 6,000만, 재공고) | active | 미정 | — |
 | [R26BD00264817](bids/R26BD00264817.md) — 권역별 AI‧ICT 해외진출 전략 설명회 행사 운영 (NIPA, 8,400만) | active | 미정 (Win Theme index 1 "정보를 행동으로 잇는 기획력" 선택 완료), sector: null — 기존 3개 섹터와 불일치, '행사 기획·운영' 섹터 후보(사람 결정 대기) | — |
-| [R26BK01691428](bids/R26BK01691428.md) — 통영 강구안상권 복합체류공간 '오리지널스 통영' 프로그램 운영 (사단법인 강구안타운) | active | 미정 (wintheme-selected, Win Theme ① "당일치기를 평일 장기체류로 전환" 선택 완료) | — |
+| [R26BK01691428](bids/R26BK01691428.md) — 통영 강구안상권 복합체류공간 '오리지널스 통영' 프로그램 운영 (사단법인 강구안타운) | active | 미정 (toc-confirmed, Win Theme ① "당일치기를 평일 장기체류로 전환" 선택 완료) | — |
 | [R26BD00265300](bids/R26BD00265300.md) — WAVE STARTUP FESTA 운영 용역 (연세대 미래캠퍼스, 9,000만, 사전규격) | active | 미정 (wintheme-selected, Win Theme index 1 "WAVE 성장경로 성과 서사화" 선택 완료) | — |
 | [hanyang-retry-camp-2026](bids/hanyang-retry-camp-2026.md) — 한양대학교 재도전캠프 (모두의 창업 탈락자 대상, 선제안·공고번호 없음, 예산 2,200만 안쪽) | active | 미정 (wintheme-selected, Win Theme "추운 겨울. 다시, 움직이기 위한 RE:ACT 캠프" 선택 완료), sector: null — 창업교육 섹터 신설 시 연결 후보 | — |
+| [R26BK01770228](bids/R26BK01770228.md) — 묵동도깨비시장 골목형상점가 핵점포육성 및 연계프로그램 개발용역 (상권기획자 (주)마이샵온샵, 9,000만, 90일) | active | 미정 (wintheme-selected, Win Theme '도깨비 시그니처 특화상품 2종' 선택 완료), sector: null — 전통시장·상권 활성화 섹터 후보(사람 결정 대기), 공고 일정이 모두 작성일 이전이라 재공고 확인 필요 | — |
 
 섹터 신설 제안(사람 결정 대기): R26BD00265300은 기존 3개 섹터(창업교육/창업경진대회/액셀러레이팅) 중 정확히 매칭되지 않는 전시·행사(페스타) 성격 — profile.md §6의 "축제·행사 수행 경험은 있으나 사업자 명의 실적 없음" 서술과 연결되는 영역이라 sector: null로 두고 여기 기록만 한다.
 
