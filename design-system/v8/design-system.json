@@ -1,0 +1,26 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {"v": 1, "at": "2026-11-06T18:40:00+09:00"},
+  "title": "Quick Win",
+  "namespace": "QuickWin",
+  "libraries": [],
+  "sections": {},
+  "groups": ["Logos", "Icons", "Illustrations", "Backgrounds", "Photos"],
+  "assetGroups": {
+    "Logos": {"name": "Logos", "tile": "l", "order": ["quickwin-wordmark-white.png", "quickwin-wordmark-black.png"], "files": {}},
+    "Icons": {"name": "Icons", "tile": "s", "order": ["check-circle.svg", "lightbulb.svg", "bar-chart.svg", "card-tab-blue.svg", "card-tab-orange.svg", "arrow-knit-small.png", "arrow-knit.png", "plus-knit.png", "disc-trophy.png", "disc-chart.png", "disc-document.png", "disc-bag.png", "knit-video.png", "knit-share.png", "knit-laptop-globe.png", "knit-megaphone.png", "knit-person-chat.png", "knit-bank.png", "knit-lightbulb.png", "knit-lecture.png", "knit-booth-camera.png", "knit-speaker.png", "knit-trophy-small.png", "knit-number-1.png", "knit-number-2.png", "knit-number-3.png", "knit-number-4.png", "knit-number-5.png", "knit-number-6.png", "knit-number-7.png", "knit-step-1-deck.png", "knit-step-2-review.png", "knit-step-3-trophy.png", "knit-medal-gold.png", "knit-medal-silver.png", "knit-medal-bronze.png", "knit-day1-lecture.png", "knit-day2-presentation.png", "knit-certificate.png", "knit-idea-box.png", "knit-store.png", "knit-laptop-cart.png", "knit-report-pen.png", "knit-landing-page.png", "knit-flag.png", "knit-person-cert.png", "lineart-podium.png", "lineart-festival.png", "lineart-storefront.png", "lineart-people.png", "lineart-meeting.png", "lineart-market.png", "lineart-meeting-2.png", "lineart-market-2.png"], "files": {}},
+    "Illustrations": {"name": "Illustrations", "tile": "m", "order": ["astronaut-running.png", "astronaut-megaphone.png", "astronaut-coins.png", "team-letters.png", "money-bag-w.png", "pair-board.png", "pair-booth.png", "pair-laptop.png", "pair-chart.png", "pair-money-bag.png", "podium-win.png", "pair-share.png", "calendar-3-pair.png", "lecture-2.png", "audience-3.png", "study-1.png", "phone-4.png", "rocket-small.png", "rocket-column-left.png", "rocket-column-right.png", "booth-pair-tall.png", "disc-astronaut.png", "disc-girl-phone.png", "podium-awards-scene.jpeg", "mascots-street.png"], "files": {}},
+    "Backgrounds": {"name": "Backgrounds", "tile": "l", "order": ["blue-gradient.jpeg", "dark-blue-glow.png", "light-blue-scene.jpeg", "light-blue-band.png"], "files": {}},
+    "Photos": {"name": "Photos", "tile": "l", "order": ["cover-street-walk.png", "lecture-and-market.jpg", "winter-street-triptych.jpg", "night-market.jpg", "cafe-laptop.jpg", "street-crowd-popup.jpg", "popup-topview.jpg", "popup-counter.jpg", "popup-street-sign.png", "packaging-workshop.jpg", "awards-ceremony.jpg", "closing-shop.jpg", "crowd-crossing.png"], "files": {}}
+  },
+  "blobs": {},
+  "docs": {"readme": "project/README.md", "sections": []},
+  "lastChange": {
+    "by": "wnstn",
+    "at": "2026-11-06T18:40:00+09:00",
+    "via": "PPTX · QUICKWIN_발표자료_최종_1022.pptx",
+    "note": "부송동 QUICK WIN 발표자료(30장)에서 추출. 토큰·18개 부품·Cover·자산 5그룹·Pretendard 대체 서체.",
+    "builtinRelease": "1793927639-4218"
+  }
+}

@@ -1,0 +1,498 @@
+/* Quick Win — generated from tokens.json */
+:root, [data-theme="light"] {
+  --brand: #2373f4;
+  --brand-deep: #0828ce;
+  --brand-bright: #1b85ff;
+  --brand-tab: #3a85ff;
+  --brand-300: #8fbaff;
+  --brand-200: #c9deff;
+  --brand-100: #e6ecf7;
+  --brand-050: #d3eafe;
+  --orange: #fb6a00;
+  --orange-text: #ff6a00;
+  --orange-light: #ffa15c;
+  --orange-deep: #702e00;
+  --yellow: #ffc13b;
+  --navy: #19396d;
+  --ink: #121212;
+  --ink-900: #000000;
+  --ink-800: #222222;
+  --gray-700: #555555;
+  --gray-600: #777777;
+  --gray-500: #8b8b8b;
+  --gray-450: #4b4b4b;
+  --line: #d9d9d9;
+  --line-table: #d9dee5;
+  --line-soft: #ededed;
+  --line-softer: #e6e6e6;
+  --line-row: #d4d4d4;
+  --line-photo: #dddddd;
+  --surface: #ffffff;
+  --surface-page: #f4f5f9;
+  --surface-panel: #f1f5f9;
+  --surface-card-soft: #f9fafc;
+  --surface-faint: #fcfcfe;
+  --dark-bg: #171717;
+  --dark-panel: #0d0c0c;
+  --dark-bar: #3a3731;
+  --on-brand: #ffffff;
+  --scrim-55: rgba(0,0,0,0.55);
+  --white-95: rgba(255,255,255,0.95);
+  --white-65: rgba(255,255,255,0.65);
+  --white-10: rgba(255,255,255,0.10);
+  --white-20: rgba(255,255,255,0.20);
+  --white-30: rgba(255,255,255,0.30);
+  --white-40: rgba(255,255,255,0.40);
+  --white-50: rgba(255,255,255,0.50);
+  --white-60: rgba(255,255,255,0.60);
+  --white-70: rgba(255,255,255,0.70);
+  --shadow-text-50: 0 2.67px 13.33px rgba(0,0,0,0.5);
+  --shadow-text-55: 0 2.67px 13.33px rgba(0,0,0,0.55);
+  --shadow-text-60: 0 2.67px 13.33px rgba(0,0,0,0.6);
+  --shadow-text-85: 0 2.67px 13.33px rgba(0,0,0,0.85);
+  --shadow-chip-30: 0 2.67px 13.33px rgba(0,0,0,0.3);
+  --shadow-chip-35: 0 2.67px 13.33px rgba(0,0,0,0.35);
+}
+[data-theme="dark"] {
+  --ink: #ffffff;
+  --ink-900: #ffffff;
+  --gray-600: #e6ecf7;
+  --gray-500: #ffffff;
+  --surface: #171717;
+  --surface-page: #0d0c0c;
+}
+:root {
+  --slide-w: 1920px;
+  --slide-h: 1080px;
+  --margin-x: 80px;
+  --label-y: 56px;
+  --pagenum-y: 67px;
+  --headline-y: 125px;
+  --lead-y: 217px;
+  --content-y: 288px;
+  --content-w: 1760px;
+  --gutter: 20px;
+  --col-2: 869px;
+  --col-3: 573px;
+  --col-4: 425px;
+  --card-pad: 40px;
+  --card-pad-sm: 36px;
+  --card-pad-xs: 24px;
+  --card-h: 606px;
+  --band-h: 134px;
+  --band-dark-h: 125px;
+  --rail-h: 8px;
+  --rule-h: 2px;
+  --dot: 24px;
+  --dot-neon: 20px;
+  --dot-photo: 17px;
+  --marker: 60px;
+  --pill-h: 50px;
+  --pill-h-sm: 40px;
+  --pill-h-xs: 46px;
+  --pill-pad-x: 24px;
+  --chip-h: 106px;
+  --tab-w: 261px;
+  --tab-h: 81px;
+  --icon-3d: 99px;
+  --icon-knit: 60px;
+  --illus-250: 250px;
+  --illus-180: 180px;
+  --illus-100: 100px;
+  --row-h: 60px;
+  --row-head-h: 78px;
+  --week-row-h: 97px;
+  --gap-8: 8px;
+  --gap-12: 12px;
+  --gap-16: 16px;
+  --gap-24: 24px;
+  --gap-32: 32px;
+  --gap-48: 48px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-20: 20px;
+  --radius-chip: 21px;
+  --radius-xl: 24px;
+  --radius-pill: 100px;
+  --stroke-hairline: 1px;
+  --stroke-thin: 1.33px;
+  --stroke-regular: 2px;
+  --stroke-bold: 2.67px;
+  --font-sans: "Apple SD Gothic Neo", Pretendard, -apple-system, "Malgun Gothic", sans-serif;
+}
+.display-160 {
+  font-family: var(--font-sans);
+  font-size: 160px;
+  line-height: 1;
+  font-weight: 800;
+}
+.display-128 {
+  font-family: var(--font-sans);
+  font-size: 128px;
+  line-height: 1.08;
+  font-weight: 800;
+}
+.display-96 {
+  font-family: var(--font-sans);
+  font-size: 96px;
+  line-height: 1.12;
+  font-weight: 800;
+}
+.display-85 {
+  font-family: var(--font-sans);
+  font-size: 85.33px;
+  line-height: 1;
+  font-weight: 800;
+}
+.display-80 {
+  font-family: var(--font-sans);
+  font-size: 80px;
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: 0px;
+}
+.display-80-bold {
+  font-family: var(--font-sans);
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 700;
+}
+.thanks-53 {
+  font-family: var(--font-sans);
+  font-size: 53.33px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.divider-lead {
+  font-family: var(--font-sans);
+  font-size: 37.33px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+.closing-pre {
+  font-family: var(--font-sans);
+  font-size: 37.33px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.headline {
+  font-family: var(--font-sans);
+  font-size: 56px;
+  line-height: 1.16667;
+  font-weight: 800;
+  letter-spacing: -1.12px;
+}
+.headline-photo {
+  font-family: var(--font-sans);
+  font-size: 53.33px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.section-label {
+  font-family: var(--font-sans);
+  font-size: 40px;
+  line-height: 1.16667;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+}
+.title-48 {
+  font-family: var(--font-sans);
+  font-size: 48px;
+  line-height: 1.16667;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+}
+.title-48-eb {
+  font-family: var(--font-sans);
+  font-size: 48px;
+  line-height: 1.16667;
+  font-weight: 800;
+  letter-spacing: -0.96px;
+}
+.title-48-photo {
+  font-family: var(--font-sans);
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.title-42 {
+  font-family: var(--font-sans);
+  font-size: 42.67px;
+  line-height: 1.16667;
+  font-weight: 800;
+  letter-spacing: -1.12px;
+}
+.title-40 {
+  font-family: var(--font-sans);
+  font-size: 40px;
+  line-height: 1.16667;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+}
+.title-40-eb {
+  font-family: var(--font-sans);
+  font-size: 40px;
+  line-height: 1.16667;
+  font-weight: 800;
+  letter-spacing: -0.8px;
+}
+.title-40-medium {
+  font-family: var(--font-sans);
+  font-size: 40px;
+  line-height: 1.16667;
+  font-weight: 500;
+  letter-spacing: -0.8px;
+}
+.title-36 {
+  font-family: var(--font-sans);
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.title-36-eb {
+  font-family: var(--font-sans);
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 800;
+}
+.title-32 {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 1.16667;
+  font-weight: 700;
+  letter-spacing: -0.64px;
+}
+.panel-title {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+}
+.title-32-eb {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 0.83333;
+  font-weight: 800;
+  letter-spacing: -0.64px;
+}
+.title-32-medium {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 1.16667;
+  font-weight: 500;
+  letter-spacing: -0.64px;
+}
+.lead {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 1.16667;
+  font-weight: 300;
+  letter-spacing: -0.64px;
+}
+.tag-30 {
+  font-family: var(--font-sans);
+  font-size: 30px;
+  line-height: 0.83333;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+}
+.tag-30-medium {
+  font-family: var(--font-sans);
+  font-size: 30px;
+  line-height: 0.83333;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+}
+.body-28-bold {
+  font-family: var(--font-sans);
+  font-size: 28px;
+  line-height: 1.16667;
+  font-weight: 700;
+  letter-spacing: -0.56px;
+}
+.body-28-light {
+  font-family: var(--font-sans);
+  font-size: 28px;
+  line-height: 1.16667;
+  font-weight: 300;
+  letter-spacing: -0.56px;
+}
+.body-28-eb {
+  font-family: var(--font-sans);
+  font-size: 28px;
+  line-height: 1.16667;
+  font-weight: 800;
+  letter-spacing: -0.56px;
+}
+.body-24-light {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 300;
+  letter-spacing: -0.48px;
+}
+.body-24-medium {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+}
+.body-24-eb {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 800;
+  letter-spacing: -0.48px;
+}
+.body-24-bold {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+}
+.body-21 {
+  font-family: var(--font-sans);
+  font-size: 21.33px;
+  line-height: 1.15;
+  font-weight: 300;
+  letter-spacing: -0.4px;
+}
+.body-20-light {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  letter-spacing: -0.49px;
+}
+.body-20-medium {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+  letter-spacing: -0.49px;
+}
+.body-20-bold {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 1.16667;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+.kicker-20 {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 1.16667;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+.body-18 {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 300;
+  letter-spacing: -0.45px;
+}
+.body-16 {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.16667;
+  font-weight: 300;
+  letter-spacing: -0.32px;
+}
+.body-16-bold {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.16667;
+  font-weight: 700;
+  letter-spacing: -0.32px;
+}
+.body-15 {
+  font-family: var(--font-sans);
+  font-size: 15.33px;
+  line-height: 1.15;
+  font-weight: 300;
+  letter-spacing: -0.49px;
+}
+.caption-15 {
+  font-family: var(--font-sans);
+  font-size: 14.67px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.caption-19 {
+  font-family: var(--font-sans);
+  font-size: 18.67px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.label-spaced {
+  font-family: var(--font-sans);
+  font-size: 26.67px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.label-26 {
+  font-family: var(--font-sans);
+  font-size: 26.67px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.overlay-25 {
+  font-family: var(--font-sans);
+  font-size: 25.33px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.quote-29 {
+  font-family: var(--font-sans);
+  font-size: 29.33px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Apple SD Gothic Neo";
+  src: url("fonts/Pretendard-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apple SD Gothic Neo";
+  src: url("fonts/Pretendard-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apple SD Gothic Neo";
+  src: url("fonts/Pretendard-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apple SD Gothic Neo";
+  src: url("fonts/Pretendard-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apple SD Gothic Neo";
+  src: url("fonts/Pretendard-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apple SD Gothic Neo";
+  src: url("fonts/Pretendard-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
