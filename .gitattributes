@@ -3,3 +3,5 @@
 *.pptx filter=lfs diff=lfs merge=lfs -text
 *.hwpx filter=lfs diff=lfs merge=lfs -text
 design-system/**/media/** filter=lfs diff=lfs merge=lfs -text
+design-system/**/assets/** filter=lfs diff=lfs merge=lfs -text
+design-system/**/fonts/** filter=lfs diff=lfs merge=lfs -text
